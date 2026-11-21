@@ -110,7 +110,7 @@ def stammbaum():
     b += line(245, 150, 270, 215, 2, True)
     b += '  <rect x="30" y="20" width="70" height="80" rx="4" fill="#fff" stroke="#7a5a35" stroke-width="4"/>\n'
     b += '  <ellipse cx="65" cy="55" rx="16" ry="18" fill="#f1cdb0" stroke="#333" stroke-width="1.5"/><path d="M49 52 Q48 34 65 33 Q82 34 81 52 Q76 42 65 42 Q54 44 49 52 Z" fill="#d9b45a"/>\n'
-    b += text(65, 120, "Sophies", 15) + text(65, 138, "Mum and Dad", 15)
+    b += text(65, 120, "Sophie's", 15) + text(65, 138, "Mum and Dad", 15)
     return svg(640, 320, "Stammbaum: oben Mrs Parker, Mr Parker und Grandma Parker, darunter Ellie und Peter, dazwischen Sophie als Gast, links oben ein Foto von Sophies Eltern", b)
 
 
