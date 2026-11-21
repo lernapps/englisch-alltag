@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: There is und there are, das simple present und in, on und at noch einmal kurz, bevor Sophie ihr Zuhause bei den Parkers beschreibt.
+recap: [englisch/there-is-are, englisch/simple-present, englisch/praepositionen-zeit]
+scope: Die Seite wiederholt nur there is und there are, das simple present mit dem -s bei he, she und it und die Präpositionen in, on und at bei Zeitangaben. Neue Inhalte gibt es nicht, auch keine Übung.
+blocks:
+  - type: section
+    id: einstieg
+    title: Das solltest du schon können
+    blocks:
+      - type: text
+        text: "Sophie will ihrer Familie zeigen, wie sie bei den Parkers wohnt, wie ihr Tag aussieht und was sie isst. Dafür braucht sie drei Bausteine. Kannst du sie schon? **Ich kann mit „there is“ und „there are“ sagen, was es an einem Ort gibt.** **Ich kann im simple present über Gewohnheiten und Tatsachen sprechen und das -s bei he, she, it anhängen.** **Ich kann die Präpositionen in, on und at bei Zeitangaben richtig verwenden (on Monday, at 6 o’clock, in July).** Lies die Tabellen und prüfe in Gedanken, ob du alles kennst."
+      - type: table
+        caption: Klassenzimmer-Poster · There is und there are
+        header: [Wann, Beispiel]
+        rows:
+          - [ein Ding, There is a book on the shelf.]
+          - [mehrere Dinge, There are two books on the shelf.]
+      - type: table
+        caption: Klassenzimmer-Poster · Das simple present
+        header: [Person, Beispiel]
+        rows:
+          - [I / you / we / they, I walk to the park.]
+          - [he / she / it, She walks to the park.]
+      - type: table
+        caption: Klassenzimmer-Poster · in, on und at
+        header: [Wann, Beispiel]
+        rows:
+          - [at (Uhrzeit), at six o’clock]
+          - [on (Tag), on Monday]
+          - [in (Monat), in July]
+      - type: text
+        text: Nicht sicher? Wiederhole es auf den Seiten [There is und there are](https://lernapps.net/apps/map/englisch/c/there-is-are/), [Simple present](https://lernapps.net/apps/map/englisch/c/simple-present/) und [Präpositionen der Zeit](https://lernapps.net/apps/map/englisch/c/praepositionen-zeit/) der Lernlandkarte.

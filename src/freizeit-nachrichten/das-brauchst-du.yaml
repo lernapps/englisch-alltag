@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: Begrüßen, danken und sich entschuldigen noch einmal kurz, bevor Sophie Nachrichten schreibt.
+recap: englisch/gruss-hoeflichkeit
+scope: Die Seite wiederholt nur Begrüßen, Anreden, Danken und Entschuldigen aus dem Explainer „Hello, Millbrook!“. Neue Inhalte gibt es nicht, auch keine Übung.
+blocks:
+  - type: section
+    id: einstieg
+    title: Das solltest du schon können
+    blocks:
+      - type: text
+        text: "Sophie schreibt bald Nachrichten, Einladungen und eine Postkarte. Dafür braucht sie den Baustein „Begrüßung und Höflichkeit“. Kannst du ihn schon? **Ich kann Menschen auf Englisch angemessen begrüßen, anreden und mich höflich bedanken und entschuldigen.** Lies die Tabelle und prüfe in Gedanken, ob du alles kennst."
+      - type: table
+        caption: Klassenzimmer-Poster · Höflich sein
+        header: [Wann, Ausdruck]
+        rows:
+          - [grüßen, "Hello. Hi. Good morning."]
+          - [sich verabschieden, "Goodbye. See you."]
+          - [danken, "Thank you. Thanks."]
+          - [sich entschuldigen, "Sorry. I'm sorry."]
+          - [jemanden anreden, "Mr Hill, Mrs Parker"]
+      - type: text
+        text: Nicht sicher? Wiederhole es auf der Seite [Begrüßung und Höflichkeit](https://lernapps.net/apps/map/englisch/c/gruss-hoeflichkeit/) der Lernlandkarte.

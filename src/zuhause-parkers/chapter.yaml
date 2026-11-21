@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Zuhause bei den Parkers
+summary: Sophie zeigt ihrer Familie, wie sie bei den Parkers wohnt. Du beschreibst Räume und Möbel, deinen Tag und dein Essen und vergleichst Ellies Alltag mit deinem.
+pages: [das-brauchst-du, wohnen, tagesablauf, essen-trinken, alltag-uk]

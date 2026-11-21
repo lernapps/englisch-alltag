@@ -244,9 +244,10 @@ page, which a link. -->
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [x] Kapitel 1 anlegen (src/app.yaml, chapter.yaml, Wiederholungsseite das-brauchst-du mit recap englisch/have-got und englisch/adjektive) und die Musterseite familie-personen bauen: Szene, Stammbaum der Parkers, Steckbrief, Übungen, Audio (6 Sätze), Profil-Zeile; Bilder über make_images.py, Wörterprüfung gegen den Grundwortschatz
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
-- [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
+- [x] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
+      Creator: Orchestrator-Session (in der Rolle der Ersteller:in): Musterseite familie-personen freigegeben (Stand 51d4adc); die übrigen zehn Seiten dürfen folgen. Auflagen: eine Wörtertabelle je Seite, Steckbrief ohne Wortliste, Profilzeilen offen formuliert, Gefühle und Gesundheit altersgerecht, Fakten zu Großbritannien nur mit Quelle, Amirs Geburtstag 12. Oktober.
 - [ ] personen-orte-beschreiben (Text ordnen, eigener Absatz) mit Audio und Profil-Zeile
 - [ ] gefuehle-freundschaft (Barometer, Streit, Antworten) mit Audio und Profil-Zeile
 - [ ] gesundheit (Körper, Arzt-Dialog) mit Audio und Profil-Zeile, Kapitel-1-Rückblick
