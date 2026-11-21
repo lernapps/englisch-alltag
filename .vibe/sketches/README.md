@@ -1,0 +1,1 @@
+Skizzen der Bilder (Drahtgitter, keine Endfassung): stammbaum, barometer, haus, bildleiste, zwei-spalten, postkarte. Szenen, Steckbriefe und Tabellen sind Blöcke der Seiten; die Endbilder entstehen mit make_images.py.

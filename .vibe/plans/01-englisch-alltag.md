@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -118,9 +118,10 @@ Kinder der Klassen 5-6 (erstes und zweites Lernjahr Englisch) beschreiben sich, 
       off), and which misconception the feedback catches.
 - [x] Write under "Notes" the scope: what is in, what is out and why, the data range (for example "all main-group
       elements", never a silent "1–20"), the languages.
-- [ ] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
+- [x] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
       approach, the scope, every "(guess)", the sources and what is unchecked, the archetype and its reason. Stop and
       wait. Changes: change them, then ask again.
+      Creator: Ja, Plan-Phase. Schnitt mit email-postkarte als Kapitelschluss ist richtig; das Profil bleibt ohne Speicherung (open-task mit Punkten und Musterlösung); Einladung von Amir (12. Oktober) statt Josh; nicht geprüfte Fakten nur mit belegter Quelle, sonst weglassen.
 
 ### Answers
 
@@ -148,17 +149,17 @@ Antworten der Orchestrator-Session (in der Rolle der Ersteller:in): aus dem Auft
 
 ### Tasks
 
-- [ ] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
+- [x] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
       "Content method".
-- [ ] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
-- [ ] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
+- [x] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
+- [x] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
       opening task, the change of activity, the reward, the story.
-- [ ] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
+- [x] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
       screen, `npx --no -- lernapps plan add --at pattern "<task>"`. Then the others, one call each:
       `npx --no -- lernapps plan add --at pages "<task>"`. Each task says what it builds and what it shows.
-- [ ] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
+- [x] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
       learners see after each. Keep the files in `.vibe/sketches/`.
-- [ ] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
+- [x] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
       plain words (what learners see and do, what the app cannot do). At most 2 questions.
 - [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
@@ -167,6 +168,46 @@ Antworten der Orchestrator-Session (in der Rolle der Ersteller:in): aus dem Auft
 
 <!-- One line each: the patterns and where; the figures and how they are made; the data files; each component, what it
 checks and what it cannot; how a later agent adds a chapter. It becomes the content guide in Code. -->
+
+Geschichte: Sophie (11-12, aus Deutschland) wohnt im ersten Schuljahr bei den Parkers in Millbrook und schickt ihrer Familie zu Hause Nachrichten. Zu jedem Thema gibt es eine Szene im Haus der Familie (Küche, Wohnzimmer, Gartentür, Ellies Zimmer) und einen Satz, den Sophie nach Hause schreibt. Daneben wächst das Profil „All about me“: Jede Seite endet im Abschnitt `weiter` mit einer Zeile des Profils (Ellies Beispiel in der Tabelle; das Kind schreibt die eigene Zeile in sein Heft, `open-task` mit Punkten und Musterlösung). Am Ende von Kapitel 2 (`alltag-uk`) stehen zwei Spalten, Ellies Alltag und mein Alltag; das Ende von Kapitel 3 (`email-postkarte`) schließt das Profil. Figuren und Orte wie in #470 (nicht ändern): Sophie, Ellie Parker (11), Peter Parker (9), Amir (11), Mr Hill, Mrs Parker. Kein Mr Parker, kein „Josh“, keine neuen Figuren. Nicht benutzen: Lagerraum und Schulfest (#475), Ausstellung „Our Millbrook“ (#476). Tabellen heißen „Klassenzimmer-Poster · …“, „Schulkalender · …“ und „All about me · …“.
+
+Wörter: Quelle ist der Grundwortschatz A1/A2 (`https://lernapps.net/apps/map/englisch/grundwortschatz/`, geöffnet 2026-11-21, lokal als Prüfliste). Ein Skript im Ordner des Inhaltsführers prüft alle englischen Wörter der Seiten gegen die Liste; was fehlt, steht auf der Seite mit Bedeutung und im Inhaltsführer unter „Sources“.
+
+Muster (je Übung `mistakes` mit eigener Meldung und `hint`; leicht → schwer, mindestens vier je Seite, nicht überwiegend Raten, nicht dieselbe Menge Übungsarten auf mehr als der Hälfte der Seiten):
+1. Steckbrief, Stammbaum, Barometer, Haus, Bildleiste, Bauplan lesen: `single-choice` und `true-false` zum Bild (Opening, mit Grund in der Rückmeldung).
+2. Zuordnen: `matching` (Körperteil ↔ Beschwerde, Möbel ↔ Raum, Mahlzeit ↔ Speise, Gefühl ↔ Gesicht, Teil ↔ Bauplanfeld).
+3. Ordnen: `ordering` (Sätze eines Textes, Schritte des Tages, Teile einer Einladung, Teile einer Postkarte).
+4. Lücke wählen: `language-task` mode `choice` mit `distractors` (echte Lernerfehler).
+5. Form bilden: mode `write` mit englischem `cue` (z. B. „she · get up“).
+6. Satz übersetzen und Dialoge bauen: mode `write` mit `source`, `(a|b)` für gleichwertige Antworten.
+7. Korrigieren: mode `write`, ein Fehler im Satz.
+8. Hören: Diktat (höchstens drei ganze Sätze je Seite), Nachsprechen `speaking-task` (drei andere Sätze), Namen am Satzende zweisilbig, erzeugt mit `regen_audio.py`.
+9. Anwenden: `open-task` (eigener Steckbrief, Profil-Zeile, Text, Einladung, Postkarte, E-Mail) mit Punkten zu Form und Inhalt.
+
+Seiten, je eine Zeile Engagement (Opening / Wechsel / Belohnung / Geschichte):
+- K1 `das-brauchst-du` (recap `englisch/have-got`, `englisch/adjektive`, ohne Übung): have got und Adjektiv-Anhänger in zwei Tabellen; der Stammbaum der Parkers ist noch leer.
+- `familie-personen` (Musterseite): Opening: Stammbaum der Parkers, Wer ist Ellies Mutter? (Bild lesen); Wechsel: Bild lesen, Steckbrief ordnen, Satz bauen, Steckbrief schreiben; Belohnung: Steckbrief der eigenen Familie im Heft; Story: Sophie schickt ihrer Mutter einen Satz über Mrs Parker; weiter: Sophie schreibt einen Text.
+- `personen-orte-beschreiben`: Opening: Sophies Text ist durcheinander (ordnen); Wechsel: Text ordnen, Lücken, Satz nach Muster; Belohnung: eigener Absatz über Person und Zimmer; Story: Text für die Familie in Deutschland.
+- `gefuehle-freundschaft`: Opening: Barometer (Gesichter wählen); Wechsel: zuordnen, Antwort im Streit wählen, Wort tauschen; Belohnung: eine freundliche Antwort schreiben; Story: Amir und Peter streiten, Ellie hilft; Mobbing nur als „Don’t do that. Tell a teacher.“ ohne Einzelheiten.
+- `gesundheit`: Opening: Szene beim Arzt (Wo tut es weh?); Wechsel: Körper beschriften, Dialog ordnen, Beschwerde schreiben; Belohnung: ein kurzer Arzt-Dialog; Story: Peter hat Bauchweh, Mrs Parker geht mit ihm zum Arzt; Kapitelrückblick.
+- K2 `das-brauchst-du` (recap there-is-are, simple-present, praepositionen-zeit): drei kurze Tabellen mit Beispielen aus dem Haus.
+- `wohnen`: Opening: Haus zum Aufklappen (Wo steht das Sofa?); Wechsel: Haus lesen, zuordnen, There is/are-Sätze, Zimmer beschreiben; Belohnung: Satz über das eigene Zimmer; Story: Sophie zeigt ihr Zimmer per Foto.
+- `tagesablauf`: Opening: Bildleiste Aufstehen bis Abendessen (Was kommt nach dem Frühstück?); Wechsel: ordnen, Zeit einsetzen, Sätze mit he/she, eigener Tag; Belohnung: ein Tag in sechs Sätzen; Story: Sophies Tag bei den Parkers.
+- `essen-trinken`: Opening: Frühstückstisch und packed lunch (Welche Mahlzeit ist das?); Wechsel: zuordnen, Gewohnheiten, Frage und Antwort; Belohnung: eigene Mahlzeiten-Zeile; Story: Mrs Parker packt Sophies Lunchbox; „tea“ am Abend wird erklärt (Quelle Tea (meal)).
+- `alltag-uk`: Opening: zwei Spalten (Ellies Alltag, mein Alltag), eine Zeile fehlt; Wechsel: Zeilen zuordnen, Sätze vergleichen, Unterschied und Gemeinsames schreiben; Belohnung: die Spalte „mein Alltag“ ist fertig, Kapitelrückblick; Story: Nachricht nach Hause.
+- K3 `das-brauchst-du` (recap `englisch/gruss-hoeflichkeit`): Anreden und Grüße der Begrüßungsseite.
+- `freizeit-hobbys`: Opening: Wochenplan der vier Kinder (Wer macht was?); Wechsel: zuordnen, I like …ing, Haustiere, Fragen; Belohnung: drei Sätze über das eigene Hobby; Story: Amir erzählt von seinem Hobby.
+- `kurznachricht`: Opening: Amirs Einladung zur Geburtstagsfeier (fünf Fragen: Wer? Was? Wann? Wo? Antwort?); Wechsel: ordnen, Zeitangabe ergänzen, Zusage schreiben, eigene Einladung; Belohnung: eigene Einladung; Story: Amir lädt zur Feier am Samstag ein (Geburtstag 12. Oktober).
+- `email-postkarte`: Opening: Sophies Postkarte, der Bauplan zeigt drei Teile; Wechsel: Teile ordnen, Anrede und Gruß wählen, Postkarte schreiben, E-Mail schreiben; Belohnung: die eigene Postkarte; Story: Sophie schreibt nach Hause, das Profil ist fertig; Kapitelrückblick.
+
+Bilder (eigene Zeichnung, CC-BY-4.0, `src/images/`, Hintergrund #f4efe2, Schrift mindestens 16 im 480er viewBox, 360 px tauglich, Skizzen in `.vibe/sketches/`; erzeugt vom Skript `.agents/skills/app-content/scripts/make_images.py`, nie von Hand geändert): Stammbaum der Parkers, Barometer mit fünf Gesichtern, Körperfigur mit Zeigern, Haus im Querschnitt, Bildleiste mit sechs Bildern, Frühstückstisch, zwei Spalten, Einladungskarte, Postkarte mit Bauplan (Anrede, Text, Gruß). Szenen `szene-<seite>.svg` mit den Figuren, kopiert als `<g id>` aus `millbrook-klassenzimmer.svg` (hello-millbrook). `alt` verrät nie die Lösung, die Bildunterschrift nennt, wer wer ist.
+
+Datendateien: keine. Komponenten: keine (`prefer-built-in-block`; ein aufklappbares Haus ist ein Bild mit Beschriftung, ein Klick-Haus wäre ein Wunsch für ein Inkrement).
+
+Figuren und Modelle (`explainer-representation-explained`): Stammbaum, Barometer, Haus, Bildleiste und Bauplan sind Bilder, deren Lernhandlung im Text daneben steht (ablesen, zuordnen, ordnen); sie zeigen nie die Lösung der Übung derselben Seite. Voraussetzungen, die die App nicht übt: have-got, adjektive (K1), there-is-are, simple-present, praepositionen-zeit (K2), gruss-hoeflichkeit (K3), jeweils auf der Seite `das-brauchst-du` des Kapitels.
+
+Wie ein späterer Agent ein Kapitel anfügt: Ordner `src/<kapitel>/` mit `chapter.yaml`, Seiten mit den Abschnitten `einstieg`, `neu`, `uebung`, `anwenden`, `weiter`; Bilder über `make_images.py`; Audio über `regen_audio.py`; Zeile im Profil „All about me“ und in den Poster-Tabellen; `lernapps check`.
+
 <!-- An explainer: per figure, model and component its learning action in two to four sentences
 (`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
 page, which a link. -->
@@ -194,11 +235,24 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: pattern: the one page or screen that is the pattern for the others -->
+- [ ] Kapitel 1 anlegen (src/app.yaml, chapter.yaml, Wiederholungsseite das-brauchst-du mit recap englisch/have-got und englisch/adjektive) und die Musterseite familie-personen bauen: Szene, Stammbaum der Parkers, Steckbrief, Übungen, Audio (6 Sätze), Profil-Zeile; Bilder über make_images.py, Wörterprüfung gegen den Grundwortschatz
+<!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
-<!-- tasks: pages: the other pages or screens, after the pattern -->
+- [ ] personen-orte-beschreiben (Text ordnen, eigener Absatz) mit Audio und Profil-Zeile
+- [ ] gefuehle-freundschaft (Barometer, Streit, Antworten) mit Audio und Profil-Zeile
+- [ ] gesundheit (Körper, Arzt-Dialog) mit Audio und Profil-Zeile, Kapitel-1-Rückblick
+- [ ] Kapitel 2 anlegen mit Wiederholungsseite (there-is-are, simple-present, praepositionen-zeit) und Seite wohnen (Haus im Querschnitt)
+- [ ] tagesablauf (Bildleiste vom Aufstehen bis zum Abendessen) mit Audio und Profil-Zeile
+- [ ] essen-trinken (Frühstück, packed lunch, tea) mit Audio und Profil-Zeile
+- [ ] alltag-uk (zwei Spalten Ellies Alltag und mein Alltag) mit Audio, Kapitel-2-Rückblick
+- [ ] Kapitel 3 anlegen mit Wiederholungsseite (gruss-hoeflichkeit) und Seite freizeit-hobbys (Wochenplan)
+- [ ] kurznachricht (Einladung von Amir, Notiz) mit Audio und Profil-Zeile
+- [ ] email-postkarte (Bauplan Anrede, Text, Gruß; Postkarte und E-Mail) mit Audio, Profil abgeschlossen, Kapitel-3-Rückblick
+- [ ] Selbsteinschätzung je Kapitel (Skill lernapps-explainer-self-assessment) und Startseite (scope, intro)
+- [ ] Skript über alle Seiten: kein Hörsatz im Text derselben Seite, Wörter gegen den Grundwortschatz, Tabellen nicht direkt über der Übung, Distraktoren echt
+<!-- tasks: pages (12 added): the other pages or screens, after the pattern -->
 - [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
