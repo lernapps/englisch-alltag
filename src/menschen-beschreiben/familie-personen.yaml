@@ -2,7 +2,7 @@
 title: "Wer ist wer? Familie, Aussehen und Charakter"
 description: "Sophie schreibt ihren Eltern, wer zur Familie Parker gehört. Du lernst die Familienwörter und beschreibst Menschen nach Aussehen und Charakter."
 competencies: [familie-personen]
-scope: Die Seite führt die Familienwörter mum, dad, parents, brother, sister und grandma ein und zeigt, wie man Menschen beschreibt. Aussehen (Haare, Brille) sagt man mit has got oder have got, Größe und Alter mit is, den Charakter (kind, funny) nur mit is. Der Besitz steht mit ’s (Ellie’s brother). Nicht hier, weil es spätere Seiten sind. Ganze Texte über Menschen und Orte, Gefühle und Streit, Körperteile und Beschwerden.
+scope: Die Seite führt die Familienwörter mum, dad, parents, brother, sister, grandma, grandpa, aunt, uncle und cousin ein und zeigt, wie man Menschen beschreibt. Aussehen (Haare, Brille) sagt man mit has got oder have got, Größe und Alter mit am, is oder are, den Charakter (kind, funny) nur mit am, is oder are. Besitz steht mit my, your, his, her oder mit ’s (Ellie’s brother), Mr heißt Herr und Mrs heißt Frau. Ganze Texte über Menschen und Orte, Gefühle und Streit sowie Körperteile und Beschwerden behandeln spätere Seiten.
 blocks:
   - type: section
     id: einstieg
@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-familie-personen.svg
         alt: Fünf Menschen sitzen an einem langen Tisch in einer Küche. Ein Kind hält ein Handy.
-        caption: "Von links: Mrs Parker, Ellie (roter Pferdeschwanz) mit dem Handy, Sophie (Zöpfe), Peter (gelbe Jacke) und Mr Parker."
+        caption: "Von links: Mrs Parker, Ellie (Pferdeschwanz), Sophie (Zöpfe), Peter (gelbe Jacke), Mr Parker."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Sophie wohnt jetzt bei den Parkers. Am Abend sitzt die ganze Familie (family) in der Küche. Sophie will ihren Eltern in Deutschland schreiben, wer zu den Parkers gehört. Mr heißt Herr und Mrs heißt Frau, vor dem Familiennamen. Auch Amir, ein Freund von Ellie und Sophie, ist oft da. Sophie hat einen Stammbaum gezeichnet. Eine Linie führt von den Eltern zu ihren Kindern, eine kurze Linie zur Mutter von Mr Parker, die gestrichelte Linie zu Sophie, die zu Gast ist."
+        text: "Sophie wohnt jetzt bei den Parkers. Am Abend sitzt die Familie (family) in der Küche, auch Amir, ein Freund, ist oft da. Mr heißt Herr und Mrs heißt Frau. Für ihre Eltern in Deutschland zeichnet Sophie einen Stammbaum: Linien führen von den Eltern zu den Kindern, die kurze Linie zur Mutter von Mr Parker, die gestrichelte zu Sophie, die zu Gast ist."
       - type: figure
         image: images/stammbaum.svg
         alt: Ein Stammbaum. Oben stehen drei Erwachsene, darunter drei Kinder. Links oben hängt ein kleines Foto.
@@ -28,14 +28,14 @@ blocks:
         options:
           - text: her brother
             correct: true
-            info: Peter und Ellie haben dieselben Eltern. Peter ist ein Junge, also ist er Ellies brother.
+            info: Peter hat dieselben Eltern wie Ellie und ist ein Junge.
           - text: her sister
             correct: false
-            info: Eine sister ist ein Mädchen. Peter ist ein Junge.
+            info: Eine sister ist ein Mädchen.
           - text: her dad
             correct: false
-            info: Ein dad ist ein Vater. Peter ist ein Kind der Familie, kein Elternteil.
-        explanation: Wer dieselben Eltern hat wie du und ein Junge ist, ist dein brother.
+            info: Ein dad ist ein Vater, kein Kind.
+        explanation: "Dieselben Eltern, ein Junge: brother."
         links:
           - title: Lernlandkarte Englisch · Familie und Personenbeschreibung
             url: https://lernapps.net/apps/map/englisch/c/familie-personen/
@@ -46,40 +46,32 @@ blocks:
     title: Familienwörter, Aussehen und Charakter
     blocks:
       - type: text
-        text: "**Mum** und **dad** sind deine Mama und dein Papa. Zusammen sind sie deine **parents**. Wenn du einen Bruder hast, ist er dein **brother**. Eine Schwester ist deine **sister**, und deine Oma ist deine **grandma**. Sophies Mama ist also Sophie’s mum. Ihre Eltern wohnen in Deutschland. Das ’s sagt, zu wem jemand gehört."
-      - type: table
-        caption: Klassenzimmer-Poster · Die Familie
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [mum, Mama]
-          - [dad, Papa]
-          - [parents, Eltern]
-          - [brother, Bruder]
-          - [sister, Schwester]
-          - [grandma, Oma]
-      - type: text
-        text: "Wie sieht jemand aus? Haare, eine Brille oder einen Bart **hat** man: Mrs Parker **has got** red hair. Größe und Alter **ist** man: Mrs Parker **is** tall. Und der Charakter, also wie jemand ist, sagt man auch mit **is**: Mrs Parker **is** nice. Das Adjektiv, also das Wort für die Eigenschaft, kennst du schon aus der Wiederholungsseite."
-      - type: table
-        caption: Steckbrief · Mrs Parker
-        header: [Was, Englisch]
-        rows:
-          - ["Wer?", Ellie’s mum]
-          - [Aussehen, She has got red hair. She is tall.]
-          - [Charakter, She is nice and helpful.]
-      - type: note
-        title: Merke
-        blocks:
-          - type: text
-            text: |
-              **Haare, Brille, Bart:** have got oder has got (he, she, it: has got). **Größe und Alter:** am, is oder are. **Charakter:** nur am, is oder are, nie have got. Ein Adjektiv bekommt kein -s. Zu wem jemand gehört, sagt das ’s hinter dem Namen: Ellie’s dad. Kurz geht auch: she’s got, she’s tall (das ’s steht dann für has oder is).
+        text: "**Mum** und **dad** sind deine Mama und dein Papa, sie heißen auch **mother** und **father**. Zusammen sind sie deine **parents**. Dein Bruder ist dein **brother**, deine Schwester deine **sister**. Deine Oma ist deine **grandma**, dein Opa dein **grandpa**. Deine Tante ist deine **aunt**, dein Onkel dein **uncle**, ein Cousin oder eine Cousine dein **cousin**. Sophies Mama ist Sophie’s mum, und ihre Eltern wohnen in Deutschland. Das ’s sagt, zu wem jemand gehört. Über dich sagst du **my** (mein), zu jemandem **your** (dein), über einen Jungen oder Mann **his** (sein), über ein Mädchen oder eine Frau **her** (ihr)."
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
         rows:
           - [glasses, Brille]
-          - [curly, lockig]
+          - [ponytail, Pferdeschwanz]
           - [kind, nett / freundlich]
           - [helpful, hilfsbereit]
+          - [clever, klug]
+      - type: text
+        text: "Wie sieht jemand aus? Haare, eine Brille oder einen Bart **hat** man: Mrs Parker **has got** red hair. Größe und Alter **ist** man: Mrs Parker **is** tall. Der Charakter, also wie jemand ist, wird auch mit **is** gesagt: Mrs Parker **is** nice."
+      - type: example
+        title: Steckbrief · Mrs Parker
+        blocks:
+          - type: text
+            text: |
+              **Wer?** Ellie’s mum.
+              **Aussehen:** She has got red hair. She is tall.
+              **Charakter:** She is nice and helpful.
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Haare, Brille, Bart:** have got oder has got (he, she, it: has got). **Größe und Alter:** am, is oder are. **Charakter:** nur am, is oder are, nie have got. Ein Adjektiv bekommt kein -s. Kurz geht auch: she’s got, she’s tall (das ’s steht dann für has oder is).
   - type: section
     id: uebung
     title: Übung
@@ -99,126 +91,133 @@ blocks:
           - { left: Mr Parker, right: Peter’s dad }
           - { left: Ellie, right: Peter’s sister }
           - { left: Grandma Parker, right: Peter’s grandma }
-        distractors: [Peter’s brother]
-        explanation: Ellie hat dieselben Eltern wie Peter und ist ein Mädchen.
+        explanation: Ellie hat dieselben Eltern wie Peter und ist ein Mädchen, also seine sister. Peter’s brother gibt es hier nicht, Peter ist selbst der Junge.
+        links:
+          - title: Lernlandkarte Englisch · Familie und Personenbeschreibung
+            url: https://lernapps.net/apps/map/englisch/c/familie-personen/
+      - type: single-choice
+        id: familie-personen-haare
+        text: "Wähle die richtige Form: Mr Parker ___ short brown hair."
+        options:
+          - text: has got
+            correct: true
+            info: Haare hat man. Zu he gehört has got.
+          - text: have got
+            correct: false
+            info: Zu he gehört has got, nicht have got.
+          - text: is
+            correct: false
+            info: is sagt, wie jemand ist. Haare hat man.
+        explanation: "Haare hat man: has got."
+        links:
+          - title: Lernlandkarte Englisch · Have got und has got
+            url: https://lernapps.net/apps/map/englisch/c/have-got/
+      - type: single-choice
+        id: familie-personen-charakter
+        text: "Wähle die richtige Form: Amir ___ friendly."
+        options:
+          - text: is
+            correct: true
+            info: Wie jemand ist, sagt man mit is. Zu he gehört is.
+          - text: has got
+            correct: false
+            info: Den Charakter hat man nicht, man ist so.
+          - text: are
+            correct: false
+            info: Zu he gehört is, nicht are.
+        explanation: Beim Charakter steht is, am oder are.
         links:
           - title: Lernlandkarte Englisch · Familie und Personenbeschreibung
             url: https://lernapps.net/apps/map/englisch/c/familie-personen/
       - type: language-task
-        id: familie-personen-wahl
+        id: familie-personen-besitz
         languages: { source: de, target: en }
-        mode: choice
-        task: Wähle die richtige Form.
+        mode: gap
+        task: Wer spricht über wen? Setze my, your, his oder her ein.
         form: { case: hint, punctuation: ok }
         items:
-          - cue: Mr Parker hat kurze braune Haare.
-            target: Mr Parker [has got] short brown hair.
-            distractors: [[is, have got]]
+          - source: Ellie sagt über sich selbst. Mein Bruder ist Peter.
+            target: "[My] brother is Peter."
             mistakes:
-              - answer: Mr Parker is short brown hair.
-                message: Haare hat man, also has got.
-          - cue: Grandma Parker ist alt.
-            target: Grandma Parker [is] old.
-            distractors: [[has got, are]]
+              - answer: Her brother is Peter.
+                message: Ellie spricht über sich, also my.
+          - source: Sophie sagt über Ellie. Ihre Mama ist freundlich.
+            target: "[Her] mum is friendly."
             mistakes:
-              - answer: Grandma Parker has got old.
-                message: Das Alter ist man, also is.
-          - cue: Amir hat eine Brille.
-            target: Amir [has got] glasses.
-            distractors: [[is, have got]]
+              - answer: His mum is friendly.
+                message: Ellie ist ein Mädchen, also her und nicht his.
+          - source: Sophie sagt über Mr Parker. Seine Haare sind kurz.
+            target: "[His] hair is short."
             mistakes:
-              - answer: Amir have got glasses.
-                message: Zu he, she und it gehört has got, nicht have got.
-          - cue: Peter ist freundlich.
-            target: Peter [is] friendly.
-            distractors: [[has got, are]]
-            mistakes:
-              - answer: Peter has got friendly.
-                message: Wie jemand ist, sagt is.
-        hint: Frage dich, ob man es hat oder ob man es ist.
+              - answer: Her hair is short.
+                message: Mr Parker ist ein Mann, also his und nicht her.
+        hint: Wer spricht, über wen?
       - type: language-task
         id: familie-personen-satz
         languages: { source: de, target: en }
-        task: Schreibe den ganzen Satz. Dabei steht be für am, is oder are und have got für have got oder has got.
+        task: Schreibe den ganzen Satz. be steht für am, is oder are.
         form: { case: hint, punctuation: ok }
         items:
-          - cue: Ellie · have got · red hair
-            target: "(Ellie has|Ellie's) got red hair."
+          - cue: Ellie · have got · a ponytail
+            target: "(Ellie has|Ellie's) got a ponytail."
             mistakes:
-              - answer: Ellie have got red hair.
+              - answer: Ellie have got a ponytail.
                 message: Zu she gehört has got, nicht have got.
-              - answer: Ellie is red hair.
-                message: Bei Haaren steht has got.
-          - cue: Amir · have got · curly black hair
-            target: "(Amir has|Amir's) got curly black hair."
+          - cue: Amir · have got · glasses
+            target: "(Amir has|Amir's) got glasses."
             mistakes:
-              - answer: Amir have got curly black hair.
+              - answer: Amir have got glasses.
                 message: Zu he gehört has got.
           - cue: Peter · be · young
             target: "(Peter is|Peter's) young."
             mistakes:
               - answer: Peter has got young.
                 message: Das Alter ist man, also is.
-              - answer: Peter are young.
-                message: Zu he gehört is, nicht are.
           - cue: Grandma Parker · be · kind
             target: "(Grandma Parker is|Grandma Parker's) kind."
             mistakes:
               - answer: Grandma Parker has got kind.
                 message: Beim Charakter steht is.
-              - answer: Grandma Parker are kind.
-                message: Zu she gehört is, nicht are.
-        hint: Entscheide, ob die Person es hat oder ob sie es ist.
+        hint: Hat man es, ist man es?
       - type: language-task
         id: familie-personen-uebersetzen
         languages: { source: de, target: en }
         task: Schreibe den Satz auf Englisch.
         form: { case: hint, punctuation: ok }
         items:
-          - source: Peters Papa ist freundlich.
-            target: "(Peter's dad is|Peter's dad's|Peter's father is|Peter's father's) (friendly|kind|nice)."
+          - source: Herr Parker ist Peters Papa.
+            target: "Mr Parker is Peter's (dad|father)."
             mistakes:
-              - answer: Peters dad is friendly.
-                message: Im Englischen schreibst du hier einen Apostroph, Peter's dad.
-              - answer: Peter's dad has got friendly.
-                message: Beim Charakter steht is.
-          - source: Ellies Bruder hat braune Haare.
-            target: "(Ellie's brother has|Ellie's brother's) got brown hair."
+              - answer: Mrs Parker is Peter's dad.
+                message: Mrs heißt Frau, Mr heißt Herr.
+          - source: Frau Parker ist Ellies Mama.
+            target: "Mrs Parker is Ellie's (mum|mother)."
             mistakes:
-              - answer: Ellie's brother have got brown hair.
-                message: Zu he gehört has got.
-              - answer: Ellie's brother is brown hair.
-                message: Zu Haaren passt has got.
-          - source: Sophies Eltern sind nett.
-            target: "Sophie's parents are (nice|kind|friendly)."
+              - answer: Mr Parker is Ellie's mum.
+                message: Mr heißt Herr, Mrs heißt Frau.
+          - source: Meine Tante hat lockige Haare.
+            target: "My aunt (has|'s) got curly hair."
             mistakes:
-              - answer: Sophie's parents is nice.
-                message: Zu parents (mehrere Personen) gehört are.
-              - answer: Sophie's parents are nices.
-                message: Das Adjektiv bekommt nie ein -s.
-        hint: Beginne mit dem Namen und dem ’s.
+              - answer: Her aunt has got curly hair.
+                message: Du sprichst über deine eigene Tante, also my.
+        hint: Beginne mit my oder dem Namen.
       - type: language-task
         id: familie-personen-korrektur
         languages: { source: de, target: en }
         task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
         form: { case: hint, punctuation: ok }
         items:
-          - cue: Ellie have got a brother.
-            target: "(Ellie has|Ellie's) got a brother."
-            mistakes:
-              - answer: Ellie have got a brother.
-                message: Noch nicht ganz. Welche Form gehört zu she?
           - cue: Peter is Ellies brother.
             target: Peter is Ellie's brother.
             mistakes:
               - answer: Peter is Ellies brother.
-                message: Noch nicht ganz. Zu wem jemand gehört, sagt das ’s mit Apostroph hinter dem Namen.
+                message: Das ’s braucht einen Apostroph.
           - cue: Mrs Parker has got kind.
             target: "(Mrs Parker is|Mrs Parker's) (kind|nice|friendly)."
             mistakes:
               - answer: Mrs Parker has got kind.
-                message: Noch nicht ganz. Beim Charakter steht is.
-        hint: Prüfe die Form von have got und das ’s.
+                message: Beim Charakter steht is.
+        hint: Prüfe den Apostroph.
       - type: language-task
         id: familie-personen-hoeren
         languages: { source: de, target: en }
@@ -229,8 +228,8 @@ blocks:
             target: "(Peter's grandma is|Peter's grandma's) old and funny."
           - audio: my-mum-is-kind-and-clever.mp3
             target: "(My mum is|My mum's) kind and clever."
-          - audio: sophies-dad-has-got-short-hair.mp3
-            target: "(Sophie's dad has|Sophie's dad's) got short hair."
+          - audio: sophies-mum-has-got-long-hair.mp3
+            target: "(Sophie's mum has|Sophie's mum's) got long hair."
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -241,8 +240,8 @@ blocks:
         items:
           - audio: the-parkers-are-a-friendly-family.mp3
             text: The Parkers are a friendly family.
-          - audio: peter-has-got-a-funny-grandma.mp3
-            text: Peter has got a funny grandma.
+          - audio: peter-has-got-a-clever-sister.mp3
+            text: Peter has got a clever sister.
           - audio: my-parents-are-friendly-people.mp3
             text: My parents are friendly people.
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
@@ -253,14 +252,14 @@ blocks:
         header: [Was, Englisch]
         rows:
           - ["Wer wohnt bei mir?", "I live with my mum, my dad and my brother."]
-          - [Mein Bruder, "My brother is Peter. He is nine."]
+          - ["Mein Bruder", "My brother is Peter. He is nine."]
           - ["Wie sieht er aus?", "He has got short brown hair."]
           - ["Wie ist er?", "He is friendly."]
       - type: open-task
         id: familie-personen-profil
-        task: "Schreibe den ersten Teil deines Profils „All about me“ in dein Heft: zwei bis vier Sätze über ein Familienmitglied. Sage, wer die Person für dich ist, wie sie aussieht und wie sie ist."
+        task: "Schreibe den ersten Teil deines Profils „All about me“ in dein Heft. Wähle einen Menschen, der zu deiner Familie gehört oder dir wichtig ist, und schreibe zwei bis vier Sätze: Wer ist das für dich, wie sieht die Person aus und wie ist sie?"
         points:
-          - text: Du nennst, wer die Person ist, mit einem Familienwort (zum Beispiel my mum, my brother).
+          - text: Du nennst, wer die Person für dich ist, mit einem Wort wie my mum, my grandpa, my cousin oder my friend.
             source: /menschen-beschreiben/familie-personen/#neu
           - text: Ein Satz sagt mit has got oder is, wie die Person aussieht.
             source: /menschen-beschreiben/familie-personen/#neu
@@ -270,6 +269,8 @@ blocks:
             kind: form
         solution: |
           My grandma is Anna. She has got grey hair. She is kind and funny.
+
+          Oder: My friend is Tom. He has got curly hair and glasses. He is quiet and clever.
   - type: section
     id: weiter
     title: Wie es weitergeht

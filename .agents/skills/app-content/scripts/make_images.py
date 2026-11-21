@@ -89,29 +89,31 @@ def szene_familie_personen():
     b += kid("mrs-parker", 20, 100, .9) + kid("mr-parker", 520, 100, .9)
     b += table(140, 190, 360, 24)
     b += kid("ellie", 175, 105, .75) + kid("sophie", 290, 105, .75) + kid("peter", 410, 140, .6)
-    b += f'  <rect x="230" y="182" width="36" height="24" rx="4" fill="#333"/>\n'
+    b += '  <path d="M200 175 Q212 200 240 196" stroke="#d33" stroke-width="13" fill="none" stroke-linecap="round"/>\n'
+    b += '  <circle cx="243" cy="195" r="7" fill="#f3d2b3" stroke="#333" stroke-width="2"/>\n'
+    b += '  <rect x="239" y="162" width="24" height="38" rx="4" fill="#333"/><rect x="242" y="166" width="18" height="28" fill="#9fd0f0"/>\n'
     return svg(640, 340, "Eine Familie sitzt am Tisch in der Küche: zwei Erwachsene und drei Kinder, ein Kind hält ein Handy", b)
 
 
 @image
 def stammbaum():
     b = ""
-    # row 1: the parents and Mr Parker's mother, row 2: the children; Sophie is a guest, her parents a small photo
-    b += kid("mrs-parker", 190, 4, .55) + text(245, 124, "Mrs Parker", 17)
-    b += kid("mr-parker", 330, 4, .55) + text(385, 124, "Mr Parker", 17)
-    b += kid("grandma", 480, 4, .55) + text(535, 124, "Grandma Parker", 17)
-    b += line(437, 70, 480, 70, 3)
-    b += line(245, 130, 245, 150, 3) + line(385, 130, 385, 150, 3) + line(245, 150, 385, 150, 3) + line(315, 150, 315, 170, 3)
-    b += line(315, 170, 190, 170, 3) + line(315, 170, 450, 170, 3)
-    b += line(190, 170, 190, 188, 3) + line(450, 170, 450, 188, 3)
-    b += kid("ellie", 140, 190, .5) + text(190, 300, "Ellie", 17)
-    b += kid("peter", 400, 200, .45) + text(450, 300, "Peter", 17)
-    b += kid("sophie", 270, 190, .5) + text(320, 300, "Sophie", 17)
-    b += line(245, 150, 270, 215, 2, True)
+    # row 1: the parents and Mr Parker's mother, row 2: the children; Sophie is a guest, her parents a small photo.
+    # A figure drawn at (x, y) with scale s has its centre at x + 50 * s.
+    b += kid("mrs-parker", 190, 4, .55) + text(217, 124, "Mrs Parker", 17)
+    b += kid("mr-parker", 330, 4, .55) + text(357, 124, "Mr Parker", 17)
+    b += kid("grandma", 480, 4, .55) + text(507, 124, "Grandma Parker", 17)
+    b += line(385, 75, 480, 75, 3)
+    b += line(217, 130, 217, 150, 3) + line(357, 130, 357, 150, 3) + line(217, 150, 357, 150, 3) + line(287, 150, 287, 170, 3)
+    b += line(165, 170, 422, 170, 3) + line(165, 170, 165, 188, 3) + line(422, 170, 422, 188, 3)
+    b += line(295, 170, 295, 188, 3, True)
+    b += kid("ellie", 140, 190, .5) + text(165, 300, "Ellie", 17)
+    b += kid("sophie", 270, 190, .5) + text(295, 300, "Sophie", 17)
+    b += kid("peter", 400, 200, .45) + text(422, 300, "Peter", 17)
     b += '  <rect x="30" y="20" width="70" height="80" rx="4" fill="#fff" stroke="#7a5a35" stroke-width="4"/>\n'
     b += '  <ellipse cx="65" cy="55" rx="16" ry="18" fill="#f1cdb0" stroke="#333" stroke-width="1.5"/><path d="M49 52 Q48 34 65 33 Q82 34 81 52 Q76 42 65 42 Q54 44 49 52 Z" fill="#d9b45a"/>\n'
     b += text(65, 120, "Sophie's", 15) + text(65, 138, "Mum and Dad", 15)
-    return svg(640, 320, "Stammbaum: oben Mrs Parker, Mr Parker und Grandma Parker, darunter Ellie und Peter, dazwischen Sophie als Gast, links oben ein Foto von Sophies Eltern", b)
+    return svg(640, 320, "Stammbaum: oben Mrs Parker, Mr Parker und Grandma Parker, darunter Ellie, Sophie als Gast und Peter, links oben ein Foto von Sophies Eltern", b)
 
 
 # ---------------------------------------------------------------- weitere Bilder (images_*.py)
