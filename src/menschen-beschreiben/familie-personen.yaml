@@ -15,7 +15,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Sophie wohnt jetzt bei den Parkers. Am Abend sitzt die Familie (family) in der Küche, auch Amir, ein Freund, ist oft da. Mr heißt Herr und Mrs heißt Frau. Für ihre Eltern in Deutschland zeichnet Sophie einen Stammbaum: Linien führen von den Eltern zu den Kindern, die kurze Linie zur Mutter von Mr Parker, die gestrichelte zu Sophie, die zu Gast ist."
+        text: "Sophie wohnt jetzt bei den Parkers. Am Abend sitzt die Familie (family) in der Küche, Ellies und Sophies Freund Amir kommt oft zu Besuch. Mr heißt Herr und Mrs heißt Frau. Für ihre Eltern in Deutschland zeichnet Sophie einen Stammbaum: Linien führen von den Eltern zu den Kindern, die Linie nach oben zur Mutter von Mr Parker, die gestrichelte zu Sophie, die zu Gast ist."
       - type: figure
         image: images/stammbaum.svg
         alt: Ein Stammbaum. Oben stehen drei Erwachsene, darunter drei Kinder. Links oben hängt ein kleines Foto.
@@ -46,7 +46,7 @@ blocks:
     title: Familienwörter, Aussehen und Charakter
     blocks:
       - type: text
-        text: "**Mum** und **dad** sind deine Mama und dein Papa, sie heißen auch **mother** und **father**. Zusammen sind sie deine **parents**. Dein Bruder ist dein **brother**, deine Schwester deine **sister**. Deine Oma ist deine **grandma**, dein Opa dein **grandpa**. Deine Tante ist deine **aunt**, dein Onkel dein **uncle**, ein Cousin oder eine Cousine dein **cousin**. Sophies Mama ist Sophie’s mum, und ihre Eltern wohnen in Deutschland. Das ’s sagt, zu wem jemand gehört. Über dich sagst du **my** (mein), zu jemandem **your** (dein), über einen Jungen oder Mann **his** (sein), über ein Mädchen oder eine Frau **her** (ihr)."
+        text: "**Mum** und **dad** sind deine Mama und dein Papa, sie heißen auch **mother** und **father**. Zusammen sind sie deine **parents**. Dein Bruder ist dein **brother**, deine Schwester deine **sister**. Deine Oma ist deine **grandma**, dein Opa dein **grandpa**. Deine Tante ist deine **aunt**, dein Onkel dein **uncle**, ein Cousin oder eine Cousine dein **cousin**. Sophies Mama ist Sophie’s mum. Das ’s sagt, zu wem jemand gehört. Über dich sagst du **my** (mein), zu jemandem **your** (dein), über einen Jungen oder Mann **his** (sein), über ein Mädchen oder eine Frau **her** (ihr)."
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
@@ -55,17 +55,19 @@ blocks:
           - [ponytail, Pferdeschwanz]
           - [kind, nett / freundlich]
           - [helpful, hilfsbereit]
+          - [curly, lockig]
+          - [short / long, kurz / lang]
           - [clever, klug]
       - type: text
         text: "Wie sieht jemand aus? Haare, eine Brille oder einen Bart **hat** man: Mrs Parker **has got** red hair. Größe und Alter **ist** man: Mrs Parker **is** tall. Der Charakter, also wie jemand ist, wird auch mit **is** gesagt: Mrs Parker **is** nice."
       - type: example
-        title: Steckbrief · Mrs Parker
+        title: Steckbrief · Grandma Parker
         blocks:
           - type: text
             text: |
-              **Wer?** Ellie’s mum.
-              **Aussehen:** She has got red hair. She is tall.
-              **Charakter:** She is nice and helpful.
+              - **Wer?** Mr Parker’s mum.
+              - **Aussehen:** She has got grey hair. She is small.
+              - **Charakter:** She is nice and helpful.
       - type: note
         title: Merke
         blocks:
@@ -114,7 +116,7 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/have-got/
       - type: single-choice
         id: familie-personen-charakter
-        text: "Wähle die richtige Form: Amir ___ friendly."
+        text: "Wähle die richtige Form: Peter ___ friendly."
         options:
           - text: is
             correct: true
@@ -132,25 +134,29 @@ blocks:
       - type: language-task
         id: familie-personen-besitz
         languages: { source: de, target: en }
-        mode: gap
-        task: Wer spricht über wen? Setze my, your, his oder her ein.
+        task: Wer spricht über wen? Schreibe den Satz mit my, your, his oder her.
         form: { case: hint, punctuation: ok }
         items:
           - source: Ellie sagt über sich selbst. Mein Bruder ist Peter.
-            target: "[My] brother is Peter."
+            target: My brother is Peter.
             mistakes:
               - answer: Her brother is Peter.
                 message: Ellie spricht über sich, also my.
+          - source: Sophie sagt zu Ellie. Dein Bruder ist nett.
+            target: Your brother is (nice|kind|friendly).
+            mistakes:
+              - answer: My brother is nice.
+                message: Sophie spricht zu Ellie, also your.
           - source: Sophie sagt über Ellie. Ihre Mama ist freundlich.
-            target: "[Her] mum is friendly."
+            target: Her mum is (friendly|kind|nice).
             mistakes:
               - answer: His mum is friendly.
-                message: Ellie ist ein Mädchen, also her und nicht his.
+                message: Ellie ist ein Mädchen, also her.
           - source: Sophie sagt über Mr Parker. Seine Haare sind kurz.
-            target: "[His] hair is short."
+            target: His hair is short.
             mistakes:
               - answer: Her hair is short.
-                message: Mr Parker ist ein Mann, also his und nicht her.
+                message: Mr Parker ist ein Mann, also his.
         hint: Wer spricht, über wen?
       - type: language-task
         id: familie-personen-satz
