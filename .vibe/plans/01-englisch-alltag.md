@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: plan
+phase: code
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -161,8 +161,9 @@ Antworten der Orchestrator-Session (in der Rolle der Ersteller:in): aus dem Auft
       learners see after each. Keep the files in `.vibe/sketches/`.
 - [x] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
       plain words (what learners see and do, what the app cannot do). At most 2 questions.
-- [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
+- [x] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
+      Creator: Orchestrator-Session (in der Rolle der Ersteller:in): Ja, Plan bestätigt. Mr Parker, Grandma Parker (nur Stammbaum und Beispiele), Sophies Eltern nur als Mum and Dad; Profil als Tabellenzeilen in weiter plus Block mit allen Profilzeilen am Ende von email-postkarte; Gefühle und Gesundheit altersgerecht; Lerner-Check und Sprachprüfung der Musterseite vor dem Checkpoint.
 
 ### Content method
 
