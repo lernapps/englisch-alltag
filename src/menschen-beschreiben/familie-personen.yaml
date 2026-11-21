@@ -34,7 +34,7 @@ blocks:
             info: Eine sister ist ein Mädchen. Peter ist ein Junge.
           - text: her dad
             correct: false
-            info: Ein dad ist ein Vater. Peter ist ein Kind der Familie, nicht ein Elternteil.
+            info: Ein dad ist ein Vater. Peter ist ein Kind der Familie, kein Elternteil.
         explanation: Wer dieselben Eltern hat wie du und ein Junge ist, ist dein brother.
         links:
           - title: Lernlandkarte Englisch · Familie und Personenbeschreibung
@@ -58,7 +58,7 @@ blocks:
           - [sister, Schwester]
           - [grandma, Oma]
       - type: text
-        text: "Wie sieht jemand aus? Haare, eine Brille oder einen Bart **hat** man: Mrs Parker **has got** red hair. Größe und Alter **ist** man: Mrs Parker **is** tall. Und der Charakter, also wie jemand ist, sagt man auch mit **is**: Mrs Parker **is** nice. Das Adjektiv, also das Wort für die Eigenschaft, kennst du schon vom blauen Anhänger."
+        text: "Wie sieht jemand aus? Haare, eine Brille oder einen Bart **hat** man: Mrs Parker **has got** red hair. Größe und Alter **ist** man: Mrs Parker **is** tall. Und der Charakter, also wie jemand ist, sagt man auch mit **is**: Mrs Parker **is** nice. Das Adjektiv, also das Wort für die Eigenschaft, kennst du schon aus der Wiederholungsseite."
       - type: table
         caption: Steckbrief · Mrs Parker
         header: [Was, Englisch]
@@ -71,13 +71,12 @@ blocks:
         blocks:
           - type: text
             text: |
-              **Haare, Brille, Bart:** have got oder has got (he, she, it: has got). **Größe und Alter:** is oder are. **Charakter:** nur is oder are, nie have got. Ein Adjektiv bekommt kein -s. Zu wem jemand gehört, sagt das ’s hinter dem Namen: Ellie’s dad.
+              **Haare, Brille, Bart:** have got oder has got (he, she, it: has got). **Größe und Alter:** am, is oder are. **Charakter:** nur am, is oder are, nie have got. Ein Adjektiv bekommt kein -s. Zu wem jemand gehört, sagt das ’s hinter dem Namen: Ellie’s dad. Kurz geht auch: she’s got, she’s tall (das ’s steht dann für has oder is).
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
         rows:
           - [glasses, Brille]
-          - [blond, hellhaarig (blond)]
           - [curly, lockig]
           - [kind, nett / freundlich]
           - [helpful, hilfsbereit]
@@ -109,7 +108,7 @@ blocks:
         id: familie-personen-wahl
         languages: { source: de, target: en }
         mode: choice
-        task: "Wähle: has got, have got oder is?"
+        task: Wähle die richtige Form.
         form: { case: hint, punctuation: ok }
         items:
           - cue: Mr Parker hat kurze braune Haare.
@@ -155,8 +154,6 @@ blocks:
             mistakes:
               - answer: Amir have got curly black hair.
                 message: Zu he gehört has got.
-              - answer: Amir has got black curly hair.
-                message: Die Reihenfolge ist curly black hair. Die Form kommt vor der Farbe.
           - cue: Mr Parker · be · tall
             target: "(Mr Parker is|Mr Parker's) tall."
             mistakes:
@@ -182,7 +179,7 @@ blocks:
             target: "(Peter's dad is|Peter's dad's) (friendly|kind|nice)."
             mistakes:
               - answer: Peters dad is friendly.
-                message: Das ’s steht hinter dem Namen, ohne Leerzeichen und ohne Wort „dad“ davor.
+                message: Im Englischen schreibst du hier einen Apostroph, Peter's dad.
               - answer: Peter's dad has got friendly.
                 message: Beim Charakter steht is.
           - source: Ellies Bruder hat braune Haare.
@@ -211,11 +208,11 @@ blocks:
             mistakes:
               - answer: Ellie have got a brother.
                 message: Noch nicht ganz. Welche Form gehört zu she?
-          - cue: Peter is a brother of Ellie.
+          - cue: Peter is Ellies brother.
             target: Peter is Ellie's brother.
             mistakes:
-              - answer: Peter is a brother of Ellie.
-                message: Noch nicht ganz. Zu wem jemand gehört, sagt das ’s hinter dem Namen.
+              - answer: Peter is Ellies brother.
+                message: Noch nicht ganz. Zu wem jemand gehört, sagt das ’s mit Apostroph hinter dem Namen.
           - cue: Mrs Parker has got kind.
             target: "(Mrs Parker is|Mrs Parker's) kind."
             mistakes:
@@ -259,7 +256,7 @@ blocks:
           - ["Wie ist er?", "He is friendly."]
       - type: open-task
         id: familie-personen-profil
-        task: "Schreibe die erste Zeile deines Profils „All about me“ in dein Heft: zwei bis vier Sätze über ein Familienmitglied. Sage, wer die Person für dich ist, wie sie aussieht und wie sie ist."
+        task: "Schreibe den ersten Teil deines Profils „All about me“ in dein Heft: zwei bis vier Sätze über ein Familienmitglied. Sage, wer die Person für dich ist, wie sie aussieht und wie sie ist."
         points:
           - text: Du nennst, wer die Person ist, mit einem Familienwort (zum Beispiel my mum, my brother).
             source: /menschen-beschreiben/familie-personen/#neu

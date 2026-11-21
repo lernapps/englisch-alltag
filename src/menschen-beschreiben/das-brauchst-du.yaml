@@ -9,15 +9,16 @@ blocks:
     title: Das solltest du schon können
     blocks:
       - type: text
-        text: "Sophie will ihrer Familie in Deutschland schreiben, wie die Parkers aussehen. Dafür braucht sie zwei Bausteine. Kannst du sie schon? **Ich kann mit „have got“ und „has got“ sagen, was jemand hat, und danach fragen.** Das ist der Baustein „Have got und has got“. **Ich kann Adjektive vor ein Nomen (a big house) und nach „be“ (The house is big.) stellen.** Das ist der Baustein „Stellung der Adjektive“. Ein Nomen ist ein Wort für ein Ding oder eine Person. Ein Adjektiv sagt, wie ein Ding oder eine Person ist. Lies die Tabellen und prüfe in Gedanken, ob du alles kennst."
+        text: "Sophie will ihren Eltern in Deutschland schreiben, wie die Parkers aussehen. Dafür braucht sie zwei Bausteine. Kannst du sie schon? **Ich kann mit „have got“ und „has got“ sagen, was jemand hat, und danach fragen.** Das ist der Baustein „Have got und has got“. **Ich kann Adjektive vor ein Nomen (a big house) und nach „be“ (The house is big.) stellen.** Das ist der Baustein „Stellung der Adjektive“. Ein Nomen ist ein Wort für ein Ding, eine Person oder ein Tier. Ein Adjektiv sagt, wie ein Ding oder eine Person ist. Lies die Tabellen und prüfe in Gedanken, ob du alles kennst."
       - type: table
         caption: Klassenzimmer-Poster · have got und has got
         header: [Person, Form]
         rows:
           - [I / you / we / they, have got]
           - [he / she / it, has got]
+          - [Frage, "Have you got a pen? Has she got a pen?"]
       - type: table
-        caption: Klassenzimmer-Poster · Der Adjektiv-Anhänger
+        caption: Klassenzimmer-Poster · Wo das Adjektiv steht
         header: [Platz, Beispiel]
         rows:
           - [vor dem Nomen, a long table]
