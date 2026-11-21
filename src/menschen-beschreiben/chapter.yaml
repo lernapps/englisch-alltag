@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Menschen beschreiben
+summary: Sophie schreibt ihrer Familie, wie die Parkers aussehen und wie sie sind. Du lernst Familienwörter, beschreibst Menschen nach Aussehen und Charakter, sprichst über Gefühle und Streit und sagst beim Arzt, was dir fehlt.
+pages: [das-brauchst-du, familie-personen]

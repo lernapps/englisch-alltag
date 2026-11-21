@@ -8,7 +8,7 @@ phase: code
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: {}
+failedChecks: { checks-pass: 2 }
 ---
 
 # Plan: englisch-alltag, first version
@@ -229,14 +229,14 @@ page, which a link. -->
       `npx --no -- lernapps create --archetype explainer`.
 - [x] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
       no "FILL IN" left. Commit it before any content.
-- [ ] Load skill `lernapps-explainer`.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer`.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Kapitel 1 anlegen (src/app.yaml, chapter.yaml, Wiederholungsseite das-brauchst-du mit recap englisch/have-got und englisch/adjektive) und die Musterseite familie-personen bauen: Szene, Stammbaum der Parkers, Steckbrief, Übungen, Audio (6 Sätze), Profil-Zeile; Bilder über make_images.py, Wörterprüfung gegen den Grundwortschatz
+- [x] Kapitel 1 anlegen (src/app.yaml, chapter.yaml, Wiederholungsseite das-brauchst-du mit recap englisch/have-got und englisch/adjektive) und die Musterseite familie-personen bauen: Szene, Stammbaum der Parkers, Steckbrief, Übungen, Audio (6 Sätze), Profil-Zeile; Bilder über make_images.py, Wörterprüfung gegen den Grundwortschatz
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A

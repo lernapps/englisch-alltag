@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: Have got und Adjektive noch einmal kurz, bevor Sophie ihre neue Familie beschreibt.
+recap: [englisch/have-got, englisch/adjektive]
+scope: Die Seite wiederholt nur have got und has got und die Stellung des Adjektivs. Neue Inhalte gibt es nicht, auch keine Übung.
+blocks:
+  - type: section
+    id: einstieg
+    title: Das solltest du schon können
+    blocks:
+      - type: text
+        text: "Sophie will ihrer Familie in Deutschland schreiben, wie die Parkers aussehen. Dafür braucht sie zwei Bausteine. Kannst du sie schon? **Ich kann mit „have got“ und „has got“ sagen, was jemand hat, und danach fragen.** Das ist der Baustein „Have got und has got“. **Ich kann Adjektive vor ein Nomen (a big house) und nach „be“ (The house is big.) stellen.** Das ist der Baustein „Stellung der Adjektive“. Ein Nomen ist ein Wort für ein Ding oder eine Person. Ein Adjektiv sagt, wie ein Ding oder eine Person ist. Lies die Tabellen und prüfe in Gedanken, ob du alles kennst."
+      - type: table
+        caption: Klassenzimmer-Poster · have got und has got
+        header: [Person, Form]
+        rows:
+          - [I / you / we / they, have got]
+          - [he / she / it, has got]
+      - type: table
+        caption: Klassenzimmer-Poster · Der Adjektiv-Anhänger
+        header: [Platz, Beispiel]
+        rows:
+          - [vor dem Nomen, a long table]
+          - [nach be, The table is long.]
+      - type: text
+        text: Nicht sicher? Wiederhole es auf den Seiten [Have got und has got](https://lernapps.net/apps/map/englisch/c/have-got/) und [Stellung der Adjektive](https://lernapps.net/apps/map/englisch/c/adjektive/) der Lernlandkarte.

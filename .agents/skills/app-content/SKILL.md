@@ -82,7 +82,7 @@ Karte `https://lernapps.net/apps/map/englisch.json` (geöffnet 2026-11-21); Grun
 2. Seite `src/<kapitel>/<seite>.yaml` mit den Abschnitten `einstieg`, `neu`, `uebung`, `anwenden`, `weiter` anlegen, in `chapter.yaml` eintragen, Competency-ID setzen; Kapitel in `src/app.yaml` eintragen.
 3. Bilder: Funktion in `make_images.py` ergänzen und das Skript starten; Zeile für „All about me“ und die Poster-Tabellen ergänzen.
 4. Übungen aus den Mustern oben, je mit `mistakes` und `hint`; 2 je Seite in `selfAssessment` (Skill `lernapps-explainer-self-assessment`).
-5. Hörtexte: Datei `src/audio/<satz>.mp3` und Eintrag in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz, 6 je Seite: 3 Diktat, 3 Nachsprechen), erzeugt mit `python3 .agents/skills/app-content/scripts/regen_audio.py .agents/skills/app-content/scripts/audio-texte.json [Satz …]` (schneidet das Ausklingen ab); Sätze nicht zwischen Seiten wiederholen, Namen am Satzende zweisilbig.
+5. Hörtexte: Datei `src/audio/<satz>.mp3` und Eintrag in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz, 6 je Seite: 3 Diktat, 3 Nachsprechen), erzeugt mit `~/.cache/lernapps/audio/venv/bin/python .agents/skills/app-content/scripts/regen_audio.py .agents/skills/app-content/scripts/audio-texte.json [Satz …]` (schneidet das Ausklingen ab); Sätze nicht zwischen Seiten wiederholen, Namen am Satzende zweisilbig.
 6. Wörter gegen den Grundwortschatz prüfen; `npx --no -- lernapps check`; committen.
 
 ## Rules learned from mistakes
