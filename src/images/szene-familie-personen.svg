@@ -47,6 +47,8 @@
   <use href="#ellie" transform="translate(175,105) scale(0.75)"/>
   <use href="#sophie" transform="translate(290,105) scale(0.75)"/>
   <use href="#peter" transform="translate(410,140) scale(0.6)"/>
-  <rect x="230" y="182" width="36" height="24" rx="4" fill="#333"/>
+  <path d="M200 175 Q212 200 240 196" stroke="#d33" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <circle cx="243" cy="195" r="7" fill="#f3d2b3" stroke="#333" stroke-width="2"/>
+  <rect x="239" y="162" width="24" height="38" rx="4" fill="#333"/><rect x="242" y="166" width="18" height="28" fill="#9fd0f0"/>
 
 </svg>
