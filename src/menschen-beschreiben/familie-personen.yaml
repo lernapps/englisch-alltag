@@ -15,11 +15,11 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Sophie wohnt jetzt bei den Parkers. Am Abend sitzt die ganze Familie (family) in der Küche. Sophie will ihren Eltern in Deutschland schreiben, wer zu den Parkers gehört. Dafür hat sie einen Stammbaum gezeichnet."
+        text: "Sophie wohnt jetzt bei den Parkers. Am Abend sitzt die ganze Familie (family) in der Küche. Sophie will ihren Eltern in Deutschland schreiben, wer zu den Parkers gehört. Mr heißt Herr und Mrs heißt Frau, vor dem Familiennamen. Auch Amir, ein Freund von Ellie und Sophie, ist oft da. Sophie hat einen Stammbaum gezeichnet. Eine Linie führt von den Eltern zu ihren Kindern, eine kurze Linie zur Mutter von Mr Parker, die gestrichelte Linie zu Sophie, die zu Gast ist."
       - type: figure
         image: images/stammbaum.svg
         alt: Ein Stammbaum. Oben stehen drei Erwachsene, darunter drei Kinder. Links oben hängt ein kleines Foto.
-        caption: Der Stammbaum der Parkers. Sophie ist zu Gast, das Foto zeigt ihre Eltern.
+        caption: "Der Stammbaum der Parkers. Gestrichelt: Sophie ist zu Gast. Das Foto zeigt ihre Eltern."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: single-choice
@@ -46,7 +46,7 @@ blocks:
     title: Familienwörter, Aussehen und Charakter
     blocks:
       - type: text
-        text: "**Mum** und **dad** sind deine Mama und dein Papa. Zusammen sind sie deine **parents**. Wenn du einen Bruder hast, ist er dein **brother**. Eine Schwester ist deine **sister**, und deine Oma ist deine **grandma**. Sophies Mama ist also Sophie’s mum, und Sophie’s parents wohnen in Deutschland. Das ’s sagt, zu wem jemand gehört."
+        text: "**Mum** und **dad** sind deine Mama und dein Papa. Zusammen sind sie deine **parents**. Wenn du einen Bruder hast, ist er dein **brother**. Eine Schwester ist deine **sister**, und deine Oma ist deine **grandma**. Sophies Mama ist also Sophie’s mum. Ihre Eltern wohnen in Deutschland. Das ’s sagt, zu wem jemand gehört."
       - type: table
         caption: Klassenzimmer-Poster · Die Familie
         header: [Ausdruck, Bedeutung]
@@ -139,7 +139,7 @@ blocks:
       - type: language-task
         id: familie-personen-satz
         languages: { source: de, target: en }
-        task: Schreibe den ganzen Satz.
+        task: Schreibe den ganzen Satz. Dabei steht be für am, is oder are und have got für have got oder has got.
         form: { case: hint, punctuation: ok }
         items:
           - cue: Ellie · have got · red hair
@@ -154,12 +154,12 @@ blocks:
             mistakes:
               - answer: Amir have got curly black hair.
                 message: Zu he gehört has got.
-          - cue: Mr Parker · be · tall
-            target: "(Mr Parker is|Mr Parker's) tall."
+          - cue: Peter · be · young
+            target: "(Peter is|Peter's) young."
             mistakes:
-              - answer: Mr Parker has got tall.
-                message: Die Größe ist man, also is.
-              - answer: Mr Parker are tall.
+              - answer: Peter has got young.
+                message: Das Alter ist man, also is.
+              - answer: Peter are young.
                 message: Zu he gehört is, nicht are.
           - cue: Grandma Parker · be · kind
             target: "(Grandma Parker is|Grandma Parker's) kind."
@@ -168,7 +168,7 @@ blocks:
                 message: Beim Charakter steht is.
               - answer: Grandma Parker are kind.
                 message: Zu she gehört is, nicht are.
-        hint: Suche zuerst das Wort für die Eigenschaft.
+        hint: Entscheide, ob die Person es hat oder ob sie es ist.
       - type: language-task
         id: familie-personen-uebersetzen
         languages: { source: de, target: en }
@@ -176,7 +176,7 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - source: Peters Papa ist freundlich.
-            target: "(Peter's dad is|Peter's dad's) (friendly|kind|nice)."
+            target: "(Peter's dad is|Peter's dad's|Peter's father is|Peter's father's) (friendly|kind|nice)."
             mistakes:
               - answer: Peters dad is friendly.
                 message: Im Englischen schreibst du hier einen Apostroph, Peter's dad.
@@ -214,7 +214,7 @@ blocks:
               - answer: Peter is Ellies brother.
                 message: Noch nicht ganz. Zu wem jemand gehört, sagt das ’s mit Apostroph hinter dem Namen.
           - cue: Mrs Parker has got kind.
-            target: "(Mrs Parker is|Mrs Parker's) kind."
+            target: "(Mrs Parker is|Mrs Parker's) (kind|nice|friendly)."
             mistakes:
               - answer: Mrs Parker has got kind.
                 message: Noch nicht ganz. Beim Charakter steht is.
@@ -226,11 +226,11 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - audio: peters-grandma-is-old-and-funny.mp3
-            target: Peter's grandma is old and funny.
+            target: "(Peter's grandma is|Peter's grandma's) old and funny."
           - audio: my-mum-is-kind-and-clever.mp3
-            target: My mum is kind and clever.
+            target: "(My mum is|My mum's) kind and clever."
           - audio: sophies-dad-has-got-short-hair.mp3
-            target: Sophie's dad has got short hair.
+            target: "(Sophie's dad has|Sophie's dad's) got short hair."
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -246,6 +246,8 @@ blocks:
           - audio: my-parents-are-friendly-people.mp3
             text: My parents are friendly people.
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: text
+        text: "Dein Profil „All about me“ (Alles über mich) wächst mit jeder Seite. Ellie hat ihre erste Zeile schon geschrieben. Schau, wie sie es macht."
       - type: table
         caption: All about me · Meine Familie (Ellies Beispiel)
         header: [Was, Englisch]
