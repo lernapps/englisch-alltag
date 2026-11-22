@@ -80,9 +80,7 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - source: Du sagst zu. Danke! Ich kann am Samstag kommen.
-            target: (Thank you|Thanks)! I can come on Saturday.
-            accepted:
-              - I can come on Saturday, (thank you|thanks).
+            target: (Thank you|Thanks|Thank you very much)! I can come on Saturday.
             mistakes:
               - answer: Thank you! I can to come on Saturday.
                 message: Nach can kein to.
@@ -92,8 +90,6 @@ blocks:
                 message: Vor Saturday fehlt on.
           - source: Du sagst ab. Entschuldige, ich kann am Samstag nicht kommen.
             target: (Sorry|I'm sorry|I am sorry), I (can't|cannot) come on Saturday.
-            accepted:
-              - (Sorry|I'm sorry|I am sorry), on Saturday I (can't|cannot) come.
             mistakes:
               - answer: Sorry, I can't to come on Saturday.
                 message: Nach can kein to.
@@ -118,17 +114,14 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - source: Du bist um vier zurück.
-            target: (Back|I'm back|I am back|I'll be back|I will be back) at (four|4)( o'clock|).
+            target: (Back|I'm back|I am back|I'll be back|I will be back) (at|by) (four|4)( o'clock|).
             mistakes:
               - answer: Back on four.
                 message: Vor einer Uhrzeit steht at.
               - answer: Back four.
                 message: Vor der Uhrzeit fehlt at.
           - source: "Du bittest: Kannst du bitte Brot kaufen?"
-            target: Can you buy bread, please?
-            accepted:
-              - Please buy bread.
-              - Buy bread, please.
+            target: (Can you buy bread, please|Can you buy some bread, please|Please buy bread|Please buy some bread|Buy bread, please|Buy some bread, please).
             mistakes:
               - answer: Can you to buy bread, please?
                 message: Nach can kein to.
@@ -149,7 +142,7 @@ blocks:
               - answer: The cinema is at Friday.
                 message: Vor einem Tag steht on, nicht at.
           - source: Wir spielen von zwei bis vier.
-            target: We play from (two|2) (to|until) (four|4).
+            target: We play from (two|2) (to|until|till) (four|4)( o'clock|).
             mistakes:
               - answer: We play at two to four.
                 message: Von … bis heißt from … to.
