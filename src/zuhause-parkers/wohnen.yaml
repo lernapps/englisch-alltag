@@ -35,7 +35,7 @@ blocks:
           - text: in the bathroom
             correct: false
             info: Im Bad sind Badewanne, Toilette und Waschbecken.
-        explanation: "Das Sofa steht im Wohnzimmer: in the living room."
+        explanation: "Das Sofa steht im Wohnzimmer."
         links:
           - title: Lernlandkarte Englisch · There is und there are
             url: https://lernapps.net/apps/map/englisch/c/there-is-are/
@@ -79,7 +79,7 @@ blocks:
           - { left: armchair, right: in the living room }
           - { left: wardrobe, right: in the bedroom }
           - { left: bench, right: in the garden }
-        explanation: Der Kühlschrank gehört in die Küche, die Badewanne ins Bad, der Sessel ins Wohnzimmer, der Kleiderschrank ins Schlafzimmer und die Gartenbank in den Garten.
+        explanation: Jedes Möbelstück gehört in den Raum, in dem man es braucht.
         links:
           - title: Lernlandkarte Englisch · There is und there are
             url: https://lernapps.net/apps/map/englisch/c/there-is-are/
@@ -87,7 +87,7 @@ blocks:
         id: wohnen-auf
         text: "Das Buch liegt auf dem Sofa. Wähle: The book is ___ the sofa."
         options:
-          - text: on
+          - text: "on"
             correct: true
             info: Das Buch liegt oben auf dem Sofa, also on.
           - text: in
@@ -170,6 +170,9 @@ blocks:
                 message: Schuhe sind mehrere Dinge, also are.
           - source: Das Sofa steht neben dem Sessel.
             target: The sofa is (next to|beside) the armchair.
+            mistakes:
+              - answer: The sofa is on the armchair.
+                message: on heißt oben auf. Das Sofa steht daneben, also next to.
         hint: Prüfe in, on und with.
       - type: language-task
         id: wohnen-hoeren
@@ -177,12 +180,12 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: there-are-two-chairs-next-to-the-table.mp3
-            target: There are two chairs next to the table.
+          - audio: ellies-desk-is-next-to-the-window.mp3
+            target: "(Ellie's desk is|Ellie's desk's) next to the window."
           - audio: peters-toys-are-in-his-bedroom.mp3
             target: Peter's toys are in his bedroom.
-          - audio: is-there-a-bath-in-the-bathroom.mp3
-            target: Is there a bath in the bathroom?
+          - audio: peters-bag-is-under-the-table.mp3
+            target: "(Peter's bag is|Peter's bag's) under the table."
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -210,7 +213,7 @@ blocks:
           - ["Wo steht etwas?", "The lamp is on the desk."]
       - type: open-task
         id: wohnen-profil
-        task: "Schreibe den nächsten Teil deines Profils „All about me“ in dein Heft. Du entscheidest, worüber du schreibst: dein Zimmer, deine Wohnung oder dein Haus. Schreibe zwei bis vier Sätze: Wo wohnst du oder welcher Raum ist es, was gibt es dort, und wo steht etwas?"
+        task: "Schreibe den nächsten Teil deines Profils „All about me“ in dein Heft. Du entscheidest, worüber du schreibst: dein Zimmer, deine Wohnung oder dein Haus. Schreibe zwei bis vier Sätze: Wo wohnst du oder welcher Raum ist es, was gibt es dort, und wo steht etwas? Die App bewertet deinen Text nicht: Vergleiche ihn danach selbst mit den Punkten."
         points:
           - text: Du sagst, wo du wohnst oder um welchen Raum es geht, zum Beispiel a flat, a house oder my room.
             source: /zuhause-parkers/wohnen/#neu

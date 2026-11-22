@@ -70,7 +70,7 @@ blocks:
           - { left: tea, right: pasta with chicken and vegetables }
           - { left: snack, right: a banana }
         distractors: [cereal with milk]
-        explanation: Cereal with milk ist ein Frühstück und passt zu keiner dieser Mahlzeiten.
+        explanation: Cereal with milk bleibt übrig, denn es ist ein Frühstück und keine der drei Mahlzeiten hier.
         links:
           - title: Lernlandkarte Englisch · Essen und Trinken
             url: https://lernapps.net/apps/map/englisch/c/essen-trinken/
@@ -191,7 +191,7 @@ blocks:
           - ["Was ich nicht mag", "I don't like soup."]
       - type: open-task
         id: essen-trinken-profil
-        task: "Schreibe die nächste Zeile deines Profils „All about me“ in dein Heft, drei bis fünf Sätze: Was isst und trinkst du normalerweise? Was magst du, was nicht? Du schreibst, was bei dir stimmt, auch wenn du zum Beispiel kein Fleisch isst."
+        task: "Schreibe die nächste Zeile deines Profils „All about me“ in dein Heft, drei bis fünf Sätze: Was isst und trinkst du normalerweise? Was magst du, was nicht? Du schreibst, was bei dir stimmt, auch wenn du zum Beispiel kein Fleisch isst. Die App bewertet deinen Text nicht: Vergleiche ihn danach selbst mit den Punkten."
         points:
           - text: Ein Satz sagt mit I usually have, was du zu einer Mahlzeit isst oder trinkst.
             source: /zuhause-parkers/essen-trinken/#neu

@@ -160,6 +160,11 @@ blocks:
                 message: Zu he gehört has got.
           - cue: I · have got · toothache
             target: "(I have got|I've got|I have) (a |)toothache."
+            mistakes:
+              - answer: I has got toothache.
+                message: Zu I gehört have got, nicht has got.
+              - answer: I am toothache.
+                message: Zahnschmerzen hat man, also have got.
         hint: Hurts oder hurt? Hat man es oder tut es weh?
       - type: language-task
         id: gesundheit-uebersetzen
@@ -193,8 +198,8 @@ blocks:
             target: "(Amir has got|Amir's got|Amir has) a bad cold, Peter."
           - audio: my-arm-and-my-hand-hurt-sophie.mp3
             target: "My arm and my hand hurt, Sophie."
-          - audio: please-eat-some-soup-ellie.mp3
-            target: "Please eat some soup, Ellie."
+          - audio: please-do-not-run-today-ellie.mp3
+            target: "Please (do not|don't) run today, Ellie."
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -222,7 +227,7 @@ blocks:
           - ["Wenn es schlimmer wird?", "Tell an adult."]
       - type: open-task
         id: gesundheit-profil
-        task: "Schreibe in dein Heft, was du sagst, wenn dir etwas wehtut, in drei bis fünf Sätzen: Was tut weh, was hast du, was hilft dir und wen holst du, wenn es schlimmer wird?"
+        task: "Schreibe in dein Heft, was du sagst, wenn dir etwas wehtut, in drei bis fünf Sätzen: Was tut weh, was hast du, was hilft dir und wen holst du, wenn es schlimmer wird? Die App bewertet deinen Text nicht: Vergleiche ihn danach selbst mit den Punkten."
         points:
           - text: Ein Satz sagt mit hurts oder I've got a …, was dir fehlt.
             source: /menschen-beschreiben/gesundheit/#neu
