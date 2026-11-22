@@ -174,8 +174,8 @@ blocks:
         items:
           - audio: im-in-the-garden-with-ellie.mp3
             text: "I'm in the garden with Ellie."
-          - audio: please-write-back-tomorrow.mp3
-            text: "Please write back tomorrow."
+          - audio: please-write-back-soon.mp3
+            text: "Please write back soon."
           - audio: that-sounds-great-see-you-on-saturday.mp3
             text: "That sounds great. See you on Saturday."
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
