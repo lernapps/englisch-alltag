@@ -10,26 +10,26 @@ blocks:
     blocks:
       - type: figure
         image: images/szene-gefuehle-freundschaft.svg
-        alt: Zwei Jungen ziehen an einer Spielschachtel. Ein Mädchen steht dahinter, ein weiteres Mädchen schaut zu. Über den Jungen sind rote Blitze.
-        caption: "Von links: Amir (Brille, blaue Jacke), Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Peter (gelbe Jacke)."
+        alt: Zwei Jungen ziehen an einer Spielschachtel. Zwischen ihnen steht ein Mädchen mit Pferdeschwanz, rechts schaut ein Mädchen mit Zöpfen zu. Über den Jungen sind rote Blitze.
+        caption: "Von links: Amir (Brille, blaue Jacke), Ellie (roter Pferdeschwanz), Peter (gelbe Jacke), Sophie (Zöpfe)."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Amir und Peter wollen beide dasselbe Spiel (game) haben und ziehen daran. Ellie geht dazwischen und fragt Peter freundlich nach seiner Laune. Peter ist traurig."
+        text: "Amir und Peter wollen beide dasselbe Spiel (game) haben und ziehen beide an der Schachtel. Beide sind wütend. Ellie schaut besorgt zu und fragt Peter, wie es ihm geht."
       - type: single-choice
         id: gefuehle-freundschaft-start
-        text: "Ellie fragt: „How are you, Peter?“ Peter ist traurig. Was antwortet er?"
+        text: "Ellie fragt: „How are you, Peter?“ Peter ist wütend. Was antwortet er?"
         options:
-          - text: "I feel sad."
+          - text: "I feel angry."
             correct: true
             info: Mit I feel und dem Gefühlswort sagst du, wie du dich fühlst.
-          - text: "I feel me sad."
+          - text: "I feel me angry."
             correct: false
             info: Nach feel steht kein me. Im Deutschen heißt es „ich fühle mich“, im Englischen nur I feel.
-          - text: "I have sad."
+          - text: "I have angry."
             correct: false
             info: Ein Gefühl hat man nicht, man fühlt es (I feel) oder ist es (I am).
-        explanation: "I feel sad: I feel und dann das Gefühlswort."
+        explanation: "I feel angry: I feel und dann das Gefühlswort."
         links:
           - title: Lernlandkarte Englisch · Gefühle und Freundschaft
             url: https://lernapps.net/apps/map/englisch/c/gefuehle-freundschaft/
@@ -51,6 +51,7 @@ blocks:
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
         rows:
+          - [sad / tired / angry, traurig / müde / wütend]
           - [excited, aufgeregt / voller Vorfreude]
           - [bored, gelangweilt]
           - [worried, besorgt]
@@ -63,7 +64,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **I feel + Gefühlswort**, kein me danach. **bored** heißt gelangweilt, **boring** heißt langweilig: Der Film ist boring, du bist bored. Ärgerlich bist du **with** jemandem: angry with you. Wenn jemand dich oder jemand anderen ärgert: Sag **Stop!** und sprich mit einem Erwachsenen, zum Beispiel mit einer Lehrerin oder einem Lehrer: **Tell a teacher.**
+              **I feel + Gefühlswort**, kein me danach. **bored** heißt gelangweilt, **boring** heißt langweilig: Der Film ist boring, du bist bored. Wütend auf jemanden: **angry with** you. Wenn dich jemand immer wieder ärgert oder ausschließt: Sag **Stop!** und sprich mit einem Erwachsenen, zum Beispiel mit einer Lehrerin oder einem Lehrer: **Tell a teacher.**
   - type: section
     id: uebung
     title: Übung
@@ -72,80 +73,64 @@ blocks:
         id: gefuehle-freundschaft-gefuehle
         text: Wie fühlst du dich? Wähle zu jeder Lage das englische Wort.
         pairs:
-          - { left: Du hast morgen Geburtstag und freust dich schon., right: excited }
-          - { left: Du hast nichts zu tun und es ist langweilig., right: bored }
-          - { left: Dein Hund ist krank und du denkst die ganze Zeit an ihn., right: worried }
-          - { left: Ein sehr großer Hund läuft laut bellend auf dich zu., right: afraid }
-        explanation: "excited ist die Vorfreude, bored die Langeweile, worried die Sorge und afraid die Angst."
-        links:
-          - title: Lernlandkarte Englisch · Gefühle und Freundschaft
-            url: https://lernapps.net/apps/map/englisch/c/gefuehle-freundschaft/
-      - type: single-choice
-        id: gefuehle-freundschaft-bored
-        text: Amir hat nichts zu tun. Was sagt er?
-        options:
-          - text: "I am bored."
-            correct: true
-            info: bored heißt gelangweilt. So fühlst du dich.
-          - text: "I am boring."
-            correct: false
-            info: boring heißt langweilig. Das wäre „Ich bin ein langweiliger Mensch“.
-          - text: "I feel me bored."
-            correct: false
-            info: Nach feel steht kein me. Richtig wäre I feel bored.
-        explanation: "bored beschreibt, wie du dich fühlst; boring beschreibt, was langweilig ist."
+          - { left: "Dein bester Freund zieht in eine andere Stadt.", right: sad }
+          - { left: "Jemand nimmt dir ohne zu fragen dein Spiel weg.", right: angry }
+          - { left: "Du bist lange wach gewesen und gähnst.", right: tired }
+          - { left: "Du hast das Spiel gewonnen.", right: happy }
+          - { left: "Du weißt nicht, was du tun sollst.", right: bored }
+        explanation: "sad ist traurig, angry wütend, tired müde, happy fröhlich und bored gelangweilt."
         links:
           - title: Lernlandkarte Englisch · Gefühle und Freundschaft
             url: https://lernapps.net/apps/map/englisch/c/gefuehle-freundschaft/
       - type: single-choice
         id: gefuehle-freundschaft-helfen
-        text: Peter nimmt Amirs Stift, ohne zu fragen. Amir sagt „Lass das“. Welcher Satz passt?
+        text: Peter hat Amirs Stift kaputt gemacht. Was sagt er zu Amir?
         options:
-          - text: "Don't do that."
-            correct: true
-            info: So sagst du freundlich, aber klar, dass jemand aufhören soll.
           - text: "I'm sorry."
+            correct: true
+            info: Peter hat etwas falsch gemacht, also entschuldigt er sich.
+          - text: "Don't do that."
             correct: false
-            info: Das sagt man, wenn man selbst etwas falsch gemacht hat.
+            info: Das sagst du, wenn dich jemand stört. Peter hat selbst etwas getan.
           - text: "Let's be friends."
             correct: false
-            info: Das sagt man, wenn der Streit schon vorbei ist.
-        explanation: "Erst Don't do that, später vielleicht I'm sorry und Let's be friends."
+            info: Das sagt man, wenn der Streit schon vorbei ist, nicht am Anfang.
+        explanation: "Wer etwas falsch gemacht hat, sagt I'm sorry. Let's be friends kommt erst, wenn alles wieder gut ist."
         links:
           - title: Lernlandkarte Englisch · Gefühle und Freundschaft
             url: https://lernapps.net/apps/map/englisch/c/gefuehle-freundschaft/
       - type: ordering
         id: gefuehle-freundschaft-gespraech
-        text: Ellie hilft Amir und Peter. Bringe das Gespräch in die richtige Reihenfolge.
+        text: Beide haben gezogen. Ellie hilft Amir und Peter. Bringe das Gespräch in die richtige Reihenfolge.
         items:
-          - "Amir: Don't do that. That's not nice."
-          - "Peter: I'm sorry, Amir."
-          - "Amir: That's OK."
+          - "Ellie: Stop! That's not nice."
+          - "Amir: I'm sorry, Peter."
+          - "Peter: I'm sorry, too, Amir."
           - "Ellie: Good! Let's be friends."
-        explanation: Erst sagt Amir, dass er das nicht mag, dann entschuldigt sich Peter, dann ist der Streit vorbei.
+        explanation: Erst sagt Ellie Stopp. Dann entschuldigt sich erst Amir, dann Peter (too heißt auch). Zuletzt ist der Streit vorbei.
         links:
           - title: Lernlandkarte Englisch · Gefühle und Freundschaft
             url: https://lernapps.net/apps/map/englisch/c/gefuehle-freundschaft/
       - type: language-task
         id: gefuehle-freundschaft-satz
         languages: { source: de, target: en }
-        task: Schreibe den ganzen Satz. be steht für am, is oder are.
+        task: Schreibe den ganzen Satz. Du kannst feel oder be (am, is, are) nehmen.
         form: { case: hint, punctuation: ok }
         items:
           - cue: I · feel · tired
-            target: I feel tired.
+            target: "(I feel|I am|I'm) tired."
             mistakes:
               - answer: I feel me tired.
                 message: Nach feel steht kein me.
               - answer: I am feel tired.
                 message: Nimm entweder I feel oder I am, nicht beides.
           - cue: Ellie · feel · worried
-            target: Ellie feels worried.
+            target: "(Ellie feels|Ellie is|Ellie's) worried."
             mistakes:
               - answer: Ellie feel worried.
                 message: Zu he, she und Ellie gehört feels mit -s.
           - cue: Amir · be · bored
-            target: "(Amir is|Amir's) bored."
+            target: "(Amir is|Amir's|Amir feels) bored."
             mistakes:
               - answer: Amir is boring.
                 message: boring heißt langweilig. Wer sich langweilt, ist bored.
@@ -157,17 +142,17 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - cue: I am boring today.
-            target: I am bored today.
+            target: "(I am|I'm|I feel) bored today."
             mistakes:
               - answer: I am boring today.
                 message: boring heißt langweilig. Wer sich langweilt, ist bored.
           - cue: Peter is angry on me.
-            target: Peter is angry with me.
+            target: "(Peter is|Peter's) angry with me."
             mistakes:
               - answer: Peter is angry on me.
                 message: Auf Deutsch sagt man „böse auf“, auf Englisch angry with.
           - cue: I feel me happy.
-            target: I feel happy.
+            target: "(I feel|I am|I'm) happy."
             mistakes:
               - answer: I feel me happy.
                 message: Nach feel steht kein me.
@@ -194,8 +179,8 @@ blocks:
         items:
           - audio: my-friends-are-kind-and-funny-sophie.mp3
             text: My friends are kind and funny, Sophie.
-          - audio: please-tell-a-teacher-or-an-adult-peter.mp3
-            text: Please tell a teacher or an adult, Peter.
+          - audio: please-say-stop-and-talk-to-an-adult-peter.mp3
+            text: Please say stop and talk to an adult, Peter.
           - audio: amir-and-peter-are-friends-again-sophie.mp3
             text: Amir and Peter are friends again, Sophie.
         hint: Hör den Satz zuerst. Sprich dann langsam nach.

@@ -35,12 +35,8 @@
   "src/audio/why-are-you-sad-today-peter.mp3": "Why are you sad today, Peter?",
   "src/audio/please-say-sorry-to-amir.mp3": "Please say sorry to Amir.",
   "src/audio/my-friends-are-kind-and-funny-sophie.mp3": "My friends are kind and funny, Sophie.",
-  "src/audio/please-tell-a-teacher-or-an-adult-peter.mp3": "Please tell a teacher or an adult, Peter.",
   "src/audio/amir-and-peter-are-friends-again-sophie.mp3": "Amir and Peter are friends again, Sophie.",
-  "src/audio/peter-has-got-a-bad-cough-today.mp3": "Peter has got a bad cough today.",
   "src/audio/my-arm-and-my-hand-hurt-sophie.mp3": "My arm and my hand hurt, Sophie.",
-  "src/audio/please-drink-some-water-ellie.mp3": "Please drink some water, Ellie.",
-  "src/audio/ive-got-a-bad-cold-today.mp3": "I've got a bad cold today.",
   "src/audio/is-your-stomach-better-now-peter.mp3": "Is your stomach better now, Peter?",
   "src/audio/please-stay-at-home-sophie.mp3": "Please stay at home, Sophie.",
   "src/audio/my-cousin-plays-tennis-with-sophie.mp3": "My cousin plays tennis with Sophie.",
@@ -64,5 +60,9 @@
   "src/audio/peter-drinks-water-with-his-sandwich.mp3": "Peter drinks water with his sandwich.",
   "src/audio/peter-likes-pasta-but-ellie-likes-salad.mp3": "Peter likes pasta, but Ellie likes salad.",
   "src/audio/ellie-has-tea-early-but-we-have-dinner-later.mp3": "Ellie has tea early, but we have dinner later.",
-  "src/audio/sophies-room-is-next-to-peters-bedroom.mp3": "Sophie's room is next to Peter's bedroom."
+  "src/audio/sophies-room-is-next-to-peters-bedroom.mp3": "Sophie's room is next to Peter's bedroom.",
+  "src/audio/please-say-stop-and-talk-to-an-adult-peter.mp3": "Please say stop and talk to an adult, Peter.",
+  "src/audio/amir-has-got-a-bad-cold-peter.mp3": "Amir has got a bad cold, Peter.",
+  "src/audio/please-eat-some-soup-ellie.mp3": "Please eat some soup, Ellie.",
+  "src/audio/my-head-hurts-and-i-feel-tired-today.mp3": "My head hurts and I feel tired today."
 }

@@ -18,8 +18,8 @@ blocks:
         text: "Sophie wohnt jetzt bei den Parkers. Am Abend sitzt die Familie (family) in der Küche, Ellies und Sophies Freund Amir kommt oft zu Besuch. Mr heißt Herr und Mrs heißt Frau. Für ihre Eltern in Deutschland zeichnet Sophie einen Stammbaum: Linien führen von den Eltern zu den Kindern, die Linie nach oben zur Mutter von Mr Parker, die gestrichelte zu Sophie, die zu Gast ist."
       - type: figure
         image: images/stammbaum.svg
-        alt: Ein Stammbaum. Oben stehen drei Erwachsene, darunter drei Kinder. Links oben hängt ein kleines Foto.
-        caption: "Der Stammbaum der Parkers. Gestrichelt: Sophie ist zu Gast. Das Foto zeigt ihre Eltern."
+        alt: Ein Stammbaum in drei Reihen. Oben eine ältere Frau mit grauem Dutt, in der Mitte zwei Erwachsene, unten drei Kinder. Links hängt ein kleines Foto, darunter steht ein Name.
+        caption: "Der Stammbaum der Parkers. Die gestrichelte orange Linie führt zu Sophie, die zu Gast ist. Das Foto zeigt ihre Eltern."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: single-choice
@@ -84,7 +84,7 @@ blocks:
         material:
           - type: figure
             image: images/stammbaum.svg
-            alt: Ein Stammbaum mit drei Erwachsenen oben und drei Kindern darunter.
+            alt: Ein Stammbaum in drei Reihen mit Namen unter allen Figuren. Links hängt ein kleines Foto.
             caption: Der Stammbaum der Parkers.
             source: eigene Zeichnung
             licence: CC-BY-4.0
@@ -114,23 +114,6 @@ blocks:
         links:
           - title: Lernlandkarte Englisch · Have got und has got
             url: https://lernapps.net/apps/map/englisch/c/have-got/
-      - type: single-choice
-        id: familie-personen-charakter
-        text: "Wähle die richtige Form: Peter ___ friendly."
-        options:
-          - text: is
-            correct: true
-            info: Wie jemand ist, sagt man mit is. Zu he gehört is.
-          - text: has got
-            correct: false
-            info: Den Charakter hat man nicht, man ist so.
-          - text: are
-            correct: false
-            info: Zu he gehört is, nicht are.
-        explanation: Beim Charakter steht is, am oder are.
-        links:
-          - title: Lernlandkarte Englisch · Familie und Personenbeschreibung
-            url: https://lernapps.net/apps/map/englisch/c/familie-personen/
       - type: language-task
         id: familie-personen-besitz
         languages: { source: de, target: en }
@@ -138,22 +121,22 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - source: Ellie sagt über sich selbst. Mein Bruder ist Peter.
-            target: My brother is Peter.
+            target: "(My brother is|My brother's) Peter."
             mistakes:
               - answer: Her brother is Peter.
                 message: Ellie spricht über sich, also my.
           - source: Sophie sagt zu Ellie. Dein Bruder ist nett.
-            target: Your brother is (nice|kind|friendly).
+            target: "(Your brother is|Your brother's) (nice|kind|friendly)."
             mistakes:
               - answer: My brother is nice.
                 message: Sophie spricht zu Ellie, also your.
           - source: Sophie sagt über Ellie. Ihre Mama ist freundlich.
-            target: Her mum is (friendly|kind|nice).
+            target: "(Her mum is|Her mum's|Her mother is|Her mother's) (friendly|kind|nice)."
             mistakes:
               - answer: His mum is friendly.
                 message: Ellie ist ein Mädchen, also her.
           - source: Sophie sagt über Mr Parker. Seine Haare sind kurz.
-            target: His hair is short.
+            target: "(His hair is|His hair's) short."
             mistakes:
               - answer: Her hair is short.
                 message: Mr Parker ist ein Mann, also his.
@@ -165,12 +148,12 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - cue: Ellie · have got · a ponytail
-            target: "(Ellie has|Ellie's) got a ponytail."
+            target: "(Ellie has got|Ellie has|Ellie's got) a ponytail."
             mistakes:
               - answer: Ellie have got a ponytail.
                 message: Zu she gehört has got, nicht have got.
           - cue: Amir · have got · glasses
-            target: "(Amir has|Amir's) got glasses."
+            target: "(Amir has got|Amir has|Amir's got) glasses."
             mistakes:
               - answer: Amir have got glasses.
                 message: Zu he gehört has got.
@@ -202,28 +185,11 @@ blocks:
               - answer: Mr Parker is Ellie's mum.
                 message: Mr heißt Herr, Mrs heißt Frau.
           - source: Meine Tante hat lockige Haare.
-            target: "My aunt (has|'s) got curly hair."
+            target: "(My aunt has got|My aunt has|My aunt's got) curly hair."
             mistakes:
               - answer: Her aunt has got curly hair.
                 message: Du sprichst über deine eigene Tante, also my.
         hint: Beginne mit my oder dem Namen.
-      - type: language-task
-        id: familie-personen-korrektur
-        languages: { source: de, target: en }
-        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
-        form: { case: hint, punctuation: ok }
-        items:
-          - cue: Peter is Ellies brother.
-            target: Peter is Ellie's brother.
-            mistakes:
-              - answer: Peter is Ellies brother.
-                message: Das ’s braucht einen Apostroph.
-          - cue: Mrs Parker has got kind.
-            target: "(Mrs Parker is|Mrs Parker's) (kind|nice|friendly)."
-            mistakes:
-              - answer: Mrs Parker has got kind.
-                message: Beim Charakter steht is.
-        hint: Prüfe den Apostroph.
       - type: language-task
         id: familie-personen-hoeren
         languages: { source: de, target: en }
@@ -282,4 +248,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Sophie hat ihren Eltern geschrieben, wer bei den Parkers wohnt. Ihre Mutter will mehr wissen: Wie ist Mrs Parker? Auf der nächsten Seite beschreibt Sophie ihre neue Familie und ihr Zimmer in einem kurzen Text."
+        text: "Sophie schickt den Stammbaum nach Hause. Ihre Eltern wollen mehr wissen: Wie ist ihr Englischlehrer Mr Hill? Und wie ist ihr Zimmer? Auf der nächsten Seite schreibt Sophie darüber einen Text, in dem ein Satz zum nächsten passt."
