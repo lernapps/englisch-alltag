@@ -135,10 +135,10 @@ blocks:
                 message: Das Wort there fehlt. Die Frage beginnt mit Is there.
               - answer: There is a cooker in the kitchen?
                 message: In der Frage steht is vor there, nicht danach.
-          - cue: three chairs · the kitchen
-            target: Are there three chairs in the kitchen?
+          - cue: two chairs · the kitchen
+            target: Are there two chairs in the kitchen?
             mistakes:
-              - answer: Is there three chairs in the kitchen?
+              - answer: Is there two chairs in the kitchen?
                 message: Bei mehr als einem Ding fragst du mit Are there.
           - cue: a desk · Ellie's room
             target: Is there a desk in Ellie's (room|bedroom)?
@@ -177,8 +177,8 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: there-are-three-chairs-next-to-the-table.mp3
-            target: There are three chairs next to the table.
+          - audio: there-are-two-chairs-next-to-the-table.mp3
+            target: There are two chairs next to the table.
           - audio: peters-toys-are-in-his-bedroom.mp3
             target: Peter's toys are in his bedroom.
           - audio: is-there-a-bath-in-the-bathroom.mp3

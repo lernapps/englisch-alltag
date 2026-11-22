@@ -146,9 +146,9 @@ def haus_querschnitt():
     b += s_window(330, 128, 30, 32) + s_wardrobe(404, 140) + s_bed(328, 176, 28) + s_desk(358, 178)
     # parents' bedroom
     b += s_bed(450, 172, 56) + s_lamp(512, 162)
-    # kitchen: fridge, cooker, sink, table with three chairs
+    # kitchen: fridge, cooker, sink, table with two chairs
     b += s_fridge(20, 302) + s_cooker(60, 324) + s_sink(110, 334)
-    b += s_chair_back(201, 312) + s_table(182, 332) + s_chair(156, 332) + s_chair_r(246, 332)
+    b += s_table(182, 332) + s_chair(156, 332) + s_chair_r(246, 332)
     # living room: sofa, armchair, bookshelf, TV and two lamps
     b += s_tv(298, 262) + s_sofa(284, 330) + s_lamp(362, 320) + s_armchair(388, 330) + s_bookshelf(444, 306) + s_lamp(490, 320)
     # garden: tree, flowers, bench
