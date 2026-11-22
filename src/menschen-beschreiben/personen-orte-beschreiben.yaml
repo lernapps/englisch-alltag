@@ -59,15 +59,20 @@ blocks:
               **Eine Person:** Amir is my friend. He has got black curly hair and glasses. He is quiet but funny.
 
               **Ein Ort:** This is Peter’s room. It is small. There is a bed and there are toys. There is a shelf, but there is no desk.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [wardrobe, Kleiderschrank]
-          - [shelf, Regal]
-          - [curly, lockig]
-          - [quiet, ruhig]
-          - [there is / there are, es gibt]
+        languages: { source: de, target: en }
+        entries:
+          - target: "wardrobe"
+            source: "Kleiderschrank"
+          - target: "shelf"
+            source: "Regal"
+          - target: "curly"
+            source: "lockig"
+          - target: "quiet"
+            source: "ruhig"
+          - target: "there is / there are"
+            source: "es gibt"
       - type: note
         title: Merke
         blocks:

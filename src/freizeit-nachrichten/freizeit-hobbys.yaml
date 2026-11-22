@@ -41,15 +41,20 @@ blocks:
     blocks:
       - type: text
         text: "Ein Hobby nennst du mit einem Verb: **swim**, **read**, **draw**, **dance**, **ride a bike**. Bei **play** kommt es darauf an: Ein Spiel steht ohne the (**play tennis**), ein Instrument mit **the** (**play the piano**). Haustiere (pets) sind zum Beispiel a dog oder a horse. Du sagst: **I have got a dog.**"
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [basketball, Basketball]
-          - [violin, Geige]
-          - [parrot, Papagei]
-          - [hiking, Wandern]
-          - [at the weekend, am Wochenende]
+        languages: { source: de, target: en }
+        entries:
+          - target: "basketball"
+            source: "Basketball"
+          - target: "violin"
+            source: "Geige"
+          - target: "parrot"
+            source: "Papagei"
+          - target: "hiking"
+            source: "Wandern"
+          - target: "at the weekend"
+            source: "am Wochenende"
       - type: text
         text: "Was magst du? **I like**, **I love** (ich liebe) und **I enjoy** (es macht mir Spaß) sagen, wie sehr dir ein Hobby gefällt. Danach kommt das Verb mit **-ing**: I like cooking. Bei dance fällt das e weg (dancing), bei sit und get kommt ein Buchstabe dazu (sitting, getting). Bei he, she, it hat like ein -s: she likes. Viele Sportarten sagst du mit **go** und -ing: go hiking."
       - type: note

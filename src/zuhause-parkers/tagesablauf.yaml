@@ -41,15 +41,20 @@ blocks:
     blocks:
       - type: text
         text: "Mit der Uhrzeit sagst du **at**, das kennst du schon: at half past ten. Mit der Tageszeit sagst du **in**: **in the morning** (am Morgen), **in the afternoon** (am Nachmittag), **in the evening** (am Abend). Eine Ausnahme ist die Nacht: **at night**. Nach he und she bekommt das Verb ein -s: I walk, he walks. Drei Verben sind besonders: have wird **has** (She has a bath), go wird **goes** (He goes home) und do wird **does** (She does a puzzle)."
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [get up, aufstehen]
-          - [have tea, das Abendessen essen]
-          - [do homework, Hausaufgaben machen]
-          - [go home, nach Hause gehen]
-          - [at night, in der Nacht]
+        languages: { source: de, target: en }
+        entries:
+          - target: "get up"
+            source: "aufstehen"
+          - target: "have tea"
+            source: "das Abendessen essen"
+          - target: "do homework"
+            source: "Hausaufgaben machen"
+          - target: "go home"
+            source: "nach Hause gehen"
+          - target: "at night"
+            source: "in der Nacht"
       - type: note
         title: Merke
         blocks:
