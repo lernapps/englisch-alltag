@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: code
+phase: commit
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 2
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -80,6 +80,8 @@ Kinder der Klassen 5-6 (erstes und zweites Lernjahr Englisch) beschreiben sich, 
 - Sprachprüfung Englisch/Deutsch der Musterseite (Sub-Agent): behoben: Meldungen, Merke mit am/is/are, Wörter-Tabelle ohne blond, `kein Elternteil`, Wiederholungsseite (Tier, Frage), vereinheitlichtes „ihren Eltern“.
 - Auflagen des Checkpoints „Musterseite“ (Orchestrator-Session) umgesetzt: my/your/his/her und Mr/Mrs geübt (`write` mit `mistakes`, weil `choice` und `gap` die Meldungen nicht zeigen), grandpa, aunt, uncle, cousin, mother, father und clever eingeführt, `single-choice` mit `info` statt `choice`, nur eine Wörter-Tabelle, Steckbrief als Box, Beispiele und Hörsätze getrennt, Profil offen formuliert, Stammbaum und Szene überarbeitet (Linie zur Grandma nach oben, Namen unter den Figuren, Handy gehalten).
 - Zweiter Lerner-Check der geänderten Stellen (Sub-Agent, Kind Klasse 5, 2026-11-21): behoben: Meldungen der Gap-Aufgabe (jetzt `write`), Amir nicht im Bild (Text: „kommt oft zu Besuch“), Steckbrief von Grandma Parker (nicht mehr fast die Übung), Stammbaum (Grandma über Mr Parker, längere gestrichelte Linie), curly, short/long im Wörter-Poster. Nicht behoben, Sache der Vorlage: Standardmeldungen bei Zuordnung und bei Groß-/Kleinschreibung, Hinweis „Achte auf Groß- und Kleinschreibung“ bei richtigen Antworten, Ablehnung weiterer richtiger Sätze (nur gelistete Fassungen gelten).
+- Seiten 2 bis 11 und die drei Wiederholungsseiten wurden von vier Sub-Agenten in eigenen Kopien des App-Ordners geschrieben (Brief mit den Auflagen der Orchestrator-Session und `check_pages.py`), danach von mir zusammengeführt. Gesamtcheck der fertigen App (zwei Sub-Agenten, Kind Klasse 5-6, 360 und 1280 px, alle Seiten und alle Selbsteinschätzungen, 2026-11-22) und Sprachprüfung Englisch/Deutsch (zwei Sub-Agenten): Funde (u. a.: toothache zu streng, Bild und Text von `gefuehle-freundschaft` und `wohnen`, abgelehnte richtige Antworten, Übergänge zwischen den Seiten, Widersprüche zu Peter und Suppe, Sophies Zimmer in drei Bildern, Lösung direkt über der Übung, Bauplan Ort, Profil-Tabelle am Ende nicht wie die Seiten, `can` nie eingeführt, Zusage und Notiz nie geübt, Seiten zu lang) wurden von drei Sub-Agenten je Kapitel überarbeitet und von mir zusammengeführt; Nachcheck (zwei Sub-Agenten) fand noch: `accepted` mit Gruppen wirkt nicht, wohnen-Bild mit vier statt drei Stühlen, bored-Zuordnung mehrdeutig, Bruch Stift/Schachtel, throat/neck ohne Meldung: behoben. Nicht behoben, Sache der Vorlage (dem Orchestrator gemeldet): Standardmeldung „Deine Fassung kann trotzdem richtig sein“ bei falschen Sätzen, „nicht richtig.“ ohne Grund bei `matching`/`ordering`, Doppelpunkt in Meldungen bei Satzzeichen („Mr..“), Hinweis „Achte auf Groß- und Kleinschreibung“ bei richtigen Antworten, mehrzeilige statt einzeilige Eingabefelder in der Selbsteinschätzung. Nicht behoben, Entscheidung: Die Seiten sind mit etwa 10 Bildschirmhöhen bei 360 px (je 9 Übungen, Diktat, Nachsprechen und Profil nötig) länger als das Ziel; jede Seite bleibt bei einer neuen Idee.
+- Nicht geprüft: Die 66 Audiodateien sind nicht angehört (kein Gehör in dieser Umgebung); alle enden zweisilbig, Ausklingen abgeschnitten (`regen_audio.py`); Sätze, die nicht auf einen Namen enden, stehen im Inhaltsführer (Abschnitt Content structure). Fakten zu Großbritannien: nur „tea“ und „packed lunch“ (Quellen geöffnet), „Semi-detached house“, „Full breakfast“, „Sunday roast“ und „Terraced house“ nicht gelesen und nicht benutzt.
 - Hinweis zum Ablauf: Die Aufgabe „Kapitel 1 anlegen … Musterseite bauen“ wurde versehentlich vor der Arbeit abgehakt; die Arbeit steht in den Commits 3c03b89 und folgenden vor dem Checkpoint.
 - Skript `.agents/skills/app-content/scripts/check_pages.py` prüft Hörsätze gegen den Seitentext und mit `--words` die Wörter gegen den Grundwortschatz (A1/A2, Liste `grundwortschatz.txt`); `make_images.py` lädt weitere Bilder aus `images_*.py`.
 - Daten und Sprachen: keine Datendatei; Wörter ausschließlich aus A1/A2 (außer was auf der Seite erklärt und im Inhaltsführer gelistet ist). Sprachen: Deutsch (Erklärungen), Englisch (Beispiele, Audio), britisches Englisch.
@@ -248,24 +250,24 @@ page, which a link. -->
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
       Creator: Orchestrator-Session (in der Rolle der Ersteller:in): Musterseite familie-personen freigegeben (Stand 51d4adc); die übrigen zehn Seiten dürfen folgen. Auflagen: eine Wörtertabelle je Seite, Steckbrief ohne Wortliste, Profilzeilen offen formuliert, Gefühle und Gesundheit altersgerecht, Fakten zu Großbritannien nur mit Quelle, Amirs Geburtstag 12. Oktober.
-- [ ] personen-orte-beschreiben (Text ordnen, eigener Absatz) mit Audio und Profil-Zeile
-- [ ] gefuehle-freundschaft (Barometer, Streit, Antworten) mit Audio und Profil-Zeile
-- [ ] gesundheit (Körper, Arzt-Dialog) mit Audio und Profil-Zeile, Kapitel-1-Rückblick
-- [ ] Kapitel 2 anlegen mit Wiederholungsseite (there-is-are, simple-present, praepositionen-zeit) und Seite wohnen (Haus im Querschnitt)
-- [ ] tagesablauf (Bildleiste vom Aufstehen bis zum Abendessen) mit Audio und Profil-Zeile
-- [ ] essen-trinken (Frühstück, packed lunch, tea) mit Audio und Profil-Zeile
-- [ ] alltag-uk (zwei Spalten Ellies Alltag und mein Alltag) mit Audio, Kapitel-2-Rückblick
-- [ ] Kapitel 3 anlegen mit Wiederholungsseite (gruss-hoeflichkeit) und Seite freizeit-hobbys (Wochenplan)
-- [ ] kurznachricht (Einladung von Amir, Notiz) mit Audio und Profil-Zeile
-- [ ] email-postkarte (Bauplan Anrede, Text, Gruß; Postkarte und E-Mail) mit Audio, Profil abgeschlossen, Kapitel-3-Rückblick
-- [ ] Selbsteinschätzung je Kapitel (Skill lernapps-explainer-self-assessment) und Startseite (scope, intro)
-- [ ] Skript über alle Seiten: kein Hörsatz im Text derselben Seite, Wörter gegen den Grundwortschatz, Tabellen nicht direkt über der Übung, Distraktoren echt
+- [x] personen-orte-beschreiben (Text ordnen, eigener Absatz) mit Audio und Profil-Zeile
+- [x] gefuehle-freundschaft (Barometer, Streit, Antworten) mit Audio und Profil-Zeile
+- [x] gesundheit (Körper, Arzt-Dialog) mit Audio und Profil-Zeile, Kapitel-1-Rückblick
+- [x] Kapitel 2 anlegen mit Wiederholungsseite (there-is-are, simple-present, praepositionen-zeit) und Seite wohnen (Haus im Querschnitt)
+- [x] tagesablauf (Bildleiste vom Aufstehen bis zum Abendessen) mit Audio und Profil-Zeile
+- [x] essen-trinken (Frühstück, packed lunch, tea) mit Audio und Profil-Zeile
+- [x] alltag-uk (zwei Spalten Ellies Alltag und mein Alltag) mit Audio, Kapitel-2-Rückblick
+- [x] Kapitel 3 anlegen mit Wiederholungsseite (gruss-hoeflichkeit) und Seite freizeit-hobbys (Wochenplan)
+- [x] kurznachricht (Einladung von Amir, Notiz) mit Audio und Profil-Zeile
+- [x] email-postkarte (Bauplan Anrede, Text, Gruß; Postkarte und E-Mail) mit Audio, Profil abgeschlossen, Kapitel-3-Rückblick
+- [x] Selbsteinschätzung je Kapitel (Skill lernapps-explainer-self-assessment) und Startseite (scope, intro)
+- [x] Skript über alle Seiten: kein Hörsatz im Text derselben Seite, Wörter gegen den Grundwortschatz, Tabellen nicht direkt über der Übung, Distraktoren echt
 <!-- tasks: pages (12 added): the other pages or screens, after the pattern -->
-- [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
-- [ ] Run `npx --no -- lernapps check` until it passes.
-- [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
+- [x] Update the content guide so that it describes the app as built (`app-content-matches`).
+- [x] Run `npx --no -- lernapps check` until it passes.
+- [x] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
       Compare each with its sketch.
-- [ ] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
+- [x] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
       fixed.
 
 ## Commit

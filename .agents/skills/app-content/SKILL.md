@@ -102,3 +102,10 @@ Aus #470 bis #476 und Abschnitt 7 der Konventionen übernommen:
 - Typische Fehler, die der Inhaltsführer nennt (my/her, Mr/Mrs), werden auch geübt.
 - Hinweise und Meldungen einer Selbsteinschätzungs-Übung nennen weder „Spalte“ noch „Poster“ noch „oben“.
 - `ordering` zeigt Auswahlfelder statt Karten (Eigenheit der Vorlage); `punctuation: hint` meldet bei richtiger Antwort „Achte auf die Satzzeichen“.
+Aus dem Bau dieser App (Prüfungen der Seiten durch Sub-Agenten, Kind Klasse 5-6 und Sprachprüfung):
+- `accepted` wirkt in `language-task` nicht und zeigt dem Kind den Rohtext: alle richtigen Fassungen stehen als `(a|b)`-Gruppen in `target` (nicht verschachtelt, höchstens 64 Fassungen).
+- Zahl, Farbe, Zeit und Ort im Bild stimmen mit jedem Satz überein (Stühle, Lampen, Bettfarbe in Sophies Zimmer, Zeiten von Ellies Tag); Figuren und Fakten der Geschichte stehen in `facts` des Plans und gelten auf jeder Seite (Peter mag keine Suppe, Ellies Tag).
+- Fehlt ein Wort oder eine Regel, bevor eine Übung sie braucht (can, doesn’t, goes), steht sie vorher auf der Seite oder die Übung entfällt; Schluss und Einstieg zweier Seiten passen zusammen.
+- `punctuation: wrong` nur dort, wo die Seite das Satzzeichen lehrt (Komma vor but, Komma nach der Anrede); sonst `ok`.
+- Typische Fehler mit Meldung nur in `write` und `single-choice` (nicht `choice`, `gap`, `matching`, `ordering`); `alt` eines Bildes verrät nie die Lösung.
+- Die Gesamttabelle „All about me“ am Ende von `email-postkarte` übernimmt die Sätze der Profil-Tabellen der Seiten wörtlich (bei Änderung einer Profil-Zeile hier nachziehen).
