@@ -94,7 +94,7 @@ blocks:
                 message: Love ist für Familie und Freunde.
               - answer: See you soon, Sophie
                 message: See you soon ist für Freunde und Familie.
-          - cue: See you soon · Amir
+          - cue: "Amir schreibt an einen Freund. Gruß: See you soon · Amir"
             target: See you soon, Amir
             mistakes:
               - answer: See you soon Amir
@@ -116,17 +116,15 @@ blocks:
               - answer: Best wishes, Ellie
                 message: Best wishes ist für Erwachsene außerhalb der Familie.
           - cue: "Amir schreibt an Mr Parker, den Vater von Ellie. Anrede: Hi Mr Parker,"
-            target: Dear Mr Parker,
+            target: Dear Mr(.|) Parker,
             mistakes:
               - answer: Hi Mr Parker,
                 message: Mr Parker ist ein Erwachsener. Nimm Dear.
           - cue: "Peter schreibt an seine Mum. Anrede: Dear Mum"
-            target: Dear Mum,
+            target: (Dear|Hi) Mum,
             mistakes:
               - answer: Dear Mum
                 message: Nach der Anrede steht ein Komma.
-              - answer: Hi Mum,
-                message: Für die Mum nimmst du hier Dear.
         hint: Zu wem passt die Zeile?
       - type: language-task
         id: email-postkarte-text
@@ -135,22 +133,19 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - source: Heute ist es kalt.
-            target: (It is|It's) cold today.
-            accepted:
-              - Today it (is|'s) cold.
-              - (It is|It's) cold.
+            target: (Today it is|Today it's|It is|It's) (very |)cold( today|).
             mistakes:
               - answer: Is cold today.
                 message: Vor is fehlt it (es).
           - source: Ich gehe mit Peter in den Park.
-            target: I (go|walk) to the park with Peter.
+            target: (I go|I walk|I go with Peter|I walk with Peter) to the park( with Peter|).
             mistakes:
               - answer: I go to park with Peter.
                 message: Vor park fehlt the.
               - answer: I go in the park with Peter.
                 message: Zu einem Ort hin sagst du to the.
           - source: Mir geht es gut.
-            target: (I'm|I am|I feel) (fine|well|good|happy|OK).
+            target: (I'm|I am|I feel) (fine|well|good|happy|OK|okay|great).
             mistakes:
               - answer: I have fine.
                 message: Wie es dir geht, sagst du mit I am.
@@ -201,7 +196,7 @@ blocks:
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
       - type: open-task
         id: email-postkarte-profil
-        task: "Schreibe eine Postkarte in dein Heft, an eine Person deiner Wahl: an einen Menschen aus deiner Familie, an eine Freundin, einen Freund oder an einen Erwachsenen. Schreibe drei bis fünf Sätze Text."
+        task: "Schreibe eine Postkarte oder eine kurze E-Mail in dein Heft, an eine Person deiner Wahl: an einen Menschen aus deiner Familie, an eine Freundin, einen Freund oder an einen Erwachsenen. Schreibe drei bis fünf Sätze Text."
         points:
           - text: Die Karte beginnt mit Dear oder Hi, dem Namen und einem Komma, passend zur Person.
             source: /freizeit-nachrichten/email-postkarte/#neu
