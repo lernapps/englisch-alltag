@@ -2,7 +2,7 @@
 title: "Zuhause: Räume, Möbel und Garten"
 description: "Sophie zeigt ihren Eltern das Haus der Parkers und ihr kleines Zimmer. Du lernst Räume und Möbel und sagst, was es wo gibt."
 competencies: [wohnen]
-scope: Die Seite führt die Räume (kitchen, living room, bathroom, bedroom, garden) und Möbel (sofa, bed, table, chair, desk, wardrobe, lamp und weitere) ein und zeigt, wie man sein Zuhause beschreibt. There is und there are sowie die Präpositionen in, on, under und next to werden nur angewendet; die Frage steht mit Is there und Are there, ein Haus mit Garten heißt a house with a garden. Den Tagesablauf, Essen und Trinken sowie den Alltag in Großbritannien behandeln spätere Seiten.
+scope: Die Seite führt die Räume (kitchen, living room, bathroom, bedroom, garden) und Möbel (sofa, bed, table, chair, desk, wardrobe, lamp und weitere) ein und zeigt, wie man sein Zuhause beschreibt. There is und there are sowie die Präpositionen in, on, under und next to werden nur angewendet; die Frage steht mit Is there und Are there, ein Haus mit Garten heißt a house with a garden, und next to heißt auch beside. Den Tagesablauf, Essen und Trinken sowie den Alltag in Großbritannien behandeln spätere Seiten.
 blocks:
   - type: section
     id: einstieg
@@ -15,11 +15,11 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Sophie schickt Mum and Dad ein Foto von ihrem Zimmer. Es ist klein, aber schön. Dann zeichnet sie das ganze Haus der Parkers: oben die Zimmer (rooms) zum Schlafen und das Bad, unten die Küche und das Wohnzimmer, draußen den Garten. Die kleinen Zeichen sind Möbel (furniture). Das Sofa ist das lange Zeichen mit zwei Armlehnen."
+        text: "Sophie schickt Mum and Dad ein Foto von ihrem Zimmer. Es ist klein, aber schön. Dann zeichnet sie das ganze Haus der Parkers: oben die Zimmer (rooms) zum Schlafen und das Bad, unten die Küche und das Wohnzimmer, draußen den Garten. Die kleinen Zeichen sind Möbel (furniture)."
       - type: figure
         image: images/haus-querschnitt.svg
         alt: Querschnitt eines Hauses mit zwei Stockwerken und einem Garten. Die Zimmer haben Namen, die Möbel sind kleine Zeichen.
-        caption: Das Haus der Parkers. Oben das Bad und vier Schlafzimmer, unten Küche und Wohnzimmer, rechts der Garten.
+        caption: Das Haus der Parkers. Oben das Bad und vier Schlafzimmer (Ellie, Peter, Sophie, die Eltern), unten Küche und Wohnzimmer, rechts der Garten.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: single-choice
@@ -28,7 +28,7 @@ blocks:
         options:
           - text: in the living room
             correct: true
-            info: Das Sofa steht links unten neben dem Sessel, im Wohnzimmer.
+            info: Das Sofa steht unten im Haus, im Wohnzimmer, zusammen mit Sessel, Bücherregal und Fernseher.
           - text: in the kitchen
             correct: false
             info: In der Küche stehen Kühlschrank, Herd und ein Tisch, kein Sofa.
@@ -46,7 +46,7 @@ blocks:
     title: Räume, Möbel und Garten
     blocks:
       - type: text
-        text: "Die Räume: **kitchen** (Küche), **living room** (Wohnzimmer), **bathroom** (Bad), **bedroom** (Schlafzimmer), **garden** (Garten). Ein Zimmer heißt **room**: Ellie’s room ist Ellies Zimmer. Die Möbel: **sofa**, **bed** (Bett), **table** (Tisch), **chair** (Stuhl), **desk** (Schreibtisch), **lamp** (Lampe). Was es gibt, sagst du mit **there is** und **there are**, wo es ist, mit **in**, **on** (auf), **under** (unter) und **next to** (neben): There is a lamp on the table. There are books under the sofa."
+        text: "Die Räume: **kitchen** (Küche), **living room** (Wohnzimmer), **bathroom** (Bad), **bedroom** (Schlafzimmer), **garden** (Garten). Ein Zimmer heißt **room**: Ellie’s room ist Ellies Zimmer. Die Möbel: **sofa**, **bed** (Bett), **table** (Tisch), **chair** (Stuhl), **desk** (Schreibtisch), **lamp** (Lampe). Was es gibt, sagst du mit **there is** und **there are**, wo es ist, mit **in** (in), **on** (auf), **under** (unter) und **next to** (neben, auch: **beside**): There is a cat in the box. There are shoes next to the door."
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
@@ -66,7 +66,6 @@ blocks:
               **Frage:** Is there … ? und Are there … ? Das Wort there bleibt, is und are stehen davor: Is there a fridge in the kitchen?
               **Mehrere Dinge:** There are, nie There is: There are three lamps.
               **Haus mit Garten:** Das Haus hat einen Garten, deshalb with: a flat with two bedrooms. In the garden heißt mitten im Garten.
-              **in oder on?** in heißt drin, on heißt oben auf.
   - type: section
     id: uebung
     title: Übung
@@ -86,18 +85,18 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/there-is-are/
       - type: single-choice
         id: wohnen-auf
-        text: "Die Lampe steht auf dem Schreibtisch. Wähle: The lamp is ___ the desk."
+        text: "Das Buch liegt auf dem Sofa. Wähle: The book is ___ the sofa."
         options:
           - text: on
             correct: true
-            info: on heißt oben auf, so wie die Lampe auf dem Schreibtisch steht.
+            info: Das Buch liegt oben auf dem Sofa, also on.
           - text: in
             correct: false
-            info: in heißt drin. Die Lampe läge dann in einer Schublade.
+            info: in heißt drin. Das Buch läge dann im Sofa.
           - text: under
             correct: false
-            info: under heißt unter. Die Lampe steht aber oben.
-        explanation: Was oben auf etwas steht, steht on.
+            info: under heißt unter. Das Buch liegt aber oben.
+        explanation: Was oben auf etwas liegt, liegt on.
         links:
           - title: Lernlandkarte Englisch · Präpositionen des Ortes
             url: https://lernapps.net/apps/map/englisch/c/praepositionen-ort/
@@ -108,14 +107,14 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - cue: a lamp · Ellie's room
-            target: "(There is|There's) a lamp in Ellie's room."
+            target: "(There is|There's) a lamp in Ellie's (room|bedroom)."
             mistakes:
               - answer: There are a lamp in Ellie's room.
                 message: Bei einem Ding steht there is, nicht there are.
-          - cue: two chairs · the kitchen
-            target: There are two chairs in the kitchen.
+          - cue: two lamps · the living room
+            target: There are two lamps in the living room.
             mistakes:
-              - answer: There is two chairs in the kitchen.
+              - answer: There is two lamps in the living room.
                 message: Bei mehr als einem Ding steht there are, nicht there is.
           - cue: a sink · the bathroom
             target: "(There is|There's) a sink in the bathroom."
@@ -136,13 +135,13 @@ blocks:
                 message: Das Wort there fehlt. Die Frage beginnt mit Is there.
               - answer: There is a cooker in the kitchen?
                 message: In der Frage steht is vor there, nicht danach.
-          - cue: two lamps · the living room
-            target: Are there two lamps in the living room?
+          - cue: three chairs · the kitchen
+            target: Are there three chairs in the kitchen?
             mistakes:
-              - answer: Is there two lamps in the living room?
+              - answer: Is there three chairs in the kitchen?
                 message: Bei mehr als einem Ding fragst du mit Are there.
           - cue: a desk · Ellie's room
-            target: Is there a desk in Ellie's room?
+            target: Is there a desk in Ellie's (room|bedroom)?
             mistakes:
               - answer: Is a desk in Ellie's room?
                 message: Das Wort there fehlt. Die Frage beginnt mit Is there.
@@ -160,13 +159,17 @@ blocks:
                 message: Das Haus hat einen Garten, deshalb with. in the garden hieße mitten im Garten.
               - answer: Ellie live in a house with a garden.
                 message: Zu she gehört lives mit -s.
+              - answer: Ellie lives in a house with garden.
+                message: "Vor garden fehlt a: Das Haus hat einen Garten, also with a garden."
           - source: Die Schuhe sind im Schrank.
-            target: The shoes are in the wardrobe.
+            target: The shoes are in the (wardrobe|cupboard).
             mistakes:
               - answer: The shoes are on the wardrobe.
                 message: on heißt oben auf dem Schrank. Im Schrank heißt in.
+              - answer: The shoes is in the wardrobe.
+                message: Schuhe sind mehrere Dinge, also are.
           - source: Das Sofa steht neben dem Sessel.
-            target: The sofa is next to the armchair.
+            target: The sofa is (next to|beside) the armchair.
         hint: Prüfe in, on und with.
       - type: language-task
         id: wohnen-hoeren
@@ -192,8 +195,8 @@ blocks:
             text: Sophie's bedroom is small but pretty.
           - audio: there-is-a-bench-in-the-garden.mp3
             text: There is a bench in the garden.
-          - audio: my-room-is-next-to-the-bathroom.mp3
-            text: My room is next to the bathroom.
+          - audio: sophies-room-is-next-to-peters-bedroom.mp3
+            text: Sophie's room is next to Peter's bedroom.
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
       - type: text
         text: "Dein Profil „All about me“ wächst weiter. Ellie hat eine Zeile über ihr Zimmer geschrieben. Du kannst über ein Zimmer, deine Wohnung oder dein Haus schreiben."
@@ -226,4 +229,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Mum and Dad finden Sophies Zimmer toll. Dad fragt: Und wie sieht dein Tag bei den Parkers aus? Auf der nächsten Seite schreibt Sophie, wann sie aufsteht und wann sie isst."
+        text: "Sophie schreibt nach Hause: „Das ist mein Zimmer, und das ist das Haus. Als Nächstes zeige ich euch Ellies Tag!“ Auf der nächsten Seite siehst du Ellies Tag in Bildern und sagst dann, wie dein eigener Tag aussieht."

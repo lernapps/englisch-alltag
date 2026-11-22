@@ -110,48 +110,65 @@ def s_bench(x, y):
     return R(x, y, 46, 7, "#c58b4a", 1) + R(x, y - 12, 46, 6, "#c58b4a", 1) + L(x + 4, y + 7, x + 4, y + 24, 4) + L(x + 42, y + 7, x + 42, y + 24, 4)
 
 
+def s_chair_r(x, y):
+    """A chair that looks to the left: back on the right."""
+    return L(x + 22, y, x + 22, y + 36, 4) + R(x, y + 18, 22, 5, "#c58b4a", 1) + L(x + 2, y + 22, x + 2, y + 36, 4)
+
+
+def s_chair_back(x, y):
+    """A chair seen from the front (it stands behind the table, drawn before it); (x, y) is the top left of the back."""
+    return (R(x, y, 22, 22, "#c58b4a", 2) + R(x - 2, y + 32, 26, 5, "#c58b4a", 1)
+            + L(x, y + 37, x, y + 56, 4) + L(x + 22, y + 37, x + 22, y + 56, 4))
+
+
 @image
 def haus_querschnitt():
     b = ""
-    b += '  <polygon points="0,76 240,14 480,76" fill="#b5651d" stroke="#333" stroke-width="3"/>\n'
-    b += '  <rect x="470" y="372" width="170" height="28" fill="#9bd18b"/>\n'
-    b += C(590, 52, 26, "#f6d04d")
-    # upper floor: five rooms of 92, y 76-212
-    up = ["bathroom", "Ellie's|room", "Peter's|room", "Sophie's|room", "parents'|bedroom"]
-    for i, name in enumerate(up):
-        x = 10 + i * 92
-        b += R(x, 76, 92, 136, "#efe7d3", 0, 3)
-        for j, part in enumerate(name.split("|")):
-            b += text(x + 46, 98 + j * 20, part, 17)
-    # lower floor: two rooms of 230, y 212-372
-    b += R(10, 212, 230, 160, "#f3ead0", 0, 3) + R(240, 212, 230, 160, "#e9eed8", 0, 3)
-    b += text(125, 236, "kitchen", 18) + text(355, 236, "living room", 18)
+    b += '  <polygon points="0,76 275,14 550,76" fill="#b5651d" stroke="#333" stroke-width="3"/>\n'
     b += '  <rect x="10" y="372" width="630" height="28" fill="#9bd18b"/>\n'
-    # signs on the upper floor (floor line y = 210)
-    b += s_bath(16, 178) + s_toilet(70, 170) + s_sink(40, 134)
-    # Ellie's room (x 102-194)
-    b += s_poster(108, 122) + s_bed(106, 172, 42) + s_desk(150, 178) + s_lamp(176, 124)
-    # Peter's room (x 194-286)
-    b += s_bed(198, 172, 32) + s_toys(234, 182) + s_shelf(240, 150)
-    # Sophie's room (x 286-378): small, bed, desk, wardrobe, window
-    b += s_window(296, 128, 34, 34) + s_wardrobe(340, 138) + s_bed(292, 176, 40) 
-    # parents' bedroom (x 378-470)
-    b += s_bed(388, 172, 62) + s_lamp(452, 164)
-    # kitchen
-    b += s_fridge(22, 300) + s_cooker(66, 322) + s_sink(120, 330) + s_table(164, 334) + s_chair(160, 330) + s_chair(220, 330)
-    # living room
-    b += s_sofa(256, 330) + s_armchair(342, 330) + s_bookshelf(398, 304) + s_lamp(440, 322) + s_tv(260, 262)
-    # garden
-    b += text(556, 206, "garden", 18) + s_tree(520, 280) + s_flowers(536, 348) + s_bench(584, 346)
+    b += C(590, 52, 24, "#f6d04d")
+    # upper floor: five rooms, y 76-212 (widths differ: Sophie's room is small, but has to hold four things)
+    up = [("bathroom", 10, 110), ("Ellie's|room", 120, 116), ("Peter's|room", 236, 88), ("Sophie's|room", 324, 120), ("parents'|bedroom", 444, 96)]
+    for name, x, w in up:
+        b += R(x, 76, w, 136, "#efe7d3", 0, 3)
+        for j, part in enumerate(name.split("|")):
+            b += text(x + w / 2, 100 + j * 24, part, 22)
+    # lower floor: two rooms, y 212-372
+    b += R(10, 212, 265, 160, "#f3ead0", 0, 3) + R(275, 212, 265, 160, "#e9eed8", 0, 3)
+    b += text(142, 240, "kitchen", 24) + text(407, 240, "living room", 24)
+    # bathroom (floor line y = 210)
+    b += s_sink(40, 130) + s_bath(14, 178) + s_toilet(80, 170)
+    # Ellie's room: poster, bed, chair, desk with a lamp on it
+    b += s_poster(124, 120) + s_bed(122, 172, 36) + s_chair(161, 174) + s_desk(184, 178) + s_lamp(202, 130)
+    # Peter's room: bed, toys, shelf
+    b += s_shelf(258, 150) + s_bed(240, 172, 30) + s_toys(272, 182)
+    # Sophie's room: small, with a blue bed, a desk, a wardrobe and a window
+    b += s_window(330, 128, 30, 32) + s_wardrobe(404, 140) + s_bed(328, 176, 28) + s_desk(358, 178)
+    # parents' bedroom
+    b += s_bed(450, 172, 56) + s_lamp(512, 162)
+    # kitchen: fridge, cooker, sink, table with three chairs
+    b += s_fridge(20, 302) + s_cooker(60, 324) + s_sink(110, 334)
+    b += s_chair_back(201, 312) + s_table(182, 332) + s_chair(156, 332) + s_chair_r(246, 332)
+    # living room: sofa, armchair, bookshelf, TV and two lamps
+    b += s_tv(298, 262) + s_sofa(284, 330) + s_lamp(362, 320) + s_armchair(388, 330) + s_bookshelf(444, 306) + s_lamp(490, 320)
+    # garden: tree, flowers, bench
+    b += text(590, 206, "garden", 22) + s_tree(585, 280) + s_flowers(548, 348) + s_bench(594, 346)
     return svg(640, 400, "Querschnitt eines Hauses mit zwei Stockwerken, Garten rechts. Die Zimmer tragen Namen, die Möbel sind kleine Zeichen", b)
+
+
+def scaled(s, x, y, body):
+    return f'  <g transform="translate({x},{y}) scale({s})">\n{body}  </g>\n'
 
 
 @image
 def szene_wohnen():
     b = wall()
-    b += s_window(300, 40, 120, 110)
-    b += s_bed(40, 190, 150) + s_wardrobe(560, 120) + s_desk(440, 190)
-    b += kid("sophie", 220, 70, .85) + kid("ellie", 120, 120, .6)
+    b += s_window(330, 36, 110, 100)
+    # furniture drawn small and scaled up; the feet stand on the floor line
+    b += scaled(2.4, 20, 270 - 38 * 2.4, s_bed(0, 0, 50))
+    b += scaled(2, 548, 270 - 70 * 2, s_wardrobe(0, 0))
+    b += scaled(2.2, 430, 270 - 32 * 2.2, s_desk(0, 0))
+    b += kid("ellie", 120, 120, .6) + kid("sophie", 230, 70, .85)
     # Sophie holds up a phone
     b += R(200, 120, 26, 40, "#333", 4) + R(204, 126, 18, 28, "#9fd0f0", 1, 1)
     return svg(640, 340, "Ein kleines Zimmer mit einem Bett, einem Schreibtisch, einem Schrank und einem Fenster. Zwei Mädchen stehen darin, eines hält ein Handy", b)

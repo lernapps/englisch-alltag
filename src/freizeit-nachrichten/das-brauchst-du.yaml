@@ -2,14 +2,14 @@
 title: Das brauchst du hier
 description: Begrüßen, danken und sich entschuldigen noch einmal kurz, bevor Sophie Nachrichten schreibt.
 recap: englisch/gruss-hoeflichkeit
-scope: Die Seite wiederholt nur Begrüßen, Anreden, Danken und Entschuldigen aus dem Explainer „Hello, Millbrook!“. Neue Inhalte gibt es nicht, auch keine Übung.
+scope: Die Seite wiederholt nur Begrüßen, Anreden (auch Dear …,), Grüße am Ende (Love, Best wishes,), Danken und Entschuldigen aus dem Explainer „Hello, Millbrook!“. Neue Inhalte gibt es nicht, auch keine Übung. Hobbys und Haustiere behandelt die nächste Seite.
 blocks:
   - type: section
     id: einstieg
     title: Das solltest du schon können
     blocks:
       - type: text
-        text: "Sophie schreibt bald Nachrichten, Einladungen und eine Postkarte. Dafür braucht sie den Baustein „Begrüßung und Höflichkeit“. Kannst du ihn schon? **Ich kann Menschen auf Englisch angemessen begrüßen, anreden und mich höflich bedanken und entschuldigen.** Lies die Tabelle und prüfe in Gedanken, ob du alles kennst."
+        text: "Sophie schreibt bald, was die Kinder in der Freizeit machen. Danach folgen eine Einladung, eine Postkarte und eine kurze E-Mail. Dafür braucht sie den Baustein „Begrüßung und Höflichkeit“. Kannst du ihn schon? **Ich kann Menschen auf Englisch angemessen begrüßen, anreden und mich höflich bedanken und entschuldigen.** Lies die Tabelle und prüfe in Gedanken, ob du alles kennst."
       - type: table
         caption: Klassenzimmer-Poster · Höflich sein
         header: [Wann, Ausdruck]
@@ -18,6 +18,7 @@ blocks:
           - [sich verabschieden, "Goodbye. See you."]
           - [danken, "Thank you. Thanks."]
           - [sich entschuldigen, "Sorry. I'm sorry."]
-          - [jemanden anreden, "Mr Hill, Mrs Parker"]
+          - [jemanden anreden, "Mr Hill, Mrs Parker. Dear Mum,"]
+          - [einen Brief beenden, "Love, Best wishes,"]
       - type: text
-        text: Nicht sicher? Wiederhole es auf der Seite [Begrüßung und Höflichkeit](https://lernapps.net/apps/map/englisch/c/gruss-hoeflichkeit/) der Lernlandkarte.
+        text: "Nicht sicher? Wiederhole es auf der Seite [Begrüßung und Höflichkeit](https://lernapps.net/apps/map/englisch/c/gruss-hoeflichkeit/) der Lernlandkarte. Weiter geht es mit Sophies Freizeit: Sie schreibt ihren Eltern, welche Hobbys Ellie, Peter und Amir haben."

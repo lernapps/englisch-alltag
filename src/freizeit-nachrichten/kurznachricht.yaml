@@ -2,7 +2,7 @@
 title: "Komm zu meiner Party! Nachricht und Einladung"
 description: "Amir lädt zu seinem Geburtstag ein, und Sophie antwortet. Du schreibst eine kurze Nachricht, eine Notiz und eine Einladung."
 competencies: [kurznachricht]
-scope: Die Seite zeigt den Bauplan einer Einladung (Anrede, Wer, Was, Wann, Wo, Antwort, Gruß), eine Zusage und eine Absage, eine kurze Nachricht und eine Notiz. Zeiten stehen mit on (on Saturday), at (at five) und from … to (from five to seven). Nach can steht das Verb ohne to. Eine persönliche E-Mail, ein Brief und eine Postkarte behandelt die nächste Seite.
+scope: Die Seite zeigt den Bauplan einer Einladung (Anrede, Who, What, When, Where, Answer, Gruß), eine Zusage und eine Absage und eine Notiz. Zeiten stehen mit on (on Saturday), at (at five) und from … to (from five to seven). can und can't gibt es als Ausdruck, nach can steht das Verb ohne to. Eine Postkarte, ein Brief und eine E-Mail behandelt die nächste Seite.
 blocks:
   - type: section
     id: einstieg
@@ -15,7 +15,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Amir bringt eine Einladung (invitation) zu seinem Geburtstag mit. Sophie liest die Karte genau: In fünf Feldern steht, was sie wissen muss."
+        text: "Amir bringt eine Einladung (invitation) zu seiner Geburtstagsparty mit. **Dear** heißt „liebe/lieber“, **Love,** heißt „liebe Grüße“. Sophie liest die Karte genau: In fünf Feldern steht, was sie wissen muss."
       - type: single-choice
         id: kurznachricht-start
         text: Schau auf die Einladung. Wann ist die Feier zu Ende?
@@ -40,142 +40,125 @@ blocks:
     title: Bauplan, Antwort und Zeit
     blocks:
       - type: text
-        text: "Eine Einladung hat einen **Bauplan**. Sie beginnt mit einer Anrede (Hi Peter,). Dann beantwortet sie vier Fragen: **Who** (wer lädt ein?), **What** (was ist es?), **When** (wann?) und **Where** (wo?). Dazu kommt die **Answer**: Bis wann sagt man Bescheid? Am Ende steht ein Gruß mit deinem Namen. Eine **Zusage** und eine **Absage** sind kurz. Eine Notiz lässt Wörter weg: Wer weg ist, schreibt nur das Wichtige."
+        text: "Eine Einladung hat einen **Bauplan**. Sie beginnt mit einer Anrede (Hi Peter,). Dann folgen **Who** (wer lädt ein?), **What** (was ist es?), **When** (wann?) und **Where** (wo?). Bei **Answer** bittest du um eine Antwort. Am Ende steht ein Gruß mit deinem Namen. Eine **Zusage** (ja) und eine **Absage** (nein) sind kurz. Eine **Notiz** (note) lässt Wörter weg: Wer weg ist, schreibt nur das Wichtige. Mit **can** sagst du „kann“, mit **can't** (oder **cannot**) „kann nicht“."
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
         rows:
           - [invitation, Einladung]
           - [I'd love to come., Ich komme sehr gern.]
-          - [I can't come., Ich kann nicht kommen.]
-          - [Back at five., Bin um fünf zurück.]
-          - ["Can you buy milk, please?", "Kannst du bitte Milch kaufen?"]
+          - [Back at six., Bin um sechs zurück.]
+          - [buy, kaufen]
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
-              **Zeit:** on + Tag (on Tuesday, on 12th October), at + Uhrzeit (at seven o'clock), from … to (from five to seven). Tuesday allein (ohne on) ist falsch, und at Tuesday auch. **Nach can** steht das Verb ohne to: I can come. Nicht: I can't to come. **Anrede und Gruß** gehören zu jeder Nachricht: Hi Amir, … See you soon, Sophie.
+              **Zeit:** on + Tag (on Tuesday), at + Uhrzeit (at seven o'clock), from … to (from five to seven). Vor einem Tag steht on, nicht at. **Nach can** steht das Verb ohne to: I can come. Nicht: I can't to come. **Anrede und Gruß** gehören zu jeder Nachricht an eine Person (Einladung), nicht zu einer Notiz.
   - type: section
     id: uebung
     title: Übung
     blocks:
-      - type: matching
-        id: kurznachricht-paare
-        text: Zu welchem Teil des Bauplans gehört die Zeile?
-        pairs:
-          - { left: "Hi Peter,", right: Anrede }
-          - { left: in the park, right: "Wo?" }
-          - { left: from four to six, right: "Wann?" }
-          - { left: "Love, Ellie", right: Gruß }
-        explanation: Die Anrede steht am Anfang, der Gruß mit Namen am Ende. in the park sagt, wo es ist, from four to six, wann es ist.
-        links:
-          - title: Lernlandkarte Englisch · Kurznachricht und Einladung
-            url: https://lernapps.net/apps/map/englisch/c/kurznachricht/
       - type: ordering
         id: kurznachricht-reihenfolge
         text: Peter lädt Amir ein. Bringe die Teile der Einladung in die richtige Reihenfolge.
         items:
           - "Hi Amir,"
-          - Come and play a game at my house.
+          - Come and play a game with me.
           - It is on Thursday from four to five.
+          - It is at my house.
           - Can you come? Please tell me.
           - "See you soon, Peter"
-        explanation: "Anrede, was und wo, wann, Antwort, Gruß mit Namen: So ist der Bauplan geordnet."
-        links:
-          - title: Lernlandkarte Englisch · Kurznachricht und Einladung
-            url: https://lernapps.net/apps/map/englisch/c/kurznachricht/
-      - type: single-choice
-        id: kurznachricht-vollstaendig
-        text: Welche Nachricht ist richtig und vollständig?
-        options:
-          - text: "Hi Ellie, can you come to my party on Friday? Love, Sophie"
-            correct: true
-            info: Anrede, Frage mit on Friday und Gruß mit Namen sind da.
-          - text: Can you come to my party on Friday?
-            correct: false
-            info: Anrede und Gruß fehlen.
-          - text: "Hi Ellie, can you come to my party at Friday? Love, Sophie"
-            correct: false
-            info: Vor einem Tag steht on, nicht at.
-        explanation: "Anrede, Inhalt mit on Friday, Gruß mit Namen."
+        explanation: "Anrede, was, wann, wo, Antwort, Gruß mit Namen: So ist der Bauplan geordnet."
         links:
           - title: Lernlandkarte Englisch · Kurznachricht und Einladung
             url: https://lernapps.net/apps/map/englisch/c/kurznachricht/
       - type: language-task
-        id: kurznachricht-absage
+        id: kurznachricht-antwort
         languages: { source: de, target: en }
         task: Schreibe den Satz auf Englisch.
         form: { case: hint, punctuation: ok }
         items:
-          - cue: Sorry · I · can't · come · on Friday
-            target: "Sorry, I (can't|cannot) come on Friday."
+          - source: Du sagst zu. Danke! Ich kann am Samstag kommen.
+            target: (Thank you|Thanks)! I can come on Saturday.
+            accepted:
+              - I can come on Saturday, (thank you|thanks).
             mistakes:
-              - answer: "Sorry, I can't to come on Friday."
-                message: Nach can steht das Verb ohne to.
-              - answer: "Sorry, I don't can come on Friday."
-                message: can braucht kein do. Sag I can't come.
-              - answer: "Sorry, I can't come at Friday."
+              - answer: Thank you! I can to come on Saturday.
+                message: Nach can kein to.
+              - answer: Thank you! I can come at Saturday.
                 message: Vor einem Tag steht on, nicht at.
-          - source: Ich kann am Montag nicht kommen.
-            target: I (can't|cannot) come on Monday.
+              - answer: Thank you! I can come Saturday.
+                message: Vor Saturday fehlt on.
+          - source: Du sagst ab. Entschuldige, ich kann am Samstag nicht kommen.
+            target: (Sorry|I'm sorry|I am sorry), I (can't|cannot) come on Saturday.
+            accepted:
+              - (Sorry|I'm sorry|I am sorry), on Saturday I (can't|cannot) come.
             mistakes:
-              - answer: I can't to come on Monday.
-                message: Nach can steht kein to.
-              - answer: I can't come Monday.
-                message: Vor Monday fehlt on.
+              - answer: Sorry, I can't to come on Saturday.
+                message: Nach can kein to.
+              - answer: Sorry, I don't can come on Saturday.
+                message: can braucht kein do. Sag I can't come.
+              - answer: Sorry, I can not come on Saturday.
+                message: can't oder cannot schreibst du zusammen.
+              - answer: Sorry, I can't come at Saturday.
+                message: Vor einem Tag steht on, nicht at.
           - source: Kannst du am Freitag kommen?
             target: Can you come on Friday?
             mistakes:
               - answer: Can you to come on Friday?
-                message: Nach can steht das Verb ohne to.
-        hint: Nach can steht kein to.
+                message: Nach can kein to.
+              - answer: Can you come at Friday?
+                message: Vor einem Tag steht on, nicht at.
+        hint: Nach can fehlt das to.
+      - type: language-task
+        id: kurznachricht-notiz
+        languages: { source: de, target: en }
+        task: Schreibe eine kurze Notiz. Du lässt Wörter weg.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Du bist um vier zurück.
+            target: (Back|I'm back|I am back|I'll be back|I will be back) at (four|4)( o'clock|).
+            mistakes:
+              - answer: Back on four.
+                message: Vor einer Uhrzeit steht at.
+              - answer: Back four.
+                message: Vor der Uhrzeit fehlt at.
+          - source: "Du bittest: Kannst du bitte Brot kaufen?"
+            target: Can you buy bread, please?
+            accepted:
+              - Please buy bread.
+              - Buy bread, please.
+            mistakes:
+              - answer: Can you to buy bread, please?
+                message: Nach can kein to.
+              - answer: Can you buy bread?
+                message: Das Wort bitte (please) fehlt.
+        hint: Eine Notiz ist kurz.
       - type: language-task
         id: kurznachricht-zeit
         languages: { source: de, target: en }
         task: Schreibe den Satz auf Englisch.
         form: { case: hint, punctuation: ok }
         items:
-          - source: Die Party ist am Sonntag.
-            target: The party is on Sunday.
+          - source: Das Kino ist am Freitag.
+            target: The cinema is on Friday.
             mistakes:
-              - answer: The party is Sunday.
-                message: Vor Sunday fehlt on.
-              - answer: The party is at Sunday.
+              - answer: The cinema is Friday.
+                message: Vor Friday fehlt on.
+              - answer: The cinema is at Friday.
                 message: Vor einem Tag steht on, nicht at.
           - source: Wir spielen von zwei bis vier.
-            target: We play from two (to|until) four.
+            target: We play from (two|2) (to|until) (four|4).
             mistakes:
               - answer: We play at two to four.
                 message: Von … bis heißt from … to.
-          - source: Ich bin um sieben zurück.
-            target: "(I'm|I am) back at seven."
+          - source: Wir treffen uns um sieben.
+            target: We meet at (seven|7)( o'clock|).
             mistakes:
-              - answer: "I'm back on seven."
+              - answer: We meet on seven.
                 message: Vor einer Uhrzeit steht at.
         hint: Tag oder Uhrzeit?
-      - type: language-task
-        id: kurznachricht-korrektur
-        languages: { source: de, target: en }
-        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
-        form: { case: hint, punctuation: ok }
-        items:
-          - cue: We meet at Monday.
-            target: We meet on Monday.
-            mistakes:
-              - answer: We meet at Monday.
-                message: Vor einem Tag steht on.
-          - cue: The party is Saturday afternoon.
-            target: The party is on Saturday afternoon.
-            mistakes:
-              - answer: The party is Saturday afternoon.
-                message: Vor Saturday afternoon fehlt on.
-          - cue: Can you to come?
-            target: Can you come?
-            mistakes:
-              - answer: Can you to come?
-                message: Nach can steht das Verb ohne to.
-        hint: Prüfe on und to.
       - type: language-task
         id: kurznachricht-hoeren
         languages: { source: de, target: en }
@@ -184,8 +167,8 @@ blocks:
         items:
           - audio: thank-you-for-the-invitation-amir.mp3
             target: "Thank you for the invitation, Amir."
-          - audio: please-call-me-before-six-sophie.mp3
-            target: "Please call me before six, Sophie."
+          - audio: please-call-me-on-monday-sophie.mp3
+            target: "Please call me on Monday, Sophie."
           - audio: can-you-help-me-with-my-homework-peter.mp3
             target: "Can you help me with my homework, Peter?"
   - type: section
@@ -210,8 +193,8 @@ blocks:
         header: [Teil, Englisch]
         rows:
           - [Anrede, "Hi Sophie,"]
-          - [Was und wann, "Come to the cinema with me on Friday at six."]
-          - [Antwort, "Please tell me by Thursday."]
+          - [Was und wann, "Come to the cinema with me on Friday at seven."]
+          - [Antwort, "Please tell me yes or no."]
           - [Gruß, "Love, Ellie"]
       - type: open-task
         id: kurznachricht-profil
@@ -234,4 +217,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Sophie klebt Ellie einen Zettel an die Tür: Dort steht, dass sie gern zu Amirs Party kommt. Auf der nächsten Seite schreibt sie ihren Eltern eine Postkarte und lernt, wie man eine E-Mail oder einen Brief mit Anrede und Gruß aufbaut."
+        text: "Sophie sagt Amir zu und schreibt dann ihren Eltern: „Amir hat uns zu seiner Party eingeladen!“ Auf der nächsten Seite schreibt sie ihnen eine Postkarte und lernt, wie eine kurze E-Mail aussieht."

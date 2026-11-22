@@ -41,7 +41,7 @@
   <text x="525.0" y="49.0" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="normal" fill="#333">Mein Alltag</text>
   <text x="75" y="107" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="bold" fill="#333">family</text>
   <rect x="150" y="74" width="270" height="46" rx="8" fill="#fff" stroke="#333" stroke-width="2"/>
-  <text x="285.0" y="103.33333333333333" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="normal" fill="#333">Mum, Dad, Peter</text>
+  <text x="285.0" y="103.33333333333333" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="normal" fill="#333">mum, dad, brother</text>
   <rect x="430" y="74" width="190" height="46" rx="8" fill="#fff" stroke="#333" stroke-width="2" stroke-dasharray="6 4"/>
   <line x1="442" y1="108" x2="608" y2="108" stroke="#aaa" stroke-width="2"/>
   <text x="75" y="161" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="bold" fill="#333">house</text>

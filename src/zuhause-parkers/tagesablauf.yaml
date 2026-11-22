@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
-title: "Mein Tag: Uhrzeit und Tageszeit"
-description: "Sophie zeigt ihren Eltern, wie ein Tag bei den Parkers aussieht. Du beschreibst deinen Tagesablauf mit Uhrzeit und Tageszeit."
+title: "Ellies Tag und mein Tag: Uhrzeit und Tageszeit"
+description: "Sophie zeigt ihren Eltern Ellies Tag bei den Parkers. Du beschreibst Ellies Tag und deinen eigenen Tagesablauf mit Uhrzeit und Tageszeit."
 competencies: [tagesablauf]
 scope: Die Seite führt die Ausdrücke für den Tag ein (get up, have breakfast, go to school, have lunch, do homework, have tea, go home, go to bed) und zeigt, wie man seinen Tagesablauf beschreibt. Die Uhrzeit mit at wird nur angewendet; neu sind die Tageszeiten (in the morning, in the afternoon, in the evening, aber at night) und die Formen mit he und she (gets up, has, goes, does). Essen und Trinken sowie der Alltag in Großbritannien behandeln spätere Seiten.
 blocks:
@@ -15,21 +15,21 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Sophie schreibt Mum and Dad, wie ein Tag bei den Parkers aussieht. Dafür zeichnet sie Ellies Tag als Bildleiste, in der Reihenfolge von links oben nach rechts unten. Die sechs Bilder heißen: **get up** (aufstehen), **have breakfast** (frühstücken), **go to school** (zur Schule gehen), **have lunch** (zu Mittag essen), **do homework** (Hausaufgaben machen) und **have tea**. Bei den Parkers ist tea das Abendessen."
+        text: "Sophie schreibt Mum and Dad, wie ein Tag bei den Parkers aussieht. Dafür zeichnet sie Ellies Tag als Bildleiste mit sechs Bildern. Unter jedem Bild steht die Uhrzeit. Die Bilder zeigen: **have tea**, **get up** (aufstehen), **do homework** (Hausaufgaben machen), **have lunch** (zu Mittag essen), **go to school** (zur Schule gehen) und **have breakfast** (frühstücken). Bei den Parkers ist tea das Abendessen."
       - type: single-choice
         id: tagesablauf-start
-        text: Auf der Bildleiste isst Ellie um 7:30 ihr Frühstück. Was macht sie danach?
+        text: Schau auf die Uhrzeiten unter den Bildern. Was macht Ellie um 8:15?
         options:
-          - text: She goes to school.
+          - text: go to school
             correct: true
-            info: Das nächste Bild zeigt 8:15 und den Schulweg.
-          - text: She has lunch.
+            info: Unter 8:15 siehst du den Schulweg.
+          - text: have lunch
             correct: false
-            info: Das Mittagessen kommt erst um 12:30.
-          - text: She does her homework.
+            info: Das Mittagessen steht erst bei 12:30.
+          - text: do homework
             correct: false
-            info: Die Hausaufgaben stehen erst um 4:30 auf der Leiste.
-        explanation: Nach dem Frühstück um 7:30 geht Ellie um 8:15 zur Schule.
+            info: Die Hausaufgaben stehen erst bei 4:30.
+        explanation: Um 8:15 geht Ellie zur Schule, also go to school.
         links:
           - title: Lernlandkarte Englisch · Simple present
             url: https://lernapps.net/apps/map/englisch/c/simple-present/
@@ -105,44 +105,47 @@ blocks:
               - answer: Peter sleep at night.
                 message: Zu he gehört sleeps mit -s.
           - cue: Ellie · do her homework · afternoon
-            target: Ellie does her homework in the afternoon.
+            target: Ellie does (her |)homework in the afternoon.
             mistakes:
               - answer: Ellie does her homework at the afternoon.
                 message: Die Tageszeit sagst du mit in, nicht mit at.
               - answer: Ellie do her homework in the afternoon.
                 message: Zu she gehört does.
-          - cue: Mr Parker · watch TV · evening
-            target: Mr Parker watches TV in the evening.
+          - cue: Mr Parker · read the paper · evening
+            target: Mr Parker reads the (paper|newspaper) in the evening.
             mistakes:
-              - answer: Mr Parker watches TV at evening.
+              - answer: Mr Parker reads the paper at evening.
                 message: Die Tageszeit sagst du mit in the, nicht mit at.
+              - answer: Mr Parker read the paper in the evening.
+                message: Zu he gehört reads mit -s.
         hint: Uhrzeit mit at, Tageszeit mit in.
       - type: language-task
-        id: tagesablauf-sophie
+        id: tagesablauf-uhrzeit
         languages: { source: de, target: en }
         task: Schreibe den ganzen Satz. Die Uhrzeit sagst du mit Wörtern.
         form: { case: hint, punctuation: ok }
         items:
           - cue: Ellie · get up · 7:00
-            target: Ellie gets up at (seven|seven o'clock).
+            target: Ellie gets up at seven( o'clock|).
             mistakes:
               - answer: Ellie get up at seven.
                 message: Zu she gehört gets mit -s.
+              - answer: Ellie gets up at 7.
+                message: Schreibe die Uhrzeit mit Wörtern, hier seven.
           - cue: Peter · have breakfast · 7:30
-            target: Peter has breakfast at half past seven.
+            target: Peter has breakfast at (half past seven|seven thirty|half seven).
             mistakes:
               - answer: Peter have breakfast at half past seven.
                 message: Zu he gehört has, nicht have.
+              - answer: Peter has breakfast at 7:30.
+                message: Schreibe die Uhrzeit mit Wörtern, hier half past seven.
           - cue: Ellie · go to school · 8:15
-            target: Ellie goes to school at (a quarter|quarter) past eight.
+            target: Ellie goes to school at (a quarter past eight|quarter past eight|eight fifteen).
             mistakes:
               - answer: Ellie go to school at a quarter past eight.
                 message: Zu she gehört goes.
-          - cue: Ellie · have lunch · 12:30
-            target: Ellie has lunch at half past twelve.
-            mistakes:
-              - answer: Ellie have lunch at half past twelve.
-                message: Zu she gehört has, nicht have.
+              - answer: Ellie goes to school at 8:15.
+                message: Schreibe die Uhrzeit mit Wörtern, hier a quarter past eight.
         hint: he oder she? Dann has, goes oder -s.
       - type: language-task
         id: tagesablauf-korrektur
@@ -163,7 +166,7 @@ blocks:
               - answer: I have breakfast in morning.
                 message: "Das the fehlt: in the morning."
           - cue: Amir go to school at eight.
-            target: Amir goes to school at eight.
+            target: Amir goes to school at (eight|8|eight o'clock).
             mistakes:
               - answer: Amir go to school at eight.
                 message: Zu he gehört goes.
@@ -205,11 +208,11 @@ blocks:
           - ["Frühstück", "I have breakfast at half past seven."]
           - ["Schule", "We walk to school at a quarter past eight."]
           - ["Hausaufgaben", "I do my homework at half past four."]
-          - ["Abend", "I have tea at six o'clock. At seven I play a game or watch TV."]
+          - ["Abend", "I have tea at six o'clock, and at seven I watch TV."]
           - ["Schlafen", "I go to bed at nine."]
       - type: open-task
         id: tagesablauf-profil
-        task: "Schreibe die nächste Zeile deines Profils „All about me“ in dein Heft: Mein Tag in sechs Sätzen. Du entscheidest, ob es ein Schultag oder ein Wochenende ist."
+        task: "Schreibe die nächste Zeile deines Profils „All about me“ in dein Heft: Mein Tag in sechs Sätzen, so wie bei Ellie. Du entscheidest, ob es ein Schultag oder ein Wochenende ist."
         points:
           - text: Du schreibst sechs Sätze über sechs Dinge, die du an deinem Tag tust.
             source: /zuhause-parkers/tagesablauf/#neu
@@ -224,10 +227,10 @@ blocks:
         solution: |
           I get up at half past six. I have breakfast at seven. I go to school at eight. I do my homework in the afternoon. I have tea at six o'clock. I go to bed at nine.
 
-          Oder am Wochenende: On Sunday I get up at nine o'clock. I have a big breakfast. In the afternoon I play football. In the evening I watch TV. I go to bed at ten.
+          Oder am Wochenende: On Sunday I get up at nine o'clock. I have a big breakfast. At twelve I have lunch. In the afternoon I play football. In the evening I watch TV. I go to bed at ten.
   - type: section
     id: weiter
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Sophie hat ihren Tag beschrieben. Mum and Dad fragen jetzt: Was isst du eigentlich bei den Parkers? Auf der nächsten Seite schreibt Sophie über Essen und Trinken."
+        text: "Sophie schreibt nach Hause: „So sieht Ellies Tag aus. Als Nächstes zeige ich euch, was wir essen!“ Auf der nächsten Seite siehst du ein Foto vom Frühstückstisch der Parkers und lernst, wie die Mahlzeiten heißen."
