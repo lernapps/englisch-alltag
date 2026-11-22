@@ -1,0 +1,233 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Ellies Alltag und mein Alltag"
+description: "Sophie vergleicht Ellies Alltag mit ihrem eigenen. Du sagst, was gleich und was anders ist, und schreibst über deinen Alltag."
+competencies: [alltag-uk]
+scope: Die Seite vergleicht Ellies Alltag bei den Parkers mit dem eigenen Alltag (Familie, Haus, Frühstück, Mittagessen, tea). Sie zeigt, wie man Gleiches mit and, also und too und Unterschiede mit but sagt (vor but steht ein Komma), und dass tea auch eine frühe Abendmahlzeit und ein packed lunch ein Mittagessen von zu Hause sein kann. Aussagen über Großbritannien gelten hier für die Parkers oder für viele, nie für alle. Wohnen, Tagesablauf und Mahlzeiten übt das Kapitel auf den Seiten davor, hier werden sie nur verglichen.
+blocks:
+  - type: section
+    id: einstieg
+    title: Zwei Spalten, zwei Alltage
+    blocks:
+      - type: figure
+        image: images/zwei-spalten.svg
+        alt: Eine Tabelle mit fünf Zeilen. Links steht, was in Ellies Alltag in jeder Zeile gilt, rechts ist die Spalte leer.
+        caption: "Ellies Alltag (links) und dein Alltag (rechts). Die rechte Spalte füllst du später in deinem Heft."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Sophie schreibt ihrer Familie: „Vieles ist bei den Parkers wie bei uns, vieles ist anders.“ Sie legt zwei Spalten an: links Ellies Alltag, rechts ihren eigenen. Schau auf die linke Spalte."
+      - type: single-choice
+        id: alltag-uk-start
+        text: Was steht in der Zeile lunch bei Ellies Alltag?
+        options:
+          - text: a packed lunch at school
+            correct: true
+            info: Das steht links in der Zeile lunch.
+          - text: pasta at six o'clock
+            correct: false
+            info: Das steht links in der Zeile tea, nicht in der Zeile lunch.
+          - text: cereal, toast, juice
+            correct: false
+            info: Das steht links in der Zeile breakfast.
+        explanation: In der Zeile lunch steht a packed lunch at school.
+        links:
+          - title: Lernlandkarte Englisch · Alltag in Großbritannien
+            url: https://lernapps.net/apps/map/englisch/c/alltag-uk/
+      - type: text
+        text: "**Das kannst du danach:** Du sagst, was bei Ellie und bei dir gleich und was anders ist, und schreibst einen kurzen Vergleich."
+  - type: section
+    id: neu
+    title: Gleich und anders sagen
+    blocks:
+      - type: text
+        text: "Gleiches verbindest du mit **and**: Ellie has toast, and I have toast. Ein Zusatz heißt **also** oder **too** (auch). **also** steht vor dem Verb: I also have juice. **too** steht am Ende: I have juice too. Einen Unterschied sagst du mit **but** (aber). Vor but steht ein Komma."
+      - type: example
+        title: Zwei Alltage vergleichen
+        blocks:
+          - type: text
+            text: |
+              - **Ellie has tea at six, but I have dinner at seven.**
+              - In my family, we have a garden. Ellie has a garden too.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [cereal, Müsli]
+          - [packed lunch, Mittagessen von zu Hause zum Mitnehmen]
+          - ["at the Parkers'", bei den Parkers]
+      - type: text
+        text: "Was weißt du sicher? Das Wort **tea** kann eine frühe Abendmahlzeit sein, und ein **packed lunch** ist ein Mittagessen von zu Hause. Bei den Parkers hat Ellie in der Schule ein packed lunch und um sechs Uhr tea. Das sagst du als „At the Parkers' …“. Schreibe nicht „Alle in England …“: Du kennst nicht alle Familien. Besser sind **many** (viele) oder **often** (oft). Über dich sagst du: In my family, we …"
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **and** für Gleiches, **but** für Unterschiede, mit Komma davor. **also** vor dem Verb, **too** am Ende. Aussagen über andere Familien: **many**, **often** oder „At the Parkers' …“, nicht „alle“.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: alltag-uk-auch
+        text: "Ellie has pasta for tea. I have pasta for tea ___."
+        options:
+          - text: too
+            correct: true
+            info: too steht am Ende des Satzes und heißt auch.
+          - text: but
+            correct: false
+            info: but zeigt einen Unterschied. Hier ist es gleich.
+          - text: also
+            correct: false
+            info: also heißt auch, steht aber vor dem Verb (I also have), nicht am Ende.
+        explanation: Am Ende des Satzes steht too.
+        links:
+          - title: Lernlandkarte Englisch · Alltag in Großbritannien
+            url: https://lernapps.net/apps/map/englisch/c/alltag-uk/
+      - type: matching
+        id: alltag-uk-paare
+        text: Welche Satzhälften gehören zusammen?
+        pairs:
+          - { left: "Mrs Parker drinks tea at breakfast,", right: but Ellie drinks orange juice. }
+          - { left: "Ellie has a room in the house,", right: and Peter has a room too. }
+          - { left: "Peter goes to bed at eight,", right: but Ellie goes to bed at nine. }
+        explanation: Jede Satzhälfte nennt dasselbe Thema, bei but folgt etwas anderes, bei and etwas Gleiches.
+        links:
+          - title: Lernlandkarte Englisch · Alltag in Großbritannien
+            url: https://lernapps.net/apps/map/englisch/c/alltag-uk/
+      - type: language-task
+        id: alltag-uk-verbinden
+        languages: { source: de, target: en }
+        task: Verbinde die beiden Sätze zu einem Satz. Schreibe das Komma und den Punkt.
+        form: { case: hint, punctuation: wrong }
+        items:
+          - cue: Ellie gets up at seven. I get up at half past six. (but)
+            target: Ellie gets up at seven, but I get up at half past six.
+            mistakes:
+              - answer: Ellie gets up at seven but I get up at half past six.
+                message: Vor but steht ein Komma.
+              - answer: Ellie gets up at seven, and I get up at half past six.
+                message: Die Zeiten sind verschieden, also but.
+          - cue: Ellie likes pasta. I like pasta. (and … too)
+            target: "Ellie likes pasta(,|) and I like pasta too."
+            mistakes:
+              - answer: Ellie likes pasta, but I like pasta too.
+                message: Beides ist gleich, also and und nicht but.
+              - answer: Ellie like pasta and I like pasta too.
+                message: Zu Ellie (she) gehört likes mit -s.
+          - cue: Peter goes to bed at eight. I go to bed at nine. (but)
+            target: Peter goes to bed at eight, but I go to bed at nine.
+            mistakes:
+              - answer: Peter goes to bed at eight but I go to bed at nine.
+                message: Vor but steht ein Komma.
+        hint: Gleich oder anders? Und vergiss das Komma nicht.
+      - type: language-task
+        id: alltag-uk-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: wrong }
+        items:
+          - cue: I have also cereal for breakfast.
+            target: I also have cereal for breakfast.
+            mistakes:
+              - answer: I have also cereal for breakfast.
+                message: "Das Wort also steht vor dem Verb (I also have)."
+          - cue: Mrs Parker drinks tea but Ellie drinks juice.
+            target: Mrs Parker drinks tea, but Ellie drinks juice.
+            mistakes:
+              - answer: Mrs Parker drinks tea but Ellie drinks juice.
+                message: Vor but steht ein Komma.
+        hint: Prüfe die Stellung von also und das Komma.
+      - type: single-choice
+        id: alltag-uk-viele
+        text: "Sophie schreibt über Ellies Alltag. Welcher Satz ist am besten?"
+        options:
+          - text: "At the Parkers' tea is at six o'clock."
+            correct: true
+            info: Das sagt nur, was bei den Parkers so ist. Das weißt du.
+          - text: "Everybody in England has tea at six."
+            correct: false
+            info: "Das sagt „alle“. Das weißt du nicht, denn jede Familie ist anders."
+          - text: "In England, everybody has a packed lunch."
+            correct: false
+            info: "Auch hier steht „alle“. Schreibe lieber many oder often."
+        explanation: Sprich über die Parkers oder sage many oder often, nicht über alle.
+        links:
+          - title: Lernlandkarte Englisch · Alltag in Großbritannien
+            url: https://lernapps.net/apps/map/englisch/c/alltag-uk/
+      - type: language-task
+        id: alltag-uk-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: peter-likes-soup-but-ellie-likes-salad.mp3
+            target: Peter likes soup(,|) but Ellie likes salad.
+          - audio: in-my-family-we-usually-have-dinner-together.mp3
+            target: In my family(,|) we usually have dinner together.
+          - audio: i-also-have-a-packed-lunch-like-ellie.mp3
+            target: I also have a packed lunch(,|) like Ellie.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: alltag-uk-nachsprechen
+        language: en
+        items:
+          - audio: my-day-and-ellies-day-are-different.mp3
+            text: My day and Ellie's day are different.
+          - audio: i-have-dinner-later-but-ellie-has-tea-early.mp3
+            text: I have dinner later, but Ellie has tea early.
+          - audio: at-weekends-my-family-has-lunch-together.mp3
+            text: At weekends, my family has lunch together.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: text
+        text: "Dein Profil „All about me“ (Alles über mich) ist fast fertig. Ellie hat die fünf Zeilen für ihren Alltag geschrieben. Schau, wie sie es macht."
+      - type: table
+        caption: All about me · Mein Alltag und Ellies Alltag (Ellies Beispiel)
+        header: [Zeile, Englisch]
+        rows:
+          - ["family", "In my family, we are four: Mum, Dad, Peter and I."]
+          - ["house", "We have a house with two floors and a garden."]
+          - ["breakfast", "I have cereal, toast and orange juice."]
+          - ["lunch", "I have a packed lunch at school."]
+          - ["tea", "We have tea at six o'clock."]
+      - type: open-task
+        id: alltag-uk-profil
+        task: "Fülle die rechte Spalte des Bildes in deinem Heft aus: ein Satz über deinen Alltag zu jeder der fünf Zeilen. Beginne einen Satz mit „In my family …“. Wie deine Familie ist und wie du wohnst, bestimmst du."
+        points:
+          - text: Du schreibst zu jeder der fünf Zeilen einen Satz.
+            kind: form
+          - text: Ein Satz beginnt mit „In my family …“ und sagt etwas über deine Familie.
+            source: /zuhause-parkers/alltag-uk/#neu
+          - text: Du sagst mit Mahlzeiten wie breakfast, lunch, dinner oder tea, was du isst, ohne the davor.
+            source: /zuhause-parkers/essen-trinken/#neu
+          - text: Es sind ganze Sätze mit einem Punkt am Ende.
+            kind: form
+        solution: |
+          In my family, we are three: my mum, my sister and I. We live in a flat with a balcony. I have toast and milk for breakfast. I have lunch at school. We have dinner at seven.
+
+          Oder: In my family, there are five of us. I have a house with a garden. I usually have cereal for breakfast. I have a packed lunch. We have tea at six o'clock.
+      - type: open-task
+        id: alltag-uk-text
+        task: "Schreibe in dein Heft einen Vergleichstext, vier bis sechs Sätze: Was ist bei Ellie und bei dir gleich, was ist anders? Benutze and und but und einmal also oder too. Sprich nur über Ellie, die Parkers und dich."
+        points:
+          - text: Du sagst mindestens einmal, was gleich ist, mit and, also oder too.
+            source: /zuhause-parkers/alltag-uk/#neu
+          - text: Du sagst mindestens einmal, was anders ist, mit but und einem Komma davor.
+            source: /zuhause-parkers/alltag-uk/#neu
+          - text: Du schreibst über Ellie oder die Parkers und über dich, nicht über „alle“.
+            source: /zuhause-parkers/alltag-uk/#neu
+          - text: Es sind ganze Sätze mit einem Punkt am Ende.
+            kind: form
+        solution: |
+          Ellie has cereal for breakfast, and I have cereal too. Ellie has a packed lunch at school, but I have lunch at home. At the Parkers' tea is at six o'clock, but in my family we have dinner at half past six. Ellie has a room, and I also have my own room.
+
+          Oder: Ellie and I both have a garden. Ellie has a brother, but I have a sister. We also have breakfast together.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Rückblick auf Kapitel 2: Du hast Zuhause, Tag und Essen bei den Parkers beschrieben und deinen Alltag mit Ellies Alltag verglichen. Du sagst jetzt, was gleich und was anders ist, ohne „alle“ zu sagen. Sophie schreibt als Nächstes mit Amir über Freizeit: Was machen die beiden nach der Schule?"

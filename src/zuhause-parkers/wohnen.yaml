@@ -1,0 +1,229 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Zuhause: Räume, Möbel und Garten"
+description: "Sophie zeigt ihren Eltern das Haus der Parkers und ihr kleines Zimmer. Du lernst Räume und Möbel und sagst, was es wo gibt."
+competencies: [wohnen]
+scope: Die Seite führt die Räume (kitchen, living room, bathroom, bedroom, garden) und Möbel (sofa, bed, table, chair, desk, wardrobe, lamp und weitere) ein und zeigt, wie man sein Zuhause beschreibt. There is und there are sowie die Präpositionen in, on, under und next to werden nur angewendet; die Frage steht mit Is there und Are there, ein Haus mit Garten heißt a house with a garden. Den Tagesablauf, Essen und Trinken sowie den Alltag in Großbritannien behandeln spätere Seiten.
+blocks:
+  - type: section
+    id: einstieg
+    title: Sophies Zimmer und das Haus der Parkers
+    blocks:
+      - type: figure
+        image: images/szene-wohnen.svg
+        alt: Zwei Mädchen in einem kleinen Zimmer. Eines hält ein Handy hoch.
+        caption: "Sophie (Zöpfe) macht ein Foto von ihrem Zimmer. Ellie (Pferdeschwanz) schaut zu."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Sophie schickt Mum and Dad ein Foto von ihrem Zimmer. Es ist klein, aber schön. Dann zeichnet sie das ganze Haus der Parkers: oben die Zimmer (rooms) zum Schlafen und das Bad, unten die Küche und das Wohnzimmer, draußen den Garten. Die kleinen Zeichen sind Möbel (furniture). Das Sofa ist das lange Zeichen mit zwei Armlehnen."
+      - type: figure
+        image: images/haus-querschnitt.svg
+        alt: Querschnitt eines Hauses mit zwei Stockwerken und einem Garten. Die Zimmer haben Namen, die Möbel sind kleine Zeichen.
+        caption: Das Haus der Parkers. Oben das Bad und vier Schlafzimmer, unten Küche und Wohnzimmer, rechts der Garten.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: single-choice
+        id: wohnen-start
+        text: In welchem Raum steht auf dem Bild das Sofa?
+        options:
+          - text: in the living room
+            correct: true
+            info: Das Sofa steht links unten neben dem Sessel, im Wohnzimmer.
+          - text: in the kitchen
+            correct: false
+            info: In der Küche stehen Kühlschrank, Herd und ein Tisch, kein Sofa.
+          - text: in the bathroom
+            correct: false
+            info: Im Bad sind Badewanne, Toilette und Waschbecken.
+        explanation: "Das Sofa steht im Wohnzimmer: in the living room."
+        links:
+          - title: Lernlandkarte Englisch · There is und there are
+            url: https://lernapps.net/apps/map/englisch/c/there-is-are/
+      - type: text
+        text: "**Das kannst du danach:** Du nennst Räume und Möbel auf Englisch und sagst, was es in deinem Zuhause gibt und wo es steht."
+  - type: section
+    id: neu
+    title: Räume, Möbel und Garten
+    blocks:
+      - type: text
+        text: "Die Räume: **kitchen** (Küche), **living room** (Wohnzimmer), **bathroom** (Bad), **bedroom** (Schlafzimmer), **garden** (Garten). Ein Zimmer heißt **room**: Ellie’s room ist Ellies Zimmer. Die Möbel: **sofa**, **bed** (Bett), **table** (Tisch), **chair** (Stuhl), **desk** (Schreibtisch), **lamp** (Lampe). Was es gibt, sagst du mit **there is** und **there are**, wo es ist, mit **in**, **on** (auf), **under** (unter) und **next to** (neben): There is a lamp on the table. There are books under the sofa."
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [wardrobe, Kleiderschrank]
+          - [armchair, Sessel]
+          - [cooker, Herd]
+          - [sink, Waschbecken / Spüle]
+          - [bookshelf, Bücherregal]
+          - [bench, Gartenbank]
+          - [toys, Spielsachen]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Frage:** Is there … ? und Are there … ? Das Wort there bleibt, is und are stehen davor: Is there a fridge in the kitchen?
+              **Mehrere Dinge:** There are, nie There is: There are three lamps.
+              **Haus mit Garten:** Das Haus hat einen Garten, deshalb with: a flat with two bedrooms. In the garden heißt mitten im Garten.
+              **in oder on?** in heißt drin, on heißt oben auf.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: wohnen-paare
+        text: In welchem Raum steht das? Ordne zu.
+        pairs:
+          - { left: fridge, right: in the kitchen }
+          - { left: bath, right: in the bathroom }
+          - { left: armchair, right: in the living room }
+          - { left: wardrobe, right: in the bedroom }
+          - { left: bench, right: in the garden }
+        explanation: Der Kühlschrank gehört in die Küche, die Badewanne ins Bad, der Sessel ins Wohnzimmer, der Kleiderschrank ins Schlafzimmer und die Gartenbank in den Garten.
+        links:
+          - title: Lernlandkarte Englisch · There is und there are
+            url: https://lernapps.net/apps/map/englisch/c/there-is-are/
+      - type: single-choice
+        id: wohnen-auf
+        text: "Die Lampe steht auf dem Schreibtisch. Wähle: The lamp is ___ the desk."
+        options:
+          - text: on
+            correct: true
+            info: on heißt oben auf, so wie die Lampe auf dem Schreibtisch steht.
+          - text: in
+            correct: false
+            info: in heißt drin. Die Lampe läge dann in einer Schublade.
+          - text: under
+            correct: false
+            info: under heißt unter. Die Lampe steht aber oben.
+        explanation: Was oben auf etwas steht, steht on.
+        links:
+          - title: Lernlandkarte Englisch · Präpositionen des Ortes
+            url: https://lernapps.net/apps/map/englisch/c/praepositionen-ort/
+      - type: language-task
+        id: wohnen-there
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz mit there is oder there are.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: a lamp · Ellie's room
+            target: "(There is|There's) a lamp in Ellie's room."
+            mistakes:
+              - answer: There are a lamp in Ellie's room.
+                message: Bei einem Ding steht there is, nicht there are.
+          - cue: two chairs · the kitchen
+            target: There are two chairs in the kitchen.
+            mistakes:
+              - answer: There is two chairs in the kitchen.
+                message: Bei mehr als einem Ding steht there are, nicht there is.
+          - cue: a sink · the bathroom
+            target: "(There is|There's) a sink in the bathroom."
+            mistakes:
+              - answer: There are a sink in the bathroom.
+                message: Ein Waschbecken ist ein Ding, also there is.
+        hint: Ein Ding oder mehrere?
+      - type: language-task
+        id: wohnen-frage
+        languages: { source: de, target: en }
+        task: Schreibe die Frage mit there.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: a cooker · the kitchen
+            target: Is there a cooker in the kitchen?
+            mistakes:
+              - answer: Is a cooker in the kitchen?
+                message: Das Wort there fehlt. Die Frage beginnt mit Is there.
+              - answer: There is a cooker in the kitchen?
+                message: In der Frage steht is vor there, nicht danach.
+          - cue: two lamps · the living room
+            target: Are there two lamps in the living room?
+            mistakes:
+              - answer: Is there two lamps in the living room?
+                message: Bei mehr als einem Ding fragst du mit Are there.
+          - cue: a desk · Ellie's room
+            target: Is there a desk in Ellie's room?
+            mistakes:
+              - answer: Is a desk in Ellie's room?
+                message: Das Wort there fehlt. Die Frage beginnt mit Is there.
+        hint: Is oder Are, dann there.
+      - type: language-task
+        id: wohnen-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Ellie wohnt in einem Haus mit Garten.
+            target: Ellie lives in a house with a garden.
+            mistakes:
+              - answer: Ellie lives in a house in the garden.
+                message: Das Haus hat einen Garten, deshalb with. in the garden hieße mitten im Garten.
+              - answer: Ellie live in a house with a garden.
+                message: Zu she gehört lives mit -s.
+          - source: Die Schuhe sind im Schrank.
+            target: The shoes are in the wardrobe.
+            mistakes:
+              - answer: The shoes are on the wardrobe.
+                message: on heißt oben auf dem Schrank. Im Schrank heißt in.
+          - source: Das Sofa steht neben dem Sessel.
+            target: The sofa is next to the armchair.
+        hint: Prüfe in, on und with.
+      - type: language-task
+        id: wohnen-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: there-are-three-chairs-next-to-the-table.mp3
+            target: There are three chairs next to the table.
+          - audio: peters-toys-are-in-his-bedroom.mp3
+            target: Peter's toys are in his bedroom.
+          - audio: is-there-a-bath-in-the-bathroom.mp3
+            target: Is there a bath in the bathroom?
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: wohnen-nachsprechen
+        language: en
+        items:
+          - audio: sophies-bedroom-is-small-but-pretty.mp3
+            text: Sophie's bedroom is small but pretty.
+          - audio: there-is-a-bench-in-the-garden.mp3
+            text: There is a bench in the garden.
+          - audio: my-room-is-next-to-the-bathroom.mp3
+            text: My room is next to the bathroom.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: text
+        text: "Dein Profil „All about me“ wächst weiter. Ellie hat eine Zeile über ihr Zimmer geschrieben. Du kannst über ein Zimmer, deine Wohnung oder dein Haus schreiben."
+      - type: table
+        caption: All about me · Mein Zimmer (Ellies Beispiel)
+        header: [Was, Englisch]
+        rows:
+          - ["Wo wohne ich?", "I live in a house with a garden."]
+          - ["Mein Zimmer", "My room is next to Peter's room. It is not big."]
+          - ["Was gibt es?", "There is a bed, a desk, a chair and a lamp."]
+          - ["Wo steht etwas?", "The lamp is on the desk."]
+      - type: open-task
+        id: wohnen-profil
+        task: "Schreibe den nächsten Teil deines Profils „All about me“ in dein Heft. Du entscheidest, worüber du schreibst: dein Zimmer, deine Wohnung oder dein Haus. Schreibe zwei bis vier Sätze: Wo wohnst du oder welcher Raum ist es, was gibt es dort, und wo steht etwas?"
+        points:
+          - text: Du sagst, wo du wohnst oder um welchen Raum es geht, zum Beispiel a flat, a house oder my room.
+            source: /zuhause-parkers/wohnen/#neu
+          - text: Mit There is oder There are sagst du, was es gibt, und die Form passt zur Zahl.
+            source: /zuhause-parkers/wohnen/#neu
+          - text: Mit in, on, under oder next to sagst du, wo etwas steht.
+            source: /zuhause-parkers/wohnen/#neu
+          - text: Es sind ganze Sätze mit einem Punkt am Ende.
+            kind: form
+        solution: |
+          I live in a flat with my mum. My room is small. There is a bed, a desk and a lamp. The lamp is on the desk.
+
+          Oder: I live in a house with a garden. There are two chairs and a table in the kitchen. My room is upstairs.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Mum and Dad finden Sophies Zimmer toll. Dad fragt: Und wie sieht dein Tag bei den Parkers aus? Auf der nächsten Seite schreibt Sophie, wann sie aufsteht und wann sie isst."

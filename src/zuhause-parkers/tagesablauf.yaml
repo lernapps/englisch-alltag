@@ -1,0 +1,233 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Mein Tag: Uhrzeit und Tageszeit"
+description: "Sophie zeigt ihren Eltern, wie ein Tag bei den Parkers aussieht. Du beschreibst deinen Tagesablauf mit Uhrzeit und Tageszeit."
+competencies: [tagesablauf]
+scope: Die Seite führt die Ausdrücke für den Tag ein (get up, have breakfast, go to school, have lunch, do homework, have tea, go home, go to bed) und zeigt, wie man seinen Tagesablauf beschreibt. Die Uhrzeit mit at wird nur angewendet; neu sind die Tageszeiten (in the morning, in the afternoon, in the evening, aber at night) und die Formen mit he und she (gets up, has, goes, does). Essen und Trinken sowie der Alltag in Großbritannien behandeln spätere Seiten.
+blocks:
+  - type: section
+    id: einstieg
+    title: Ellies Tag in sechs Bildern
+    blocks:
+      - type: figure
+        image: images/tagesablauf-leiste.svg
+        alt: Sechs Bilder in zwei Reihen. Ein Mädchen mit rotem Pferdeschwanz macht in jedem Bild etwas anderes. Unter jedem Bild steht eine Uhrzeit.
+        caption: "Ellies Tag als Bildleiste: Ellie hat den roten Pferdeschwanz. Unter jedem Bild steht die Uhrzeit."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Sophie schreibt Mum and Dad, wie ein Tag bei den Parkers aussieht. Dafür zeichnet sie Ellies Tag als Bildleiste, in der Reihenfolge von links oben nach rechts unten. Die sechs Bilder heißen: **get up** (aufstehen), **have breakfast** (frühstücken), **go to school** (zur Schule gehen), **have lunch** (zu Mittag essen), **do homework** (Hausaufgaben machen) und **have tea**. Bei den Parkers ist tea das Abendessen."
+      - type: single-choice
+        id: tagesablauf-start
+        text: Auf der Bildleiste isst Ellie um 7:30 ihr Frühstück. Was macht sie danach?
+        options:
+          - text: She goes to school.
+            correct: true
+            info: Das nächste Bild zeigt 8:15 und den Schulweg.
+          - text: She has lunch.
+            correct: false
+            info: Das Mittagessen kommt erst um 12:30.
+          - text: She does her homework.
+            correct: false
+            info: Die Hausaufgaben stehen erst um 4:30 auf der Leiste.
+        explanation: Nach dem Frühstück um 7:30 geht Ellie um 8:15 zur Schule.
+        links:
+          - title: Lernlandkarte Englisch · Simple present
+            url: https://lernapps.net/apps/map/englisch/c/simple-present/
+      - type: text
+        text: "**Das kannst du danach:** Du beschreibst deinen Tag mit Uhrzeit und Tageszeit."
+  - type: section
+    id: neu
+    title: Uhrzeit, Tageszeit und das -s bei he und she
+    blocks:
+      - type: text
+        text: "Mit der Uhrzeit sagst du **at**, das kennst du schon: at half past ten. Mit der Tageszeit sagst du **in**: **in the morning** (am Morgen), **in the afternoon** (am Nachmittag), **in the evening** (am Abend). Eine Ausnahme ist die Nacht: **at night**. Nach he und she bekommt das Verb ein -s: I walk, he walks. Drei Verben sind besonders: have wird **has** (She has a bath), go wird **goes** (He goes home) und do wird **does** (She does a puzzle)."
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [get up, aufstehen]
+          - [have tea, das Abendessen essen]
+          - [do homework, Hausaufgaben machen]
+          - [go home, nach Hause gehen]
+          - [at night, in der Nacht]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Uhrzeit:** at. **Tageszeit:** in the morning, in the afternoon, in the evening, aber at night. Das the gehört dazu: nie at morning.
+              **he, she:** -s am Verb. Besonders: has, goes, does.
+              **Nach Hause:** go home, ohne to.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: ordering
+        id: tagesablauf-reihenfolge
+        text: Ellies Nachmittag und Abend. Bringe die Sätze in die richtige Reihenfolge, nach der Uhrzeit.
+        items:
+          - School ends at half past three.
+          - Ellie does her homework at half past four.
+          - Ellie has tea at six o'clock.
+          - Ellie plays a game at seven o'clock.
+        explanation: "Die Uhrzeit sagt die Reihenfolge: half past three, half past four, six o'clock, seven o'clock."
+        links:
+          - title: Lernlandkarte Englisch · Präpositionen der Zeit
+            url: https://lernapps.net/apps/map/englisch/c/praepositionen-zeit/
+      - type: single-choice
+        id: tagesablauf-abend
+        text: "Wähle die richtige Form: Amir does his homework ___ the afternoon."
+        options:
+          - text: in
+            correct: true
+            info: Mit der Tageszeit sagst du in.
+          - text: at
+            correct: false
+            info: at steht bei der Uhrzeit (at four o'clock) und bei at night, nicht bei in the afternoon.
+          - text: on
+            correct: false
+            info: on steht bei Tagen (on Monday), nicht bei der Tageszeit.
+        explanation: "in the morning, in the afternoon, in the evening: die Tageszeit sagst du mit in."
+        links:
+          - title: Lernlandkarte Englisch · Präpositionen der Zeit
+            url: https://lernapps.net/apps/map/englisch/c/praepositionen-zeit/
+      - type: language-task
+        id: tagesablauf-zeit
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz mit der Zeit.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Peter · sleep · night
+            target: Peter sleeps at night.
+            mistakes:
+              - answer: Peter sleeps in the night.
+                message: Die Nacht ist eine Ausnahme, hier steht at night.
+              - answer: Peter sleep at night.
+                message: Zu he gehört sleeps mit -s.
+          - cue: Ellie · do her homework · afternoon
+            target: Ellie does her homework in the afternoon.
+            mistakes:
+              - answer: Ellie does her homework at the afternoon.
+                message: Die Tageszeit sagst du mit in, nicht mit at.
+              - answer: Ellie do her homework in the afternoon.
+                message: Zu she gehört does.
+          - cue: Mr Parker · watch TV · evening
+            target: Mr Parker watches TV in the evening.
+            mistakes:
+              - answer: Mr Parker watches TV at evening.
+                message: Die Tageszeit sagst du mit in the, nicht mit at.
+        hint: Uhrzeit mit at, Tageszeit mit in.
+      - type: language-task
+        id: tagesablauf-sophie
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz. Die Uhrzeit sagst du mit Wörtern.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Ellie · get up · 7:00
+            target: Ellie gets up at (seven|seven o'clock).
+            mistakes:
+              - answer: Ellie get up at seven.
+                message: Zu she gehört gets mit -s.
+          - cue: Peter · have breakfast · 7:30
+            target: Peter has breakfast at half past seven.
+            mistakes:
+              - answer: Peter have breakfast at half past seven.
+                message: Zu he gehört has, nicht have.
+          - cue: Ellie · go to school · 8:15
+            target: Ellie goes to school at (a quarter|quarter) past eight.
+            mistakes:
+              - answer: Ellie go to school at a quarter past eight.
+                message: Zu she gehört goes.
+          - cue: Ellie · have lunch · 12:30
+            target: Ellie has lunch at half past twelve.
+            mistakes:
+              - answer: Ellie have lunch at half past twelve.
+                message: Zu she gehört has, nicht have.
+        hint: he oder she? Dann has, goes oder -s.
+      - type: language-task
+        id: tagesablauf-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: I go to home after school.
+            target: I go home after school.
+            mistakes:
+              - answer: I go to home after school.
+                message: Nach Hause heißt go home, ohne to.
+          - cue: I have breakfast at morning.
+            target: I have breakfast in the morning.
+            mistakes:
+              - answer: I have breakfast at the morning.
+                message: Die Tageszeit sagst du mit in, nicht mit at.
+              - answer: I have breakfast in morning.
+                message: "Das the fehlt: in the morning."
+          - cue: Amir go to school at eight.
+            target: Amir goes to school at eight.
+            mistakes:
+              - answer: Amir go to school at eight.
+                message: Zu he gehört goes.
+        hint: Prüfe to, at und das -s.
+      - type: language-task
+        id: tagesablauf-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: mrs-parker-drinks-tea-in-the-morning.mp3
+            target: Mrs Parker drinks tea in the morning.
+          - audio: peter-goes-to-bed-before-ellie.mp3
+            target: Peter goes to bed before Ellie.
+          - audio: sophie-leaves-with-ellie-and-peter.mp3
+            target: Sophie leaves with Ellie and Peter.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: tagesablauf-nachsprechen
+        language: en
+        items:
+          - audio: i-have-breakfast-with-my-mother.mp3
+            text: I have breakfast with my mother.
+          - audio: my-brother-gets-up-very-early.mp3
+            text: My brother gets up very early.
+          - audio: i-read-a-book-in-the-evening.mp3
+            text: I read a book in the evening.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: text
+        text: "Dein Profil „All about me“ bekommt eine neue Zeile: dein Tag. Ellie zeigt, wie ihr Schultag aussieht. Du kannst einen Schultag oder ein Wochenende wählen."
+      - type: table
+        caption: All about me · Mein Tag (Ellies Beispiel)
+        header: [Was, Englisch]
+        rows:
+          - ["Aufstehen", "I get up at seven o'clock."]
+          - ["Frühstück", "I have breakfast at half past seven."]
+          - ["Schule", "We walk to school at a quarter past eight."]
+          - ["Hausaufgaben", "I do my homework at half past four."]
+          - ["Abend", "I have tea at six o'clock. At seven I play a game or watch TV."]
+          - ["Schlafen", "I go to bed at nine."]
+      - type: open-task
+        id: tagesablauf-profil
+        task: "Schreibe die nächste Zeile deines Profils „All about me“ in dein Heft: Mein Tag in sechs Sätzen. Du entscheidest, ob es ein Schultag oder ein Wochenende ist."
+        points:
+          - text: Du schreibst sechs Sätze über sechs Dinge, die du an deinem Tag tust.
+            source: /zuhause-parkers/tagesablauf/#neu
+          - text: Die Uhrzeit sagst du mit at.
+            source: /zuhause-parkers/tagesablauf/#neu
+          - text: Mindestens ein Satz hat eine Tageszeit mit in the … oder at night.
+            source: /zuhause-parkers/tagesablauf/#neu
+          - text: Wenn du über he oder she schreibst, hat das Verb ein -s.
+            source: /zuhause-parkers/tagesablauf/#neu
+          - text: Es sind ganze Sätze mit einem Punkt am Ende.
+            kind: form
+        solution: |
+          I get up at half past six. I have breakfast at seven. I go to school at eight. I do my homework in the afternoon. I have tea at six o'clock. I go to bed at nine.
+
+          Oder am Wochenende: On Sunday I get up at nine o'clock. I have a big breakfast. In the afternoon I play football. In the evening I watch TV. I go to bed at ten.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Sophie hat ihren Tag beschrieben. Mum and Dad fragen jetzt: Was isst du eigentlich bei den Parkers? Auf der nächsten Seite schreibt Sophie über Essen und Trinken."

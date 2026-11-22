@@ -1,0 +1,230 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Essen und Trinken: Mahlzeiten und was ich mag"
+description: "Sophie schickt ihrer Familie ein Foto vom Frühstückstisch. Du nennst Mahlzeiten, Lebensmittel und Getränke und sagst, was du gern isst."
+competencies: [essen-trinken]
+scope: Die Seite führt die Mahlzeiten breakfast, lunch, dinner, tea und snack, wichtige Lebensmittel und Getränke und das packed lunch ein. Sie zeigt, dass tea auch eine Abendmahlzeit sein kann, dass man have für Mahlzeiten ohne the benutzt und wie man Gewohnheiten sagt (I usually have … for breakfast). Likes, doesn't like und Does she like …? lernst du hier nur als feste Ausdrücke; wie man Fragen und Verneinungen mit do und does bildet, behandelt eine spätere Seite. Der Vergleich mit dem eigenen Alltag steht auf der nächsten Seite.
+blocks:
+  - type: section
+    id: einstieg
+    title: Was steht auf dem Tisch?
+    blocks:
+      - type: figure
+        image: images/fruehstueck.svg
+        alt: Drei Kinder sitzen hinter einem Tisch. Auf dem Tisch stehen eine Schale, eine Flasche, ein Teller, ein Glas mit rotem Deckel und ein Glas mit Saft.
+        caption: "Von links: Ellie (Pferdeschwanz), Sophie (Zöpfe) und Peter (gelbe Jacke) am Tisch der Parkers."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Sophie schickt ihrer Familie ein Foto vom Tisch bei den Parkers. Dazu schreibt sie: „Hier gibt es viel zu probieren!“ Die Mahlzeiten (meals) heißen auf Englisch etwas anders als bei dir. Heute lernst du, wie sie heißen und wie du sagst, was du isst und was du magst."
+      - type: single-choice
+        id: essen-trinken-start
+        text: Schau auf das Foto. Auf dem Tisch stehen Müsli mit Milch, Toast mit Marmelade und Saft. Welche Mahlzeit ist das?
+        options:
+          - text: breakfast
+            correct: true
+            info: Müsli, Toast und Saft gehören zum Frühstück, auf Englisch breakfast.
+          - text: lunch
+            correct: false
+            info: lunch ist das Mittagessen. Müsli und Toast mit Marmelade sind ein Frühstück.
+          - text: dinner
+            correct: false
+            info: dinner ist eine Hauptmahlzeit, oft am Abend. Müsli und Toast sind kein dinner.
+        explanation: Müsli, Toast und Saft sind ein Frühstück, also breakfast.
+        links:
+          - title: Lernlandkarte Englisch · Essen und Trinken
+            url: https://lernapps.net/apps/map/englisch/c/essen-trinken/
+      - type: text
+        text: "**Das kannst du danach:** Du nennst Mahlzeiten, Lebensmittel und Getränke und sagst, was du gern isst und was nicht."
+  - type: section
+    id: neu
+    title: Mahlzeiten, Essen und Gewohnheiten
+    blocks:
+      - type: text
+        text: "Die Mahlzeiten heißen **breakfast** (Frühstück), **lunch** (Mittagessen), **dinner** (die Hauptmahlzeit, oft am Abend) und **snack** (Zwischenmahlzeit). Dazu kommt **tea**: Das Wort heißt Tee, kann aber auch eine frühe Abendmahlzeit sein. Bei den Parkers ist tea um sechs Uhr abends. Ob tea ein Getränk oder eine Mahlzeit ist, erkennst du am Satz."
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [cereal, Müsli]
+          - [jam, Marmelade]
+          - [yoghurt, Joghurt]
+          - [vegetables, Gemüse]
+          - [packed lunch, Mittagessen von zu Hause zum Mitnehmen]
+      - type: text
+        text: "Ein **packed lunch** bereitet man zu Hause vor und nimmt es mit, zum Beispiel in die Schule. Auch Ellie hat in der Schule ein packed lunch. Mit **have** sagst du, was du isst oder trinkst: I usually have juice and an egg for breakfast. Vor breakfast, lunch, dinner und tea steht kein **the**. Wenn du über andere sprichst, brauchst du feste Ausdrücke: Peter **likes** bananas, but he **doesn't like** soup. Does she like cheese? Yes, she does. Wie man diese Sätze bildet, lernst du später."
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **I have breakfast**, nicht „I have the breakfast“. **usually** (normalerweise) steht vor have. Bei he, she, it hat das Verb ein -s: he likes, she drinks. **tea** kann Getränk oder Abendmahlzeit sein. Ein **packed lunch** ist ein Mittagessen von zu Hause.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: essen-trinken-paare
+        text: Welche Mahlzeit passt zu welchem Essen?
+        pairs:
+          - { left: packed lunch, right: a cheese sandwich and an apple }
+          - { left: tea, right: pasta with chicken and vegetables }
+          - { left: snack, right: a banana }
+        distractors: [cereal with milk]
+        explanation: Cereal with milk ist ein Frühstück und passt zu keiner dieser Mahlzeiten.
+        links:
+          - title: Lernlandkarte Englisch · Essen und Trinken
+            url: https://lernapps.net/apps/map/englisch/c/essen-trinken/
+      - type: true-false
+        id: essen-trinken-tea
+        text: "Mrs Parker has tea with her breakfast. Hier ist tea eine Mahlzeit am Abend."
+        answer: false
+        explanation: Zum Frühstück passt ein Getränk. Hier heißt tea Tee.
+        links:
+          - title: Lernlandkarte Englisch · Essen und Trinken
+            url: https://lernapps.net/apps/map/englisch/c/essen-trinken/
+      - type: single-choice
+        id: essen-trinken-form
+        text: "Wähle die richtige Form: Amir ___ rice. (Er mag keinen Reis.)"
+        options:
+          - text: doesn't like
+            correct: true
+            info: Zu he, she, it gehört doesn't like.
+          - text: don't like
+            correct: false
+            info: don't like gehört zu I, you, we und they. Zu Amir passt doesn't.
+          - text: doesn't likes
+            correct: false
+            info: Nach doesn't bleibt das Verb ohne -s.
+        explanation: "Bei he, she, it heißt es doesn't like."
+        links:
+          - title: Lernlandkarte Englisch · Simple present
+            url: https://lernapps.net/apps/map/englisch/c/simple-present/
+      - type: language-task
+        id: essen-trinken-gern
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz. not like steht für die Verneinung.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Peter · like · pasta
+            target: Peter likes pasta.
+            mistakes:
+              - answer: Peter like pasta.
+                message: Bei he, she, it bekommt das Verb ein -s, also likes.
+          - cue: Mrs Parker · drink · tea
+            target: Mrs Parker drinks tea.
+            mistakes:
+              - answer: Mrs Parker drink tea.
+                message: Zu Mrs Parker (she) gehört drinks mit -s.
+          - cue: Sophie · not like · cheese
+            target: Sophie doesn't like cheese.
+            mistakes:
+              - answer: Sophie don't like cheese.
+                message: Zu Sophie (she) gehört doesn't, nicht don't.
+              - answer: Sophie doesn't likes cheese.
+                message: Nach doesn't bleibt like ohne -s.
+        hint: Bei he, she, it wird aus like likes.
+      - type: language-task
+        id: essen-trinken-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Ich habe normalerweise Brot und Käse zum Mittagessen.
+            target: I usually have bread and cheese for lunch.
+            mistakes:
+              - answer: I usually have bread and cheese for the lunch.
+                message: Vor lunch steht kein the.
+          - source: Mrs Parker trinkt zum Frühstück Tee.
+            target: "Mrs Parker drinks tea (for|at|with) breakfast."
+            mistakes:
+              - answer: Mrs Parker drink tea for breakfast.
+                message: Zu Mrs Parker (she) gehört drinks mit -s.
+              - answer: Mrs Parker drinks tea for the breakfast.
+                message: Vor breakfast steht kein the.
+          - source: Ich esse normalerweise Reis mit Gemüse.
+            target: I usually (have|eat) rice with vegetables.
+            mistakes:
+              - answer: I have usually rice with vegetables.
+                message: usually steht vor have, nicht dahinter.
+        hint: Mit have oder eat sagst du, was du isst.
+      - type: language-task
+        id: essen-trinken-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: I eat the breakfast at seven.
+            target: I (eat|have) breakfast at seven.
+            mistakes:
+              - answer: I eat the breakfast at seven.
+                message: Vor breakfast steht kein the.
+          - cue: He like pasta.
+            target: He likes pasta.
+            mistakes:
+              - answer: He like pasta.
+                message: Zu he gehört likes mit -s.
+          - cue: Ellie takes a packed dinner to school.
+            target: Ellie takes a packed lunch to school.
+            mistakes:
+              - answer: Ellie takes a packed dinner to school.
+                message: Ein packed lunch ist ein Mittagessen, kein dinner.
+        hint: Prüfe the, das -s und die Mahlzeit.
+      - type: language-task
+        id: essen-trinken-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: sophie-usually-has-toast-for-breakfast.mp3
+            target: Sophie usually has toast for breakfast.
+          - audio: does-amir-like-chicken.mp3
+            target: Does Amir like chicken?
+          - audio: peter-drinks-water-with-his-dinner.mp3
+            target: Peter drinks water with his dinner.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: essen-trinken-nachsprechen
+        language: en
+        items:
+          - audio: my-sister-likes-cereal-with-yoghurt.mp3
+            text: My sister likes cereal with yoghurt.
+          - audio: after-school-i-usually-have-a-sandwich.mp3
+            text: After school I usually have a sandwich.
+          - audio: my-dad-drinks-juice-but-i-drink-water.mp3
+            text: My dad drinks juice, but I drink water.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: text
+        text: "Dein Profil „All about me“ (Alles über mich) wächst weiter. Ellie hat ihre Zeile über das Essen geschrieben. Schau, wie sie es macht."
+      - type: table
+        caption: All about me · Was ich gern esse (Ellies Beispiel)
+        header: [Was, Englisch]
+        rows:
+          - ["Mein Frühstück", "I usually have cereal with milk and orange juice."]
+          - ["Mein Mittagessen", "I have a packed lunch at school."]
+          - ["Was ich gern esse", "I like pasta with chicken and vegetables."]
+          - ["Was ich nicht mag", "I don't like soup."]
+      - type: open-task
+        id: essen-trinken-profil
+        task: "Schreibe die nächste Zeile deines Profils „All about me“ in dein Heft, drei bis fünf Sätze: Was isst und trinkst du normalerweise? Was magst du, was nicht? Du schreibst, was bei dir stimmt, auch wenn du zum Beispiel kein Fleisch isst."
+        points:
+          - text: Ein Satz sagt mit I usually have, was du zu einer Mahlzeit isst oder trinkst.
+            source: /zuhause-parkers/essen-trinken/#neu
+          - text: Ein Satz sagt mit I like, was du gern isst.
+            source: /zuhause-parkers/essen-trinken/#neu
+          - text: Ein Satz sagt mit I don't like, was du nicht magst, oder mit einem anderen Satz, was du nicht isst.
+            source: /zuhause-parkers/essen-trinken/#neu
+          - text: Vor breakfast, lunch, dinner und tea steht kein the, und es sind ganze Sätze mit einem Punkt am Ende.
+            kind: form
+        solution: |
+          I usually have toast with jam for breakfast. I have lunch at home. I like rice and vegetables. I don't like fish.
+
+          Oder: I don't eat meat. I usually have bread and cheese for breakfast and I drink milk. I like pizza.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Sophie hat ihrer Familie geschrieben, was sie bei den Parkers isst. Auf der nächsten Seite vergleicht sie Ellies Alltag mit ihrem eigenen: Was ist gleich und was ist anders?"
