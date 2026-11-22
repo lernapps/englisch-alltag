@@ -33,11 +33,10 @@ def barometer():
     cols = ["#9bd67a", "#d6dc7a", "#e9d083", "#f0b27a", "#ec7b6e"]
     names = ["happy", "OK", "tired", "sad", "angry"]
     kinds = ["happy", "ok", "tired", "sad", "angry"]
-    b += '  <rect x="30" y="20" width="580" height="12" rx="6" fill="#ddd" stroke="#999" stroke-width="2"/>\n'
     for i, (c, n, k) in enumerate(zip(cols, names, kinds)):
         x = 70 + i * 125
-        b += face(x, 105, 48, c, k) + text(x, 190, n, 24, weight="bold")
-    return svg(640, 215, "Das Barometer: fünf Gesichter in einer Reihe, von fröhlich bis wütend, mit je einem englischen Wort darunter", b)
+        b += face(x, 75, 48, c, k) + text(x, 160, n, 24, weight="bold")
+    return svg(640, 185, "Das Barometer: fünf Gesichter in einer Reihe, von fröhlich bis wütend, mit je einem englischen Wort darunter", b)
 
 
 # @image

@@ -197,7 +197,7 @@ blocks:
           - ["Hast du ein Haustier?", "No, I haven't got a pet. I like rabbits."]
       - type: open-task
         id: freizeit-hobbys-profil
-        task: "Schreibe die nächste Zeile deines Profils „All about me“ in dein Heft: Was machst du gern? Hast du ein Haustier oder wünschst du dir eines? Schreibe zwei bis vier Sätze."
+        task: "Schreibe die nächste Zeile deines Profils „All about me“ in dein Heft: Was machst du gern? Hast du ein Haustier oder wünschst du dir eines? Schreibe zwei bis vier Sätze. Die App bewertet deinen Text nicht: Vergleiche ihn danach selbst mit den Punkten."
         points:
           - text: Ein Satz sagt mit like, love oder enjoy und einem Verb mit -ing, was du gern machst.
             source: /freizeit-nachrichten/freizeit-hobbys/#neu

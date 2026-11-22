@@ -229,7 +229,7 @@ blocks:
           - ["Wie ist er?", "He is friendly."]
       - type: open-task
         id: familie-personen-profil
-        task: "Schreibe den ersten Teil deines Profils „All about me“ in dein Heft. Wähle einen Menschen, der zu deiner Familie gehört oder dir wichtig ist, und schreibe zwei bis vier Sätze: Wer ist das für dich, wie sieht die Person aus und wie ist sie?"
+        task: "Schreibe den ersten Teil deines Profils „All about me“ in dein Heft. Wähle einen Menschen, der zu deiner Familie gehört oder dir wichtig ist, und schreibe zwei bis vier Sätze: Wer ist das für dich, wie sieht die Person aus und wie ist sie? Die App bewertet deinen Text nicht: Vergleiche ihn danach selbst mit den Punkten."
         points:
           - text: Du nennst, wer die Person für dich ist, mit einem Wort wie my mum, my grandpa, my cousin oder my friend.
             source: /menschen-beschreiben/familie-personen/#neu

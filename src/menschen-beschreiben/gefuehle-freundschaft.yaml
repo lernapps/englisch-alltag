@@ -46,7 +46,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Auf die Frage **How are you?** (Wie geht es dir?) antwortest du: **I’m fine, thanks.** Genauer sagst du es mit **I feel** und einem Gefühlswort: I feel happy. Das Wort steht direkt nach feel, ohne me. Mit **I am** geht es auch: I am tired. Ein **friend** ist ein Freund oder eine Freundin, dein **best friend** ist dein bester Freund oder deine beste Freundin."
+        text: "Auf die Frage **How are you?** (Wie geht es dir?) antwortest du: **I’m fine, thanks.** **OK** heißt „es geht so“. Genauer sagst du es mit **I feel** und einem Gefühlswort: I feel happy. Das Wort steht direkt nach feel, ohne me. Mit **I am** geht es auch: I am tired. Ein **friend** ist ein Freund oder eine Freundin, dein **best friend** ist dein bester Freund oder deine beste Freundin."
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
@@ -196,7 +196,7 @@ blocks:
           - ["Was hilft dir?", "I talk to my friend."]
       - type: open-task
         id: gefuehle-freundschaft-profil
-        task: "Schreibe in dein Heft, wie du dich heute fühlst, in zwei bis vier Sätzen. Du kannst auch einen Satz über einen Freund oder eine Freundin schreiben."
+        task: "Schreibe in dein Heft, wie du dich heute fühlst, in zwei bis vier Sätzen. Du kannst auch einen Satz über einen Freund oder eine Freundin schreiben. Die App bewertet deinen Text nicht: Vergleiche ihn danach selbst mit den Punkten."
         points:
           - text: Du antwortest auf How are you?, zum Beispiel mit I'm fine oder I'm tired.
             source: /menschen-beschreiben/gefuehle-freundschaft/#neu

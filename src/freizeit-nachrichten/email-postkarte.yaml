@@ -50,6 +50,12 @@ blocks:
           - [Erwachsene (nicht Familie), "Dear Mrs Parker,", "Best wishes,"]
       - type: text
         text: "**Love,** heißt liebe Grüße, **See you soon,** bis bald, **Write soon,** schreib bald. **Best wishes,** (herzliche Grüße) ist freundlich, aber ein Stück weiter weg: Das schreibst du an Erwachsene, die nicht zu deiner Familie gehören. **Yours** ist für offizielle Briefe, nicht für die Familie. Eine **E-Mail** hat zusätzlich eine Zeile **Subject** (Betreff) mit wenigen Wörtern. Eine Postkarte hat keine."
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Anrede:** Dear oder Hi + Name + Komma. **Gruß:** Love, / See you soon, / Write soon, an Familie und Freunde, Best wishes, an andere Erwachsene, dann dein Name. **Für Familie:** nie Yours. **Für Erwachsene:** nicht Hi.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
@@ -58,12 +64,6 @@ blocks:
           - [best wishes, herzliche Grüße]
           - [subject, Betreff]
           - ["cold (hier: kalt)", "kalt. Nicht: a cold, die Erkältung."]
-      - type: note
-        title: Merke
-        blocks:
-          - type: text
-            text: |
-              **Anrede:** Dear oder Hi + Name + Komma. **Gruß:** Love, / See you soon, / Write soon, an Familie und Freunde, Best wishes, an andere Erwachsene, dann dein Name. **Für Familie:** nie Yours. **Für Erwachsene:** nicht Hi.
   - type: section
     id: uebung
     title: Übung
@@ -196,7 +196,7 @@ blocks:
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
       - type: open-task
         id: email-postkarte-profil
-        task: "Schreibe eine Postkarte oder eine kurze E-Mail in dein Heft, an eine Person deiner Wahl: an einen Menschen aus deiner Familie, an eine Freundin, einen Freund oder an einen Erwachsenen. Schreibe drei bis fünf Sätze Text."
+        task: "Schreibe eine Postkarte oder eine kurze E-Mail in dein Heft, an eine Person deiner Wahl: an einen Menschen aus deiner Familie, an eine Freundin, einen Freund oder an einen Erwachsenen. Schreibe drei bis fünf Sätze Text. Die App bewertet deinen Text nicht: Vergleiche ihn danach selbst mit den Punkten."
         points:
           - text: Die Karte beginnt mit Dear oder Hi, dem Namen und einem Komma, passend zur Person.
             source: /freizeit-nachrichten/email-postkarte/#neu

@@ -58,7 +58,7 @@ blocks:
             text: |
               **Eine Person:** Amir is my friend. He has got black curly hair and glasses. He is quiet but funny.
 
-              **Ein Ort:** This is Peter’s room. It is big. There is a bed and there are toys. There is a shelf, but there is no desk.
+              **Ein Ort:** This is Peter’s room. It is small. There is a bed and there are toys. There is a shelf, but there is no desk.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
@@ -107,29 +107,28 @@ blocks:
       - type: language-task
         id: personen-orte-beschreiben-luecken
         languages: { source: de, target: en }
-        mode: gap
-        task: Schreibe das fehlende Wort in die Lücke.
+        task: Schreibe den ganzen Satz.
         form: { case: hint, punctuation: ok }
         items:
           - source: Peter ist klein und lustig.
-            target: "Peter is small [and] funny."
+            target: Peter is small and funny.
             mistakes:
-              - answer: but
+              - answer: Peter is small but funny.
                 message: but zeigt einen Gegensatz. Klein und lustig passen zusammen, also and.
           - source: Mein Zimmer ist klein, aber es ist nett.
-            target: "My room is small, [but] it is nice."
+            target: My room is small, but it is nice.
             mistakes:
-              - answer: and
+              - answer: My room is small, and it is nice.
                 message: but verbindet zwei Gedanken, die nicht gut zusammenpassen, hier klein, aber trotzdem nett.
           - source: In meinem Zimmer gibt es einen Schrank.
-            target: "There [is] a wardrobe in my room."
+            target: (There is|There's) a wardrobe in my room.
             mistakes:
-              - answer: are
+              - answer: There are a wardrobe in my room.
                 message: Ein Schrank ist eine Sache, also there is.
           - source: Auf dem Schreibtisch gibt es zwei Stifte.
-            target: "There [are] two pens on the desk."
+            target: There are two pens on the desk.
             mistakes:
-              - answer: is
+              - answer: There is two pens on the desk.
                 message: Zwei Stifte sind mehrere Sachen, also there are.
         hint: and oder but? there is oder there are?
       - type: language-task
@@ -212,7 +211,7 @@ blocks:
           - ["Und ein Gegensatz?", "My room is not big, but I like it."]
       - type: open-task
         id: personen-orte-beschreiben-profil
-        task: "Schreibe in dein Heft einen kurzen Text über deinen Lieblingsplatz oder dein Zimmer, in drei bis fünf Sätzen: Wo ist das, wie ist es und was gibt es dort?"
+        task: "Schreibe in dein Heft einen kurzen Text über deinen Lieblingsplatz oder dein Zimmer, in drei bis fünf Sätzen: Wo ist das, wie ist es und was gibt es dort? Die App bewertet deinen Text nicht: Vergleiche ihn danach selbst mit den Punkten."
         points:
           - text: Ein Satz sagt, wo der Ort ist oder was dein Lieblingsplatz ist.
             source: /menschen-beschreiben/personen-orte-beschreiben/#neu
