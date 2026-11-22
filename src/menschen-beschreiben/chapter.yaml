@@ -2,3 +2,17 @@
 title: Menschen beschreiben
 summary: Sophie schreibt ihrer Familie, wie die Parkers aussehen und wie sie sind. Du lernst Familienwörter, beschreibst Menschen nach Aussehen und Charakter, sprichst über Gefühle und Streit und sagst beim Arzt, was dir fehlt.
 pages: [das-brauchst-du, familie-personen, personen-orte-beschreiben, gefuehle-freundschaft, gesundheit]
+selfAssessment:
+  pages:
+    - exercises:
+        - /menschen-beschreiben/familie-personen/#familie-personen-satz
+        - /menschen-beschreiben/familie-personen/#familie-personen-uebersetzen
+    - exercises:
+        - /menschen-beschreiben/personen-orte-beschreiben/#personen-orte-beschreiben-uebersetzen
+        - /menschen-beschreiben/personen-orte-beschreiben/#personen-orte-beschreiben-korrektur
+    - exercises:
+        - /menschen-beschreiben/gefuehle-freundschaft/#gefuehle-freundschaft-satz
+        - /menschen-beschreiben/gefuehle-freundschaft/#gefuehle-freundschaft-korrektur
+    - exercises:
+        - /menschen-beschreiben/gesundheit/#gesundheit-satz
+        - /menschen-beschreiben/gesundheit/#gesundheit-uebersetzen
