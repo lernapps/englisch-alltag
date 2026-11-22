@@ -1,0 +1,257 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Wenn etwas wehtut: Beim Arzt"
+description: "Peter hat Bauchweh, Mrs Parker geht mit ihm zum Arzt. Du lernst Körperteile und Beschwerden und sagst, was dir fehlt."
+competencies: [gesundheit]
+scope: Die Seite führt Körperteile wie head, arm, stomach, back und throat ein und zeigt, wie man kleine Beschwerden sagt (My head hurts. I've got a headache. I've got a cold.). Beim Arzt fragt man What's the matter?, der Rat kommt als Befehl (Stay in bed. Drink water.), in der Apotheke fragt man Have you got something for a cold? have got wird nur benutzt, nicht neu erklärt. Gefühle und Streit stehen auf der Seite davor; am Ende blickt die Seite auf das ganze Kapitel zurück.
+blocks:
+  - type: section
+    id: einstieg
+    title: Peter hat Bauchweh
+    blocks:
+      - type: figure
+        image: images/szene-gesundheit.svg
+        alt: Ein Wartezimmer. Eine Frau mit Dutt und ein Junge sitzen auf einer Bank. Rechts ist eine Tür mit einem grünen Kreuz.
+        caption: "Mrs Parker (roter Dutt) und Peter (gelbe Jacke) warten beim Arzt."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Peter will sein Frühstück nicht essen. Mrs Parker geht mit ihm zum Arzt (doctor). Im Wartezimmer fragt sie ihn leise: „What’s the matter, Peter?“"
+      - type: single-choice
+        id: gesundheit-start
+        text: "Mrs Parker fragt: „What’s the matter, Peter?“ Was will sie wissen?"
+        options:
+          - text: Was ist los? Was fehlt dir?
+            correct: true
+            info: "What’s the matter? fragt, was das Problem ist. Man fragt es, wenn jemand krank aussieht oder traurig ist."
+          - text: Wie heißt du?
+            correct: false
+            info: "Das wäre What’s your name?"
+          - text: Wie spät ist es?
+            correct: false
+            info: "Das wäre What time is it?"
+        explanation: "What’s the matter? heißt: Was ist los? Was fehlt dir?"
+        links:
+          - title: Lernlandkarte Englisch · Gesundheit
+            url: https://lernapps.net/apps/map/englisch/c/gesundheit/
+      - type: text
+        text: "**Das kannst du danach:** Du nennst Körperteile und kleine Beschwerden und sagst beim Arzt oder in der Apotheke, was dir fehlt."
+  - type: section
+    id: neu
+    title: Körperteile und Beschwerden
+    blocks:
+      - type: labelled-figure
+        image: images/koerper.svg
+        alt: Eine Figur von vorn und von hinten. Fünf Stellen am Kopf und am linken Arm sind mit Zahlen markiert.
+        caption: Körperteile der Figur. Die Zahlen stehen in der Liste.
+        labels:
+          - { x: 29.7, y: 9, text: head }
+          - { x: 32.2, y: 15.1, text: eye }
+          - { x: 36.3, y: 17.3, text: ear }
+          - { x: 29.7, y: 18.2, text: nose }
+          - { x: 15.2, y: 47.6, text: arm }
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Weitere Körperteile: **hand** (Hand), **leg** (Bein), **foot** (Fuß), **stomach** (Bauch, Magen), **back** (Rücken), **tooth** (Zahn) und **throat** (Hals innen, Rachen). Wenn etwas wehtut, sagst du: **My head hurts.** Bei mehreren Teilen fällt das -s weg: My legs hurt. Oder du sagst, was du hast: **I’ve got a headache** (Kopfschmerzen), **a stomachache**, **a toothache**, **a cold**, **a cough**. I’ve got heißt I have got, du kennst es schon."
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [stomach, Bauch / Magen]
+          - [throat, Hals / Rachen]
+          - [tooth, Zahn]
+          - [cough, Husten]
+          - [medicine, Medizin]
+      - type: example
+        title: Beim Arzt und in der Apotheke
+        blocks:
+          - type: text
+            text: |
+              **Doctor:** What’s the matter, Ellie?
+              **Ellie:** I’ve got a cough.
+              **Doctor:** Drink water. Stay at home.
+
+              **In der Apotheke:** Have you got something for a cold?
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Es tut weh:** My arm hurts (ein Teil), My arms hurt (mehrere). **Ich habe:** I’ve got **a** headache, nie ohne a. **Der Rat** ist ein Befehl ohne you: Stay in bed. Drink water.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: gesundheit-koerper
+        languages: { source: de, target: en }
+        task: Schreibe das englische Wort für das Körperteil mit dem Buchstaben.
+        form: { case: hint, punctuation: ok }
+        material:
+          - type: labelled-figure
+            image: images/koerper.svg
+            alt: "Eine Figur von vorn und von hinten mit sechs Markierungen: A am Ende eines Arms, B in der Körpermitte, C im Gesicht, D auf der Figur von hinten, E ganz unten und F zwischen Kopf und Körper."
+            caption: Welches Körperteil ist markiert?
+            legend: false
+            labels:
+              - { x: 11.9, y: 63.6, text: hand, marker: A }
+              - { x: 29.7, y: 52.2, text: stomach, marker: B }
+              - { x: 29.7, y: 22.9, text: tooth, marker: C }
+              - { x: 78.1, y: 47.8, text: back, marker: D }
+              - { x: 25.3, y: 94.2, text: foot, marker: E }
+              - { x: 29.7, y: 29.8, text: throat, marker: F }
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+        items:
+          - { marker: A, target: hand }
+          - { marker: B, target: stomach }
+          - { marker: C, target: tooth }
+          - { marker: D, target: back }
+          - { marker: E, target: foot }
+          - { marker: F, target: throat }
+        hint: Schau dir die Markierung genau an.
+      - type: matching
+        id: gesundheit-beschwerden
+        text: Was fehlt dir? Wähle den englischen Satz.
+        pairs:
+          - { left: Du hast Husten., right: "I've got a cough." }
+          - { left: Dein Zahn tut weh., right: "I've got a toothache." }
+          - { left: Dein Bein tut weh., right: "My leg hurts." }
+          - { left: Du bist erkältet., right: "I've got a cold." }
+        explanation: "Eine Krankheit oder Schmerzen nennst du mit I’ve got a …, ein Körperteil mit hurts."
+        links:
+          - title: Lernlandkarte Englisch · Gesundheit
+            url: https://lernapps.net/apps/map/englisch/c/gesundheit/
+      - type: single-choice
+        id: gesundheit-artikel
+        text: "Peter sagt: „Ich habe Kopfschmerzen.“ Welcher Satz ist richtig?"
+        options:
+          - text: "I've got a headache."
+            correct: true
+            info: Vor headache steht a.
+          - text: "I've got headache."
+            correct: false
+            info: Das a fehlt. Im Deutschen sagt man es ohne Artikel, im Englischen nicht.
+          - text: "I've got a head hurts."
+            correct: false
+            info: "hurts ist ein Verb. Entweder My head hurts oder I've got a headache."
+        explanation: "I've got a headache. Ohne a ist der Satz falsch."
+        links:
+          - title: Lernlandkarte Englisch · Gesundheit
+            url: https://lernapps.net/apps/map/englisch/c/gesundheit/
+      - type: ordering
+        id: gesundheit-gespraech
+        text: Peter ist beim Arzt. Bringe das Gespräch in die richtige Reihenfolge.
+        items:
+          - "Doctor: What's the matter, Peter?"
+          - "Peter: I've got a stomachache."
+          - "Doctor: Stay in bed. Drink water."
+          - "Peter: Thank you."
+        explanation: Erst die Frage, dann die Antwort, dann der Rat, zuletzt der Dank.
+        links:
+          - title: Lernlandkarte Englisch · Gesundheit
+            url: https://lernapps.net/apps/map/englisch/c/gesundheit/
+      - type: language-task
+        id: gesundheit-satz
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: my · arm · hurt
+            target: My arm hurts.
+            mistakes:
+              - answer: My arm hurt.
+                message: Ein Teil, also hurts mit -s.
+          - cue: he · have got · a cough
+            target: "(He has got|He's got|He has) a cough."
+            mistakes:
+              - answer: He have got a cough.
+                message: Zu he gehört has got.
+          - cue: I · have got · toothache
+            target: "(I have got|I've got|I have) a toothache."
+            mistakes:
+              - answer: "I've got toothache."
+                message: Vor toothache steht a.
+              - answer: I have got toothache.
+                message: Vor toothache steht a.
+        hint: Hurts oder hurt? Fehlt ein a?
+      - type: language-task
+        id: gesundheit-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Mein Rücken tut weh.
+            target: My back hurts.
+            mistakes:
+              - answer: My back hurt.
+                message: Ein Teil, also hurts mit -s.
+          - source: Hast du etwas gegen Husten?
+            target: Have you got something for a cough?
+            mistakes:
+              - answer: Have you got something for cough?
+                message: Vor cough steht a.
+          - source: Trink Wasser.
+            target: Drink water.
+            mistakes:
+              - answer: You drink water.
+                message: Ein Rat ist ein Befehl, ohne you.
+        hint: Beginne mit my, have you oder dem Befehl.
+      - type: language-task
+        id: gesundheit-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: peter-has-got-a-bad-cough-today.mp3
+            target: "(Peter has|Peter's) got a bad cough today."
+          - audio: my-arm-and-my-hand-hurt-sophie.mp3
+            target: "My arm and my hand hurt, Sophie."
+          - audio: please-drink-some-water-ellie.mp3
+            target: "Please drink some water, Ellie."
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: gesundheit-nachsprechen
+        language: en
+        items:
+          - audio: ive-got-a-bad-cold-today.mp3
+            text: I've got a bad cold today.
+          - audio: is-your-stomach-better-now-peter.mp3
+            text: Is your stomach better now, Peter?
+          - audio: please-stay-at-home-sophie.mp3
+            text: Please stay at home, Sophie.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: text
+        text: "Die letzte Zeile deines Profils in diesem Kapitel: Ellie hat aufgeschrieben, was sie sagt, wenn ihr etwas wehtut."
+      - type: table
+        caption: All about me · Wenn mir etwas wehtut (Ellies Beispiel)
+        header: [Was, Englisch]
+        rows:
+          - ["Was fehlt dir?", "I've got a cold."]
+          - ["Was tut weh?", "My ear hurts."]
+          - ["Was hilft?", "I stay in bed and drink water."]
+      - type: open-task
+        id: gesundheit-profil
+        task: "Schreibe in dein Heft, was du sagst, wenn dir etwas wehtut, in zwei bis vier Sätzen: Was tut weh, was hast du und was hilft dir?"
+        points:
+          - text: Ein Satz sagt mit hurts oder I've got a …, was dir fehlt.
+            source: /menschen-beschreiben/gesundheit/#neu
+          - text: Du nennst ein Körperteil oder eine Beschwerde von der Seite.
+            source: /menschen-beschreiben/gesundheit/#neu
+          - text: Ein Satz sagt als Befehl, was hilft (Drink water. Stay in bed.).
+            source: /menschen-beschreiben/gesundheit/#neu
+          - text: Es sind ganze Sätze mit einem Punkt am Ende.
+            kind: form
+        solution: |
+          My stomach hurts. I've got a stomachache. Stay in bed. Drink water.
+
+          Oder: I've got a cold. My nose and my throat hurt. I drink water and stay at home.
+  - type: section
+    id: weiter
+    title: Kapitel geschafft
+    blocks:
+      - type: text
+        text: "Du hast in diesem Kapitel Menschen beschrieben: die Familie mit has got und is, einen Text mit Bauplan, Gefühle und Streit, Körperteile und Beschwerden. Du kannst Menschen und Orte beschreiben, sagen, wie du dich fühlst, und beim Arzt sagen, was dir fehlt. Sophie schickt ihre Nachrichten ab: Ihre Eltern wissen jetzt, wie die Parkers und Mr Hill sind, wie es ihr geht und dass Peter bald wieder gesund ist. Im nächsten Kapitel zeigt sie ihnen das Haus der Parkers."
