@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img">
+  <title>Querschnitt eines Hauses mit zwei Stockwerken, Garten rechts. Die Zimmer tragen Namen, die Möbel sind kleine Zeichen</title>
+  <defs>
+    <g id="sophie" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M14 168 C8 120 22 88 50 84 C78 88 92 120 86 168 C70 178 30 178 14 168 Z" fill="#3a9a5b"/>
+      <ellipse cx="50" cy="52" rx="30" ry="32" fill="#f3d2b3"/>
+      <path d="M18 54 Q14 14 50 12 Q86 14 82 54 Q80 34 62 28 Q40 36 22 40 Z" fill="#d9b45a"/>
+      <path d="M20 50 C10 70 12 96 22 108" fill="none" stroke="#d9b45a" stroke-width="8"/>
+      <path d="M80 50 C90 70 88 96 78 108" fill="none" stroke="#d9b45a" stroke-width="8"/>
+      <circle cx="40" cy="56" r="3" fill="#222"/><circle cx="60" cy="56" r="3" fill="#222"/>
+      <path d="M42 68 Q50 75 58 68" fill="none"/>
+    </g>
+    <g id="ellie" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M14 168 C8 120 22 88 50 84 C78 88 92 120 86 168 C70 178 30 178 14 168 Z" fill="#d33"/>
+      <ellipse cx="50" cy="52" rx="30" ry="32" fill="#f3d2b3"/>
+      <path d="M18 54 Q14 14 50 12 Q86 14 82 54 Q80 34 62 28 Q40 36 22 40 Z" fill="#b5501e"/>
+      <path d="M82 30 C104 34 108 70 92 90" fill="none" stroke="#b5501e" stroke-width="10"/>
+      <circle cx="40" cy="56" r="3" fill="#222"/><circle cx="60" cy="56" r="3" fill="#222"/>
+      <path d="M42 68 Q50 75 58 68" fill="none"/>
+    </g>
+    <g id="peter" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M14 168 C8 120 22 88 50 84 C78 88 92 120 86 168 C70 178 30 178 14 168 Z" fill="#e0b020"/>
+      <ellipse cx="50" cy="52" rx="30" ry="32" fill="#f3d2b3"/>
+      <path d="M18 54 Q14 14 50 12 Q86 14 82 54 Q80 34 62 28 Q40 36 22 40 Z" fill="#6b3f1e"/>
+      <circle cx="40" cy="56" r="3" fill="#222"/><circle cx="60" cy="56" r="3" fill="#222"/>
+      <path d="M40 66 Q50 78 60 66" fill="none"/>
+    </g>
+    <g id="amir" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M14 168 C8 120 22 88 50 84 C78 88 92 120 86 168 C70 178 30 178 14 168 Z" fill="#3a6fd8"/>
+      <ellipse cx="50" cy="54" rx="30" ry="32" fill="#c68f62"/>
+      <path d="M18 54 Q10 22 30 14 Q40 6 52 12 Q72 6 82 22 Q92 40 82 54 Q80 34 62 28 Q40 34 22 42 Z" fill="#222"/>
+      <circle cx="39" cy="57" r="8" fill="none"/><circle cx="61" cy="57" r="8" fill="none"/><path d="M47 57 L53 57" fill="none"/>
+      <circle cx="39" cy="57" r="2.5" fill="#222"/><circle cx="61" cy="57" r="2.5" fill="#222"/>
+      <path d="M42 70 Q50 77 58 70" fill="none"/>
+    </g>
+  <g id="mrs-parker" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><path d="M12 168 C6 120 20 88 50 84 C80 88 94 120 88 168 C70 178 30 178 12 168 Z" fill="#2a9d8f"/><ellipse cx="50" cy="52" rx="30" ry="32" fill="#f1cdb0"/><path d="M18 54 Q14 14 50 12 Q86 14 82 54 Q80 34 62 28 Q40 36 22 40 Z" fill="#b5501e"/><circle cx="50" cy="8" r="13" fill="#b5501e"/><circle cx="40" cy="56" r="3" fill="#222"/><circle cx="60" cy="56" r="3" fill="#222"/><path d="M42 68 Q50 75 58 68" fill="none"/></g><g id="mr-hill" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><path d="M12 168 C6 120 20 88 50 84 C80 88 94 120 88 168 C70 178 30 178 12 168 Z" fill="#8a5a2b"/><ellipse cx="50" cy="52" rx="30" ry="32" fill="#f1cdb0"/><path d="M18 54 Q14 14 50 12 Q86 14 82 54 Q80 34 62 28 Q40 36 22 40 Z" fill="#aaa"/><circle cx="40" cy="56" r="3" fill="#222"/><circle cx="60" cy="56" r="3" fill="#222"/><path d="M42 68 Q50 75 58 68" fill="none"/></g><g id="mr-parker" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><path d="M12 168 C6 120 20 88 50 84 C80 88 94 120 88 168 C70 178 30 178 12 168 Z" fill="#8d99a6"/><ellipse cx="50" cy="52" rx="30" ry="32" fill="#f1cdb0"/><path d="M18 54 Q14 14 50 12 Q86 14 82 54 Q80 34 62 28 Q40 36 22 40 Z" fill="#6b3f1e"/><circle cx="40" cy="56" r="3" fill="#222"/><circle cx="60" cy="56" r="3" fill="#222"/><path d="M42 68 Q50 75 58 68" fill="none"/></g><g id="grandma" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><path d="M12 168 C6 120 20 88 50 84 C80 88 94 120 88 168 C70 178 30 178 12 168 Z" fill="#8e5bb5"/><ellipse cx="50" cy="52" rx="30" ry="32" fill="#f1cdb0"/><path d="M18 54 Q14 14 50 12 Q86 14 82 54 Q80 34 62 28 Q40 36 22 40 Z" fill="#bbb"/><circle cx="50" cy="8" r="13" fill="#bbb"/><circle cx="40" cy="56" r="3" fill="#222"/><circle cx="60" cy="56" r="3" fill="#222"/><path d="M42 68 Q50 75 58 68" fill="none"/></g></defs>
+  <rect width="640" height="400" fill="#f4efe2"/>
+  <polygon points="0,76 240,14 480,76" fill="#b5651d" stroke="#333" stroke-width="3"/>
+  <rect x="470" y="372" width="170" height="28" fill="#9bd18b"/>
+  <circle cx="590" cy="52" r="26" fill="#f6d04d" stroke="#333" stroke-width="2"/>
+  <rect x="10" y="76" width="92" height="136" rx="0" fill="#efe7d3" stroke="#333" stroke-width="3"/>
+  <text x="56" y="98" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="normal" fill="#333">bathroom</text>
+  <rect x="102" y="76" width="92" height="136" rx="0" fill="#efe7d3" stroke="#333" stroke-width="3"/>
+  <text x="148" y="98" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="normal" fill="#333">Ellie's</text>
+  <text x="148" y="118" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="normal" fill="#333">room</text>
+  <rect x="194" y="76" width="92" height="136" rx="0" fill="#efe7d3" stroke="#333" stroke-width="3"/>
+  <text x="240" y="98" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="normal" fill="#333">Peter's</text>
+  <text x="240" y="118" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="normal" fill="#333">room</text>
+  <rect x="286" y="76" width="92" height="136" rx="0" fill="#efe7d3" stroke="#333" stroke-width="3"/>
+  <text x="332" y="98" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="normal" fill="#333">Sophie's</text>
+  <text x="332" y="118" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="normal" fill="#333">room</text>
+  <rect x="378" y="76" width="92" height="136" rx="0" fill="#efe7d3" stroke="#333" stroke-width="3"/>
+  <text x="424" y="98" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="normal" fill="#333">parents'</text>
+  <text x="424" y="118" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="normal" fill="#333">bedroom</text>
+  <rect x="10" y="212" width="230" height="160" rx="0" fill="#f3ead0" stroke="#333" stroke-width="3"/>
+  <rect x="240" y="212" width="230" height="160" rx="0" fill="#e9eed8" stroke="#333" stroke-width="3"/>
+  <text x="125" y="236" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="normal" fill="#333">kitchen</text>
+  <text x="355" y="236" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="normal" fill="#333">living room</text>
+  <rect x="10" y="372" width="630" height="28" fill="#9bd18b"/>
+  <rect x="16" y="178" width="62" height="24" rx="8" fill="#fff" stroke="#333" stroke-width="2"/>
+  <line x1="22" y1="202" x2="22" y2="208" stroke="#333" stroke-width="3"/>
+  <line x1="72" y1="202" x2="72" y2="208" stroke="#333" stroke-width="3"/>
+  <rect x="74" y="170" width="16" height="22" rx="2" fill="#fff" stroke="#333" stroke-width="2"/>
+  <ellipse cx="84" cy="200" rx="14" ry="8" fill="#fff" stroke="#333" stroke-width="2"/>
+  <rect x="40" y="134" width="32" height="12" rx="4" fill="#fff" stroke="#333" stroke-width="2"/>
+  <line x1="56" y1="124" x2="56" y2="134" stroke="#333" stroke-width="3"/>
+  <line x1="50" y1="124" x2="62" y2="124" stroke="#333" stroke-width="3"/>
+  <line x1="56" y1="146" x2="56" y2="168" stroke="#333" stroke-width="4"/>
+  <rect x="108" y="122" width="26" height="34" rx="2" fill="#e9c46a" stroke="#333" stroke-width="2"/>
+  <path d="M112 150 L119 136 L124 144 L128 139 L132 150 Z" fill="#138d75"/>
+  <rect x="106" y="184" width="42" height="20" rx="3" fill="#8fb8e8" stroke="#333" stroke-width="2"/>
+  <rect x="108" y="177" width="14" height="9" rx="3" fill="#fff" stroke="#333" stroke-width="1"/>
+  <line x1="106" y1="204" x2="106" y2="210" stroke="#333" stroke-width="3"/>
+  <line x1="148" y1="204" x2="148" y2="210" stroke="#333" stroke-width="3"/>
+  <rect x="150" y="178" width="50" height="7" rx="3" fill="#c58b4a" stroke="#333" stroke-width="2"/>
+  <line x1="155" y1="185" x2="155" y2="210" stroke="#333" stroke-width="4"/>
+  <rect x="180" y="185" width="18" height="25" rx="1" fill="#a0703a" stroke="#333" stroke-width="2"/>
+  <line x1="186" y1="138" x2="186" y2="170" stroke="#333" stroke-width="3"/>
+  <rect x="178" y="168" width="16" height="4" rx="1" fill="#555" stroke="#333" stroke-width="2"/>
+  <path d="M176 138 L181 124 L191 124 L196 138 Z" fill="#f4d35e" stroke="#333" stroke-width="2"/>
+  <rect x="198" y="184" width="32" height="20" rx="3" fill="#8fb8e8" stroke="#333" stroke-width="2"/>
+  <rect x="200" y="177" width="14" height="9" rx="3" fill="#fff" stroke="#333" stroke-width="1"/>
+  <line x1="198" y1="204" x2="198" y2="210" stroke="#333" stroke-width="3"/>
+  <line x1="230" y1="204" x2="230" y2="210" stroke="#333" stroke-width="3"/>
+  <rect x="234" y="196" width="16" height="16" rx="2" fill="#d33" stroke="#333" stroke-width="2"/>
+  <rect x="252" y="202" width="14" height="10" rx="2" fill="#2c6fd8" stroke="#333" stroke-width="2"/>
+  <circle cx="276" cy="204" r="8" fill="#f4d35e" stroke="#333" stroke-width="2"/>
+  <rect x="242" y="182" width="14" height="14" rx="2" fill="#138d75" stroke="#333" stroke-width="2"/>
+  <rect x="240" y="150" width="42" height="6" rx="1" fill="#a0703a" stroke="#333" stroke-width="2"/>
+  <rect x="245" y="136" width="8" height="14" rx="1" fill="#2c6fd8" stroke="#333" stroke-width="1"/>
+  <rect x="255" y="139" width="8" height="11" rx="1" fill="#d33" stroke="#333" stroke-width="1"/>
+  <rect x="296" y="128" width="34" height="34" rx="2" fill="#bfe0f0" stroke="#333" stroke-width="3"/>
+  <line x1="313.0" y1="128" x2="313.0" y2="162" stroke="#333" stroke-width="2"/>
+  <line x1="296" y1="145.0" x2="330" y2="145.0" stroke="#333" stroke-width="2"/>
+  <rect x="340" y="138" width="38" height="70" rx="3" fill="#a0703a" stroke="#333" stroke-width="2"/>
+  <line x1="359" y1="138" x2="359" y2="208" stroke="#333" stroke-width="2"/>
+  <circle cx="355" cy="174" r="2.5" fill="#333" stroke="#333" stroke-width="1"/>
+  <circle cx="363" cy="174" r="2.5" fill="#333" stroke="#333" stroke-width="1"/>
+  <rect x="292" y="188" width="40" height="20" rx="3" fill="#8fb8e8" stroke="#333" stroke-width="2"/>
+  <rect x="294" y="181" width="14" height="9" rx="3" fill="#fff" stroke="#333" stroke-width="1"/>
+  <line x1="292" y1="208" x2="292" y2="214" stroke="#333" stroke-width="3"/>
+  <line x1="332" y1="208" x2="332" y2="214" stroke="#333" stroke-width="3"/>
+  <rect x="388" y="184" width="62" height="20" rx="3" fill="#8fb8e8" stroke="#333" stroke-width="2"/>
+  <rect x="390" y="177" width="14" height="9" rx="3" fill="#fff" stroke="#333" stroke-width="1"/>
+  <line x1="388" y1="204" x2="388" y2="210" stroke="#333" stroke-width="3"/>
+  <line x1="450" y1="204" x2="450" y2="210" stroke="#333" stroke-width="3"/>
+  <line x1="462" y1="178" x2="462" y2="210" stroke="#333" stroke-width="3"/>
+  <rect x="454" y="208" width="16" height="4" rx="1" fill="#555" stroke="#333" stroke-width="2"/>
+  <path d="M452 178 L457 164 L467 164 L472 178 Z" fill="#f4d35e" stroke="#333" stroke-width="2"/>
+  <rect x="22" y="300" width="34" height="66" rx="3" fill="#eef" stroke="#333" stroke-width="2"/>
+  <line x1="22" y1="324" x2="56" y2="324" stroke="#333" stroke-width="2"/>
+  <line x1="49" y1="308" x2="49" y2="318" stroke="#333" stroke-width="3"/>
+  <line x1="49" y1="330" x2="49" y2="342" stroke="#333" stroke-width="3"/>
+  <rect x="66" y="322" width="42" height="44" rx="3" fill="#bbb" stroke="#333" stroke-width="2"/>
+  <circle cx="77" cy="331" r="5" fill="#666" stroke="#333" stroke-width="1"/>
+  <circle cx="97" cy="331" r="5" fill="#666" stroke="#333" stroke-width="1"/>
+  <rect x="73" y="342" width="28" height="18" rx="2" fill="#888" stroke="#333" stroke-width="1"/>
+  <rect x="120" y="330" width="32" height="12" rx="4" fill="#fff" stroke="#333" stroke-width="2"/>
+  <line x1="136" y1="320" x2="136" y2="330" stroke="#333" stroke-width="3"/>
+  <line x1="130" y1="320" x2="142" y2="320" stroke="#333" stroke-width="3"/>
+  <line x1="136" y1="342" x2="136" y2="364" stroke="#333" stroke-width="4"/>
+  <rect x="164" y="334" width="60" height="8" rx="3" fill="#c58b4a" stroke="#333" stroke-width="2"/>
+  <line x1="170" y1="342" x2="170" y2="370" stroke="#333" stroke-width="4"/>
+  <line x1="218" y1="342" x2="218" y2="370" stroke="#333" stroke-width="4"/>
+  <line x1="160" y1="330" x2="160" y2="366" stroke="#333" stroke-width="4"/>
+  <rect x="160" y="348" width="22" height="5" rx="1" fill="#c58b4a" stroke="#333" stroke-width="2"/>
+  <line x1="180" y1="352" x2="180" y2="366" stroke="#333" stroke-width="4"/>
+  <line x1="220" y1="330" x2="220" y2="366" stroke="#333" stroke-width="4"/>
+  <rect x="220" y="348" width="22" height="5" rx="1" fill="#c58b4a" stroke="#333" stroke-width="2"/>
+  <line x1="240" y1="352" x2="240" y2="366" stroke="#333" stroke-width="4"/>
+  <rect x="260" y="330" width="62" height="22" rx="3" fill="#c0504d" stroke="#333" stroke-width="2"/>
+  <rect x="256" y="344" width="70" height="24" rx="3" fill="#c0504d" stroke="#333" stroke-width="2"/>
+  <rect x="250" y="340" width="14" height="28" rx="3" fill="#a63d3a" stroke="#333" stroke-width="2"/>
+  <rect x="318" y="340" width="14" height="28" rx="3" fill="#a63d3a" stroke="#333" stroke-width="2"/>
+  <rect x="345" y="330" width="34" height="20" rx="3" fill="#d9a441" stroke="#333" stroke-width="2"/>
+  <rect x="342" y="344" width="40" height="24" rx="3" fill="#d9a441" stroke="#333" stroke-width="2"/>
+  <rect x="337" y="340" width="11" height="28" rx="3" fill="#b8872c" stroke="#333" stroke-width="2"/>
+  <rect x="376" y="340" width="11" height="28" rx="3" fill="#b8872c" stroke="#333" stroke-width="2"/>
+  <rect x="398" y="304" width="36" height="62" rx="3" fill="#a0703a" stroke="#333" stroke-width="2"/>
+  <line x1="398" y1="324" x2="434" y2="324" stroke="#333" stroke-width="2"/>
+  <rect x="403" y="311" width="6" height="13" rx="1" fill="#d33" stroke="#333" stroke-width="1"/>
+  <rect x="411" y="313" width="6" height="11" rx="1" fill="#e9c46a" stroke="#333" stroke-width="1"/>
+  <rect x="419" y="310" width="6" height="14" rx="1" fill="#d33" stroke="#333" stroke-width="1"/>
+  <line x1="398" y1="344" x2="434" y2="344" stroke="#333" stroke-width="2"/>
+  <rect x="403" y="331" width="6" height="13" rx="1" fill="#2c6fd8" stroke="#333" stroke-width="1"/>
+  <rect x="411" y="333" width="6" height="11" rx="1" fill="#e9c46a" stroke="#333" stroke-width="1"/>
+  <rect x="419" y="330" width="6" height="14" rx="1" fill="#2c6fd8" stroke="#333" stroke-width="1"/>
+  <line x1="398" y1="364" x2="434" y2="364" stroke="#333" stroke-width="2"/>
+  <rect x="403" y="351" width="6" height="13" rx="1" fill="#138d75" stroke="#333" stroke-width="1"/>
+  <rect x="411" y="353" width="6" height="11" rx="1" fill="#e9c46a" stroke="#333" stroke-width="1"/>
+  <rect x="419" y="350" width="6" height="14" rx="1" fill="#138d75" stroke="#333" stroke-width="1"/>
+  <line x1="450" y1="336" x2="450" y2="368" stroke="#333" stroke-width="3"/>
+  <rect x="442" y="366" width="16" height="4" rx="1" fill="#555" stroke="#333" stroke-width="2"/>
+  <path d="M440 336 L445 322 L455 322 L460 336 Z" fill="#f4d35e" stroke="#333" stroke-width="2"/>
+  <rect x="260" y="262" width="40" height="26" rx="3" fill="#444" stroke="#333" stroke-width="2"/>
+  <rect x="264" y="266" width="32" height="18" rx="1" fill="#9fd0f0" stroke="#333" stroke-width="2"/>
+  <rect x="274" y="288" width="12" height="6" rx="3" fill="#444" stroke="#333" stroke-width="2"/>
+  <text x="556" y="206" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="normal" fill="#333">garden</text>
+  <rect x="514" y="280" width="12" height="92" rx="2" fill="#8a5a2b" stroke="#333" stroke-width="2"/>
+  <circle cx="520" cy="266" r="38" fill="#7cc47a" stroke="#333" stroke-width="2"/>
+  <line x1="536" y1="348" x2="536" y2="372" stroke="#333" stroke-width="2"/>
+  <circle cx="536" cy="346" r="6" fill="#d33" stroke="#333" stroke-width="1.5"/>
+  <line x1="550" y1="348" x2="550" y2="372" stroke="#333" stroke-width="2"/>
+  <circle cx="550" cy="346" r="6" fill="#f4d35e" stroke="#333" stroke-width="1.5"/>
+  <line x1="564" y1="348" x2="564" y2="372" stroke="#333" stroke-width="2"/>
+  <circle cx="564" cy="346" r="6" fill="#e56bb0" stroke="#333" stroke-width="1.5"/>
+  <rect x="584" y="346" width="46" height="7" rx="1" fill="#c58b4a" stroke="#333" stroke-width="2"/>
+  <rect x="584" y="334" width="46" height="6" rx="1" fill="#c58b4a" stroke="#333" stroke-width="2"/>
+  <line x1="588" y1="353" x2="588" y2="370" stroke="#333" stroke-width="4"/>
+  <line x1="626" y1="353" x2="626" y2="370" stroke="#333" stroke-width="4"/>
+
+</svg>
