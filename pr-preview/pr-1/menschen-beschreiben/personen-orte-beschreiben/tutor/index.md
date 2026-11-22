@@ -70,7 +70,7 @@ Klassenzimmer-Poster · Der Bauplan eines Textes:
 
 **Eine Person:** Amir is my friend. He has got black curly hair and glasses. He is quiet but funny.
 
-**Ein Ort:** This is Peter’s room. It is big. There is a bed and there are toys. There is a shelf, but there is no desk.
+**Ein Ort:** This is Peter’s room. It is small. There is a bed and there are toys. There is a shelf, but there is no desk.
 
 Klassenzimmer-Poster · Wörter dieser Seite:
 - Ausdruck | Bedeutung
@@ -147,18 +147,18 @@ Sophie schickt den Text über Mr Hill und ihr Zimmer nach Hause. Ihre Mutter fra
 
 ### Aufgabe personen-orte-beschreiben-luecken
 
-- Aufgabe: Schreibe das fehlende Wort in die Lücke.
-- Antwortformat: die Lücken auf Englisch füllen
+- Aufgabe: Schreibe den ganzen Satz.
+- Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Peter ist klein und lustig. → Peter is small and funny.
-     - but: but zeigt einen Gegensatz. Klein und lustig passen zusammen, also and.
+     - Peter is small but funny.: but zeigt einen Gegensatz. Klein und lustig passen zusammen, also and.
 2. Mein Zimmer ist klein, aber es ist nett. → My room is small, but it is nice.
-     - and: but verbindet zwei Gedanken, die nicht gut zusammenpassen, hier klein, aber trotzdem nett.
-3. In meinem Zimmer gibt es einen Schrank. → There is a wardrobe in my room.
-     - are: Ein Schrank ist eine Sache, also there is.
+     - My room is small, and it is nice.: but verbindet zwei Gedanken, die nicht gut zusammenpassen, hier klein, aber trotzdem nett.
+3. In meinem Zimmer gibt es einen Schrank. → There is a wardrobe in my room. (auch richtig: There's a wardrobe in my room.)
+     - There are a wardrobe in my room.: Ein Schrank ist eine Sache, also there is.
 4. Auf dem Schreibtisch gibt es zwei Stifte. → There are two pens on the desk.
-     - is: Zwei Stifte sind mehrere Sachen, also there are.
+     - There is two pens on the desk.: Zwei Stifte sind mehrere Sachen, also there are.
 - Tipp der App: and oder but? there is oder there are?
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#personen-orte-beschreiben-luecken](../?via=tutor#personen-orte-beschreiben-luecken)
@@ -220,7 +220,7 @@ Sophie schickt den Text über Mr Hill und ihr Zimmer nach Hause. Ihre Mutter fra
 
 ### Aufgabe personen-orte-beschreiben-profil
 
-- Aufgabe: Schreibe in dein Heft einen kurzen Text über deinen Lieblingsplatz oder dein Zimmer, in drei bis fünf Sätzen: Wo ist das, wie ist es und was gibt es dort?
+- Aufgabe: Schreibe in dein Heft einen kurzen Text über deinen Lieblingsplatz oder dein Zimmer, in drei bis fünf Sätzen: Wo ist das, wie ist es und was gibt es dort? Die App bewertet deinen Text nicht: Vergleiche ihn danach selbst mit den Punkten.
 - Antwortformat: in eigenen Worten eintippen oder auf Papier schreiben und das Blatt fotografieren
 - Eine gute Antwort enthält (P1, P2 … wie die App sie nennt):
   - P1 (Inhalt) Ein Satz sagt, wo der Ort ist oder was dein Lieblingsplatz ist. Quelle: [/menschen-beschreiben/personen-orte-beschreiben/#neu](../../../menschen-beschreiben/personen-orte-beschreiben/#neu)

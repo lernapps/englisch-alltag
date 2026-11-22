@@ -97,7 +97,7 @@ All about me · Mein Tag (Ellies Beispiel):
 - Frühstück | I have breakfast at half past seven.
 - Schule | We walk to school at a quarter past eight.
 - Hausaufgaben | I do my homework at half past four.
-- Abend | I have tea at six o'clock, and at seven I watch TV.
+- Abend | I have tea at six o'clock, and at seven I play a game.
 - Schlafen | I go to bed at nine.
 
 - Aufgabe `tagesablauf-profil` (unten)
@@ -219,7 +219,7 @@ Sophie schreibt nach Hause: „So sieht Ellies Tag aus. Als Nächstes zeige ich 
 
 ### Aufgabe tagesablauf-profil
 
-- Aufgabe: Schreibe die nächste Zeile deines Profils „All about me“ in dein Heft: Mein Tag in sechs Sätzen, so wie bei Ellie. Du entscheidest, ob es ein Schultag oder ein Wochenende ist.
+- Aufgabe: Schreibe die nächste Zeile deines Profils „All about me“ in dein Heft: Mein Tag in sechs Sätzen, so wie bei Ellie. Du entscheidest, ob es ein Schultag oder ein Wochenende ist. Die App bewertet deinen Text nicht: Vergleiche ihn danach selbst mit den Punkten.
 - Antwortformat: in eigenen Worten eintippen oder auf Papier schreiben und das Blatt fotografieren
 - Eine gute Antwort enthält (P1, P2 … wie die App sie nennt):
   - P1 (Inhalt) Du schreibst sechs Sätze über sechs Dinge, die du an deinem Tag tust. Quelle: [/zuhause-parkers/tagesablauf/#neu](../../../zuhause-parkers/tagesablauf/#neu)

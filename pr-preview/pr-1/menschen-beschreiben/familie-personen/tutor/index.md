@@ -224,7 +224,7 @@ Sophie schickt den Stammbaum nach Hause. Ihre Eltern wollen mehr wissen: Wie ist
 
 ### Aufgabe familie-personen-profil
 
-- Aufgabe: Schreibe den ersten Teil deines Profils „All about me“ in dein Heft. Wähle einen Menschen, der zu deiner Familie gehört oder dir wichtig ist, und schreibe zwei bis vier Sätze: Wer ist das für dich, wie sieht die Person aus und wie ist sie?
+- Aufgabe: Schreibe den ersten Teil deines Profils „All about me“ in dein Heft. Wähle einen Menschen, der zu deiner Familie gehört oder dir wichtig ist, und schreibe zwei bis vier Sätze: Wer ist das für dich, wie sieht die Person aus und wie ist sie? Die App bewertet deinen Text nicht: Vergleiche ihn danach selbst mit den Punkten.
 - Antwortformat: in eigenen Worten eintippen oder auf Papier schreiben und das Blatt fotografieren
 - Eine gute Antwort enthält (P1, P2 … wie die App sie nennt):
   - P1 (Inhalt) Du nennst, wer die Person für dich ist, mit einem Wort wie my mum, my grandpa, my cousin oder my friend. Quelle: [/menschen-beschreiben/familie-personen/#neu](../../../menschen-beschreiben/familie-personen/#neu)

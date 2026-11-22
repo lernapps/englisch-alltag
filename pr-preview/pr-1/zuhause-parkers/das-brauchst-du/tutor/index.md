@@ -48,7 +48,7 @@ There is und there are mit in, on, under und next to, das simple present mit doe
 Sophie will ihrer Familie zeigen, wie sie bei den Parkers wohnt, wie ihr Tag aussieht und was sie isst. Dafür braucht sie drei Bausteine. Kannst du sie schon? **Ich kann mit „there is“ und „there are“ sagen, was es an einem Ort gibt.** **Ich kann im simple present über Gewohnheiten und Tatsachen sprechen und das -s bei he, she, it anhängen.** **Ich kann die Präpositionen in, on und at bei Zeitangaben richtig verwenden (on Monday, at 6 o’clock, in July).** Lies die Tabellen und prüfe in Gedanken, ob du alles kennst.
 
 Klassenzimmer-Poster · There is und there are:
-- Wann | Beispiel
+- Wie viele | Beispiel
 - ein Ding | There is a book on the shelf.
 - mehrere Dinge | There are two books on the shelf.
 - Wo? (in, on, under, next to) | The cat is in the box, on the box, under the box and next to the box.

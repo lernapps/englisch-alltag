@@ -166,11 +166,11 @@ Rückblick auf Kapitel 2: Du hast Zuhause, Tag und Essen bei den Parkers beschri
 - Aufgabe: Sophie schreibt über Ellies Alltag. Welcher Satz ist am besten?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ At the Parkers', tea is at six o'clock. – Das sagt nur, was bei den Parkers so ist. Das weißt du.
+  - ✓ Ellie has tea at six, but other families often have dinner later. – Das sagt, was bei Ellie so ist, und dass es bei anderen oft anders ist. Das stimmt.
   - ✗ Everybody in England has tea at six. – Das sagt „alle“. Das weißt du nicht, denn jede Familie ist anders.
   - ✗ In England, everybody has a packed lunch. – Auch hier steht „alle“. Schreibe lieber many oder often.
-- Lösung: At the Parkers', tea is at six o'clock.
-- Erklärung: Sprich über die Parkers oder sage many oder often, nicht über alle.
+- Lösung: Ellie has tea at six, but other families often have dinner later.
+- Erklärung: Sprich über Ellie und die Parkers oder sage many oder often, nicht über alle.
 - Link: [../?via=tutor#alltag-uk-viele](../?via=tutor#alltag-uk-viele)
 
 ### Aufgabe alltag-uk-hoeren
@@ -179,9 +179,9 @@ Rückblick auf Kapitel 2: Du hast Zuhause, Tag und Essen bei den Parkers beschri
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Peter likes pasta, but Ellie likes salad. (auch richtig: Peter likes pasta but Ellie likes salad.)
+1. Audio → Peter likes pasta, but Mrs Parker likes salad. (auch richtig: Peter likes pasta but Mrs Parker likes salad.)
 2. Audio → In my family, we usually have dinner together. (auch richtig: In my family we usually have dinner together.)
-3. Audio → I also have a packed lunch, like Ellie. (auch richtig: I also have a packed lunch like Ellie.)
+3. Audio → Peter also has a packed lunch today.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#alltag-uk-hoeren](../?via=tutor#alltag-uk-hoeren)
@@ -199,7 +199,7 @@ Rückblick auf Kapitel 2: Du hast Zuhause, Tag und Essen bei den Parkers beschri
 
 ### Aufgabe alltag-uk-profil
 
-- Aufgabe: Fülle die rechte Spalte des Bildes in deinem Heft aus: ein Satz über deinen Alltag zu jeder der fünf Zeilen. Beginne einen Satz mit „In my family …“. Wie deine Familie ist und wie du wohnst, bestimmst du.
+- Aufgabe: Fülle die rechte Spalte des Bildes in deinem Heft aus: ein Satz über deinen Alltag zu jeder der fünf Zeilen. Beginne einen Satz mit „In my family …“. Wie deine Familie ist und wie du wohnst, bestimmst du. Die App bewertet deinen Text nicht: Vergleiche ihn danach selbst mit den Punkten.
 - Antwortformat: in eigenen Worten eintippen oder auf Papier schreiben und das Blatt fotografieren
 - Eine gute Antwort enthält (P1, P2 … wie die App sie nennt):
   - P1 (Form) Du schreibst zu jeder der fünf Zeilen einen Satz.
@@ -212,7 +212,7 @@ Rückblick auf Kapitel 2: Du hast Zuhause, Tag und Essen bei den Parkers beschri
 
 ### Aufgabe alltag-uk-text
 
-- Aufgabe: Schreibe in dein Heft einen Vergleichstext, vier bis sechs Sätze: Was ist bei Ellie und bei dir gleich, was ist anders? Benutze and und but und einmal also oder too. Sprich nur über Ellie, die Parkers und dich.
+- Aufgabe: Schreibe in dein Heft einen Vergleichstext, vier bis sechs Sätze: Was ist bei Ellie und bei dir gleich, was ist anders? Benutze and und but und einmal also oder too. Sprich nur über Ellie, die Parkers und dich. Die App bewertet deinen Text nicht: Vergleiche ihn danach selbst mit den Punkten.
 - Antwortformat: in eigenen Worten eintippen oder auf Papier schreiben und das Blatt fotografieren
 - Eine gute Antwort enthält (P1, P2 … wie die App sie nennt):
   - P1 (Inhalt) Du sagst mindestens einmal, was gleich ist, mit and, also oder too. Quelle: [/zuhause-parkers/alltag-uk/#neu](../../../zuhause-parkers/alltag-uk/#neu)

@@ -117,7 +117,7 @@ Sophie schreibt nach Hause: „Das ist mein Zimmer, und das ist das Haus. Als N�
   - ✗ in the kitchen – In der Küche stehen Kühlschrank, Herd und ein Tisch, kein Sofa.
   - ✗ in the bathroom – Im Bad sind Badewanne, Toilette und Waschbecken.
 - Lösung: in the living room
-- Erklärung: Das Sofa steht im Wohnzimmer: in the living room.
+- Erklärung: Das Sofa steht im Wohnzimmer.
 - Link: [../?via=tutor#wohnen-start](../?via=tutor#wohnen-start)
 
 ### Aufgabe wohnen-paare
@@ -125,7 +125,7 @@ Sophie schreibt nach Hause: „Das ist mein Zimmer, und das ist das Haus. Als N�
 - Aufgabe: In welchem Raum steht das? Ordne zu.
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
 - Lösung: fridge – in the kitchen; bath – in the bathroom; armchair – in the living room; wardrobe – in the bedroom; bench – in the garden
-- Erklärung: Der Kühlschrank gehört in die Küche, die Badewanne ins Bad, der Sessel ins Wohnzimmer, der Kleiderschrank ins Schlafzimmer und die Gartenbank in den Garten.
+- Erklärung: Jedes Möbelstück gehört in den Raum, in dem man es braucht.
 - Link: [../?via=tutor#wohnen-paare](../?via=tutor#wohnen-paare)
 
 ### Aufgabe wohnen-auf
@@ -187,6 +187,7 @@ Sophie schreibt nach Hause: „Das ist mein Zimmer, und das ist das Haus. Als N�
      - The shoes are on the wardrobe.: on heißt oben auf dem Schrank. Im Schrank heißt in.
      - The shoes is in the wardrobe.: Schuhe sind mehrere Dinge, also are.
 3. Das Sofa steht neben dem Sessel. → The sofa is next to the armchair. (auch richtig: The sofa is beside the armchair.)
+     - The sofa is on the armchair.: on heißt oben auf. Das Sofa steht daneben, also next to.
 - Tipp der App: Prüfe in, on und with.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#wohnen-uebersetzen](../?via=tutor#wohnen-uebersetzen)
@@ -197,9 +198,9 @@ Sophie schreibt nach Hause: „Das ist mein Zimmer, und das ist das Haus. Als N�
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → There are two chairs next to the table.
+1. Audio → Ellie's desk is next to the window. (auch richtig: Ellie's desk's next to the window.)
 2. Audio → Peter's toys are in his bedroom.
-3. Audio → Is there a bath in the bathroom?
+3. Audio → Peter's bag is under the table. (auch richtig: Peter's bag's under the table.)
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#wohnen-hoeren](../?via=tutor#wohnen-hoeren)
@@ -217,7 +218,7 @@ Sophie schreibt nach Hause: „Das ist mein Zimmer, und das ist das Haus. Als N�
 
 ### Aufgabe wohnen-profil
 
-- Aufgabe: Schreibe den nächsten Teil deines Profils „All about me“ in dein Heft. Du entscheidest, worüber du schreibst: dein Zimmer, deine Wohnung oder dein Haus. Schreibe zwei bis vier Sätze: Wo wohnst du oder welcher Raum ist es, was gibt es dort, und wo steht etwas?
+- Aufgabe: Schreibe den nächsten Teil deines Profils „All about me“ in dein Heft. Du entscheidest, worüber du schreibst: dein Zimmer, deine Wohnung oder dein Haus. Schreibe zwei bis vier Sätze: Wo wohnst du oder welcher Raum ist es, was gibt es dort, und wo steht etwas? Die App bewertet deinen Text nicht: Vergleiche ihn danach selbst mit den Punkten.
 - Antwortformat: in eigenen Worten eintippen oder auf Papier schreiben und das Blatt fotografieren
 - Eine gute Antwort enthält (P1, P2 … wie die App sie nennt):
   - P1 (Inhalt) Du sagst, wo du wohnst oder um welchen Raum es geht, zum Beispiel a flat, a house oder my room. Quelle: [/zuhause-parkers/wohnen/#neu](../../../zuhause-parkers/wohnen/#neu)

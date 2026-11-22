@@ -204,7 +204,7 @@ Sophie schreibt nach Hause: „Ellie schwimmt, Peter zeichnet und Amir spielt Fu
 
 ### Aufgabe freizeit-hobbys-profil
 
-- Aufgabe: Schreibe die nächste Zeile deines Profils „All about me“ in dein Heft: Was machst du gern? Hast du ein Haustier oder wünschst du dir eines? Schreibe zwei bis vier Sätze.
+- Aufgabe: Schreibe die nächste Zeile deines Profils „All about me“ in dein Heft: Was machst du gern? Hast du ein Haustier oder wünschst du dir eines? Schreibe zwei bis vier Sätze. Die App bewertet deinen Text nicht: Vergleiche ihn danach selbst mit den Punkten.
 - Antwortformat: in eigenen Worten eintippen oder auf Papier schreiben und das Blatt fotografieren
 - Eine gute Antwort enthält (P1, P2 … wie die App sie nennt):
   - P1 (Inhalt) Ein Satz sagt mit like, love oder enjoy und einem Verb mit -ing, was du gern machst. Quelle: [/freizeit-nachrichten/freizeit-hobbys/#neu](../../../freizeit-nachrichten/freizeit-hobbys/#neu)

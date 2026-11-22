@@ -65,16 +65,16 @@ Klassenzimmer-Poster · Anrede und Gruß:
 
 **Love,** heißt liebe Grüße, **See you soon,** bis bald, **Write soon,** schreib bald. **Best wishes,** (herzliche Grüße) ist freundlich, aber ein Stück weiter weg: Das schreibst du an Erwachsene, die nicht zu deiner Familie gehören. **Yours** ist für offizielle Briefe, nicht für die Familie. Eine **E-Mail** hat zusätzlich eine Zeile **Subject** (Betreff) mit wenigen Wörtern. Eine Postkarte hat keine.
 
+**Merke: Merke**
+
+**Anrede:** Dear oder Hi + Name + Komma. **Gruß:** Love, / See you soon, / Write soon, an Familie und Freunde, Best wishes, an andere Erwachsene, dann dein Name. **Für Familie:** nie Yours. **Für Erwachsene:** nicht Hi.
+
 Klassenzimmer-Poster · Wörter dieser Seite:
 - Ausdruck | Bedeutung
 - postcard | Postkarte
 - best wishes | herzliche Grüße
 - subject | Betreff
 - cold (hier: kalt) | kalt. Nicht: a cold, die Erkältung.
-
-**Merke: Merke**
-
-**Anrede:** Dear oder Hi + Name + Komma. **Gruß:** Love, / See you soon, / Write soon, an Familie und Freunde, Best wishes, an andere Erwachsene, dann dein Name. **Für Familie:** nie Yours. **Für Erwachsene:** nicht Hi.
 
 ### Übung
 
@@ -217,7 +217,7 @@ Sophie wirft ihre Karte in den Briefkasten und schreibt ihren Eltern noch: „Hi
 
 ### Aufgabe email-postkarte-profil
 
-- Aufgabe: Schreibe eine Postkarte oder eine kurze E-Mail in dein Heft, an eine Person deiner Wahl: an einen Menschen aus deiner Familie, an eine Freundin, einen Freund oder an einen Erwachsenen. Schreibe drei bis fünf Sätze Text.
+- Aufgabe: Schreibe eine Postkarte oder eine kurze E-Mail in dein Heft, an eine Person deiner Wahl: an einen Menschen aus deiner Familie, an eine Freundin, einen Freund oder an einen Erwachsenen. Schreibe drei bis fünf Sätze Text. Die App bewertet deinen Text nicht: Vergleiche ihn danach selbst mit den Punkten.
 - Antwortformat: in eigenen Worten eintippen oder auf Papier schreiben und das Blatt fotografieren
 - Eine gute Antwort enthält (P1, P2 … wie die App sie nennt):
   - P1 (Inhalt) Die Karte beginnt mit Dear oder Hi, dem Namen und einem Komma, passend zur Person. Quelle: [/freizeit-nachrichten/email-postkarte/#neu](../../../freizeit-nachrichten/email-postkarte/#neu)

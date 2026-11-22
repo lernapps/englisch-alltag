@@ -200,7 +200,7 @@ Sophie sagt Amir zu und schreibt dann ihren Eltern: „Amir hat uns zu seiner Pa
 
 ### Aufgabe kurznachricht-profil
 
-- Aufgabe: Schreibe eine Einladung für dein Profil „All about me“ in dein Heft. Du lädst eine Person zu etwas ein, das dir gefällt (zum Beispiel ein Spiel, ein Essen oder einen Besuch). Schreibe drei bis fünf kurze Sätze.
+- Aufgabe: Schreibe eine Einladung für dein Profil „All about me“ in dein Heft. Du lädst eine Person zu etwas ein, das dir gefällt (zum Beispiel ein Spiel, ein Essen oder einen Besuch). Schreibe drei bis fünf kurze Sätze. Die App bewertet deinen Text nicht: Vergleiche ihn danach selbst mit den Punkten.
 - Antwortformat: in eigenen Worten eintippen oder auf Papier schreiben und das Blatt fotografieren
 - Eine gute Antwort enthält (P1, P2 … wie die App sie nennt):
   - P1 (Inhalt) Die Einladung beginnt mit einer Anrede und endet mit einem Gruß und deinem Namen. Quelle: [/freizeit-nachrichten/kurznachricht/#neu](../../../freizeit-nachrichten/kurznachricht/#neu)

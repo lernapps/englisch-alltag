@@ -121,7 +121,7 @@ Sophie schreibt nach Hause: „Das Essen bei den Parkers schmeckt mir. Jetzt ver
 - Aufgabe: Welche Mahlzeit passt zu welchem Essen?
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
 - Lösung: packed lunch – a cheese sandwich and an apple; tea – pasta with chicken and vegetables; snack – a banana
-- Erklärung: Cereal with milk ist ein Frühstück und passt zu keiner dieser Mahlzeiten.
+- Erklärung: Cereal with milk bleibt übrig, denn es ist ein Frühstück und keine der drei Mahlzeiten hier.
 - Link: [../?via=tutor#essen-trinken-paare](../?via=tutor#essen-trinken-paare)
 
 ### Aufgabe essen-trinken-tea
@@ -208,7 +208,7 @@ Sophie schreibt nach Hause: „Das Essen bei den Parkers schmeckt mir. Jetzt ver
 
 ### Aufgabe essen-trinken-profil
 
-- Aufgabe: Schreibe die nächste Zeile deines Profils „All about me“ in dein Heft, drei bis fünf Sätze: Was isst und trinkst du normalerweise? Was magst du, was nicht? Du schreibst, was bei dir stimmt, auch wenn du zum Beispiel kein Fleisch isst.
+- Aufgabe: Schreibe die nächste Zeile deines Profils „All about me“ in dein Heft, drei bis fünf Sätze: Was isst und trinkst du normalerweise? Was magst du, was nicht? Du schreibst, was bei dir stimmt, auch wenn du zum Beispiel kein Fleisch isst. Die App bewertet deinen Text nicht: Vergleiche ihn danach selbst mit den Punkten.
 - Antwortformat: in eigenen Worten eintippen oder auf Papier schreiben und das Blatt fotografieren
 - Eine gute Antwort enthält (P1, P2 … wie die App sie nennt):
   - P1 (Inhalt) Ein Satz sagt mit I usually have, was du zu einer Mahlzeit isst oder trinkst. Quelle: [/zuhause-parkers/essen-trinken/#neu](../../../zuhause-parkers/essen-trinken/#neu)

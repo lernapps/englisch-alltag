@@ -57,7 +57,7 @@ Amir und Peter wollen beide dasselbe Spiel (game) haben und ziehen beide an der 
 
 Bild: Fünf Gesichter in einer Reihe, von fröhlich bis wütend, mit je einem englischen Wort darunter. Bildunterschrift: Das Barometer: Welches Gesicht passt heute zu dir?
 
-Auf die Frage **How are you?** (Wie geht es dir?) antwortest du: **I’m fine, thanks.** Genauer sagst du es mit **I feel** und einem Gefühlswort: I feel happy. Das Wort steht direkt nach feel, ohne me. Mit **I am** geht es auch: I am tired. Ein **friend** ist ein Freund oder eine Freundin, dein **best friend** ist dein bester Freund oder deine beste Freundin.
+Auf die Frage **How are you?** (Wie geht es dir?) antwortest du: **I’m fine, thanks.** **OK** heißt „es geht so“. Genauer sagst du es mit **I feel** und einem Gefühlswort: I feel happy. Das Wort steht direkt nach feel, ohne me. Mit **I am** geht es auch: I am tired. Ein **friend** ist ein Freund oder eine Freundin, dein **best friend** ist dein bester Freund oder deine beste Freundin.
 
 Klassenzimmer-Poster · Wörter dieser Seite:
 - Ausdruck | Bedeutung
@@ -206,7 +206,7 @@ Sophie schreibt nach Hause: Amir und Peter hatten Streit um ein Spiel, aber Elli
 
 ### Aufgabe gefuehle-freundschaft-profil
 
-- Aufgabe: Schreibe in dein Heft, wie du dich heute fühlst, in zwei bis vier Sätzen. Du kannst auch einen Satz über einen Freund oder eine Freundin schreiben.
+- Aufgabe: Schreibe in dein Heft, wie du dich heute fühlst, in zwei bis vier Sätzen. Du kannst auch einen Satz über einen Freund oder eine Freundin schreiben. Die App bewertet deinen Text nicht: Vergleiche ihn danach selbst mit den Punkten.
 - Antwortformat: in eigenen Worten eintippen oder auf Papier schreiben und das Blatt fotografieren
 - Eine gute Antwort enthält (P1, P2 … wie die App sie nennt):
   - P1 (Inhalt) Du antwortest auf How are you?, zum Beispiel mit I'm fine oder I'm tired. Quelle: [/menschen-beschreiben/gefuehle-freundschaft/#neu](../../../menschen-beschreiben/gefuehle-freundschaft/#neu)

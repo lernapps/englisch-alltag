@@ -171,6 +171,8 @@ Du hast in diesem Kapitel Menschen beschrieben: die Familie mit has got und is, 
 2. he · have got · a cough → He has got a cough. (auch richtig: He's got a cough.; He has a cough.)
      - He have got a cough.: Zu he gehört has got.
 3. I · have got · toothache → I have got a toothache. (auch richtig: I have got toothache.; I've got a toothache.; I've got toothache.; I have a toothache.; I have toothache.)
+     - I has got toothache.: Zu I gehört have got, nicht has got.
+     - I am toothache.: Zahnschmerzen hat man, also have got.
 - Tipp der App: Hurts oder hurt? Hat man es oder tut es weh?
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#gesundheit-satz](../?via=tutor#gesundheit-satz)
@@ -199,7 +201,7 @@ Du hast in diesem Kapitel Menschen beschrieben: die Familie mit has got und is, 
 - Einträge (Vorgabe → Lösung):
 1. Audio → Amir has got a bad cold, Peter. (auch richtig: Amir's got a bad cold, Peter.; Amir has a bad cold, Peter.)
 2. Audio → My arm and my hand hurt, Sophie.
-3. Audio → Please eat some soup, Ellie.
+3. Audio → Please do not run today, Ellie. (auch richtig: Please don't run today, Ellie.)
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#gesundheit-hoeren](../?via=tutor#gesundheit-hoeren)
@@ -217,7 +219,7 @@ Du hast in diesem Kapitel Menschen beschrieben: die Familie mit has got und is, 
 
 ### Aufgabe gesundheit-profil
 
-- Aufgabe: Schreibe in dein Heft, was du sagst, wenn dir etwas wehtut, in drei bis fünf Sätzen: Was tut weh, was hast du, was hilft dir und wen holst du, wenn es schlimmer wird?
+- Aufgabe: Schreibe in dein Heft, was du sagst, wenn dir etwas wehtut, in drei bis fünf Sätzen: Was tut weh, was hast du, was hilft dir und wen holst du, wenn es schlimmer wird? Die App bewertet deinen Text nicht: Vergleiche ihn danach selbst mit den Punkten.
 - Antwortformat: in eigenen Worten eintippen oder auf Papier schreiben und das Blatt fotografieren
 - Eine gute Antwort enthält (P1, P2 … wie die App sie nennt):
   - P1 (Inhalt) Ein Satz sagt mit hurts oder I've got a …, was dir fehlt. Quelle: [/menschen-beschreiben/gesundheit/#neu](../../../menschen-beschreiben/gesundheit/#neu)
