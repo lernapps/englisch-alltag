@@ -43,7 +43,7 @@
   <circle cx="160" cy="55" r="16" fill="#f6d04d" stroke="#d9a600" stroke-width="3"/>
   <use href="#ellie" transform="translate(125,100) scale(0.75)"/>
   <use href="#sophie" transform="translate(240,100) scale(0.75)"/>
-  <use href="#peter" transform="translate(395,100) scale(0.6)"/>
+  <use href="#peter" transform="translate(442,100) scale(0.6)"/>
   <rect x="140" y="190" width="360" height="24" rx="6" fill="#d9b98a" stroke="#7a5a35" stroke-width="3"/>
   <rect x="150" y="214" width="10" height="50" fill="#7a5a35"/><rect x="480" y="214" width="10" height="50" fill="#7a5a35"/>
   <rect x="140" y="214" width="360" height="40" fill="#e8d3a8" stroke="#7a5a35" stroke-width="3"/>
@@ -54,10 +54,5 @@
   <rect x="287" y="172" width="36" height="14" rx="3" fill="#e0b060" stroke="#333" stroke-width="2.5"/><rect x="291" y="175" width="28" height="5" fill="#b3202a"/>
   <rect x="353" y="164" width="24" height="26" rx="4" fill="#b3202a" stroke="#333" stroke-width="2.5"/><rect x="351" y="158" width="28" height="8" rx="2" fill="#fff" stroke="#333" stroke-width="2"/>
   <path d="M413 160 L437 160 L433 190 L417 190 Z" fill="#f7a823" stroke="#333" stroke-width="2.5"/>
-  <text x="185" y="240" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="normal" fill="#333">cereal</text>
-  <text x="245" y="240" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="normal" fill="#333">milk</text>
-  <text x="305" y="240" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="normal" fill="#333">toast</text>
-  <text x="365" y="240" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="normal" fill="#333">jam</text>
-  <text x="425" y="240" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="normal" fill="#333">juice</text>
 
 </svg>

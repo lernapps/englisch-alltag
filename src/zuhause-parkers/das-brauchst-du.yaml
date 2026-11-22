@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Das brauchst du hier
-description: There is und there are, das simple present und in, on und at noch einmal kurz, bevor Sophie ihr Zuhause bei den Parkers beschreibt.
+description: There is und there are mit in, on, under und next to, das simple present mit doesn't und in, on und at noch einmal kurz, bevor Sophie ihr Zuhause bei den Parkers beschreibt.
 recap: [englisch/there-is-are, englisch/simple-present, englisch/praepositionen-zeit]
-scope: Die Seite wiederholt nur there is und there are, das simple present mit dem -s bei he, she und it und die Präpositionen in, on und at bei Zeitangaben. Neue Inhalte gibt es nicht, auch keine Übung.
+scope: Die Seite wiederholt nur there is und there are (dazu die Orts-Präpositionen in, on, under und next to als Beispielsatz), das simple present mit dem -s bei he, she und it und der Verneinung He doesn't like …, und die Präpositionen in, on und at bei Zeitangaben. Neue Inhalte gibt es nicht, auch keine Übung.
 blocks:
   - type: section
     id: einstieg
@@ -16,12 +16,14 @@ blocks:
         rows:
           - [ein Ding, There is a book on the shelf.]
           - [mehrere Dinge, There are two books on the shelf.]
+          - ["Wo? (in, on, under, next to)", "The cat is in the box, on the box, under the box and next to the box."]
       - type: table
         caption: Klassenzimmer-Poster · Das simple present
         header: [Person, Beispiel]
         rows:
           - [I / you / we / they, I walk to the park.]
           - [he / she / it, She walks to the park.]
+          - ["he / she / it, nicht (danach ohne -s)", "He doesn't like fish."]
       - type: table
         caption: Klassenzimmer-Poster · in, on und at
         header: [Wann, Beispiel]
