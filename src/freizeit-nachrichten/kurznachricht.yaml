@@ -41,14 +41,18 @@ blocks:
     blocks:
       - type: text
         text: "Eine Einladung hat einen **Bauplan**. Sie beginnt mit einer Anrede (Hi Peter,). Dann folgen **Who** (wer lädt ein?), **What** (was ist es?), **When** (wann?) und **Where** (wo?). Bei **Answer** bittest du um eine Antwort. Am Ende steht ein Gruß mit deinem Namen. Eine **Zusage** (ja) und eine **Absage** (nein) sind kurz. Eine **Notiz** (note) lässt Wörter weg: Wer weg ist, schreibt nur das Wichtige. Mit **can** sagst du „kann“, mit **can't** (oder **cannot**) „kann nicht“."
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [invitation, Einladung]
-          - [I'd love to come., Ich komme sehr gern.]
-          - [Back at six., Bin um sechs zurück.]
-          - [buy, kaufen]
+        languages: { source: de, target: en }
+        entries:
+          - target: "invitation"
+            source: "Einladung"
+          - target: "I'd love to come."
+            source: "Ich komme sehr gern."
+          - target: "Back at six."
+            source: "Bin um sechs zurück."
+          - target: "buy"
+            source: "kaufen"
       - type: note
         title: Merke
         blocks:

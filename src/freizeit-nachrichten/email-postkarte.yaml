@@ -56,14 +56,19 @@ blocks:
           - type: text
             text: |
               **Anrede:** Dear oder Hi + Name + Komma. **Gruß:** Love, / See you soon, / Write soon, an Familie und Freunde, Best wishes, an andere Erwachsene, dann dein Name. **Für Familie:** nie Yours. **Für Erwachsene:** nicht Hi.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [postcard, Postkarte]
-          - [best wishes, herzliche Grüße]
-          - [subject, Betreff]
-          - ["cold (hier: kalt)", "kalt. Nicht: a cold, die Erkältung."]
+        languages: { source: de, target: en }
+        entries:
+          - target: "postcard"
+            source: "Postkarte"
+          - target: "best wishes"
+            source: "herzliche Grüße"
+          - target: "subject"
+            source: "Betreff"
+          - target: "cold"
+            source: "kalt"
+            note: "Nicht: a cold, die Erkältung."
   - type: section
     id: uebung
     title: Übung

@@ -41,15 +41,20 @@ blocks:
     blocks:
       - type: text
         text: "Die Mahlzeiten heißen **breakfast** (Frühstück), **lunch** (Mittagessen), **dinner** (die Hauptmahlzeit, oft am Abend) und **snack** (Zwischenmahlzeit). Dazu kommt **tea**: Das Wort heißt Tee, kann aber auch eine frühe Abendmahlzeit sein. Bei den Parkers ist tea um sechs Uhr abends. Ob tea ein Getränk oder eine Mahlzeit ist, erkennst du am Satz."
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [cereal, Müsli]
-          - [jam, Marmelade]
-          - [yoghurt, Joghurt]
-          - [vegetables, Gemüse]
-          - [packed lunch, Mittagessen von zu Hause zum Mitnehmen]
+        languages: { source: de, target: en }
+        entries:
+          - target: "cereal"
+            source: "Müsli"
+          - target: "jam"
+            source: "Marmelade"
+          - target: "yoghurt"
+            source: "Joghurt"
+          - target: "vegetables"
+            source: "Gemüse"
+          - target: "packed lunch"
+            source: "Mittagessen von zu Hause zum Mitnehmen"
       - type: text
         text: "Ein **packed lunch** bereitet man zu Hause vor und nimmt es mit, zum Beispiel in die Schule. Auch Ellie hat in der Schule ein packed lunch. Mit **have** sagst du, was du isst oder trinkst: I usually have juice and an egg for breakfast. Vor breakfast, lunch, dinner und tea steht kein **the**. Was du magst, sagst du mit **like**: I like bananas. Bei he, she, it bekommt das Verb ein -s: Peter **likes** bananas. Die Verneinung heißt **don't** (bei I, you, we, they) und **doesn't** (bei he, she, it), danach steht das Verb ohne -s: He **doesn't like** soup. Die Frage mit he, she, it beginnt mit **Does**: Does she like cheese? Yes, she does."
       - type: note

@@ -53,15 +53,20 @@ blocks:
         licence: CC-BY-4.0
       - type: text
         text: "Weitere Körperteile: **hand** (Hand), **leg** (Bein), **foot** (Fuß), **stomach** (Bauch, Magen), **back** (Rücken), **tooth** (Zahn), **neck** (Hals, außen) und **throat** (Hals innen, Rachen). Wenn etwas wehtut, sagst du: **My head hurts.** Bei mehreren Teilen fällt das -s weg: My legs hurt. Oder du sagst, was du hast: **I’ve got a stomachache** (Bauchschmerzen). So geht es auch mit **a headache** (Kopfschmerzen), **toothache** oder **a toothache** (Zahnschmerzen), **a cold** (Erkältung), **a cough** (Husten) und **a sore throat** (Halsschmerzen). I’ve got heißt I have got, du kennst es schon."
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [stomach, Bauch / Magen]
-          - [throat, Hals innen / Rachen]
-          - [sore throat, Halsschmerzen]
-          - [tooth, Zahn]
-          - [cough, Husten]
+        languages: { source: de, target: en }
+        entries:
+          - target: "stomach"
+            source: "Bauch / Magen"
+          - target: "throat"
+            source: "Hals innen / Rachen"
+          - target: "sore throat"
+            source: "Halsschmerzen"
+          - target: "tooth"
+            source: "Zahn"
+          - target: "cough"
+            source: "Husten"
       - type: example
         title: Beim Arzt und in der Apotheke
         blocks:

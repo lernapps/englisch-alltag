@@ -47,17 +47,24 @@ blocks:
     blocks:
       - type: text
         text: "**Mum** und **dad** sind deine Mama und dein Papa, sie heißen auch **mother** und **father**. Zusammen sind sie deine **parents**. Dein Bruder ist dein **brother**, deine Schwester deine **sister**. Deine Oma ist deine **grandma**, dein Opa dein **grandpa**. Deine Tante ist deine **aunt**, dein Onkel dein **uncle**, ein Cousin oder eine Cousine dein **cousin**. Sophies Mama ist Sophie’s mum. Das ’s sagt, zu wem jemand gehört. Über dich sagst du **my** (mein), zu jemandem **your** (dein), über einen Jungen oder Mann **his** (sein), über ein Mädchen oder eine Frau **her** (ihr)."
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [glasses, Brille]
-          - [ponytail, Pferdeschwanz]
-          - [kind, nett / freundlich]
-          - [helpful, hilfsbereit]
-          - [curly, lockig]
-          - [short / long, kurz / lang]
-          - [clever, klug]
+        languages: { source: de, target: en }
+        entries:
+          - target: "glasses"
+            source: "Brille"
+          - target: "ponytail"
+            source: "Pferdeschwanz"
+          - target: "kind"
+            source: "nett / freundlich"
+          - target: "helpful"
+            source: "hilfsbereit"
+          - target: "curly"
+            source: "lockig"
+          - target: "short / long"
+            source: "kurz / lang"
+          - target: "clever"
+            source: "klug"
       - type: text
         text: "Wie sieht jemand aus? Haare, eine Brille oder einen Bart **hat** man: Mrs Parker **has got** red hair. Größe und Alter **ist** man: Mrs Parker **is** tall. Der Charakter, also wie jemand ist, wird auch mit **is** gesagt: Mrs Parker **is** nice."
       - type: example
