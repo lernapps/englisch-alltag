@@ -200,8 +200,8 @@ blocks:
             target: "(Peter's grandma is|Peter's grandma's) old and funny."
           - audio: my-mum-is-kind-and-clever.mp3
             target: "(My mum is|My mum's) kind and clever."
-          - audio: sophies-mum-is-tall-and-happy.mp3
-            target: "(Sophie's mum is|Sophie's mum's) tall and happy."
+          - audio: sophies-mum-has-got-long-hair.mp3
+            target: "(Sophie's mum has|Sophie's mum's) got long hair."
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben

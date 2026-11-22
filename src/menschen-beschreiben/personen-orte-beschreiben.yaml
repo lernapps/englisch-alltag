@@ -180,8 +180,8 @@ blocks:
         items:
           - audio: mr-hill-is-tall-and-friendly.mp3
             target: "(Mr Hill is|Mr Hill's) tall and friendly."
-          - audio: there-is-a-lamp-on-the-table.mp3
-            target: "(There is|There's) a lamp on the table."
+          - audio: there-is-a-lamp-on-the-desk.mp3
+            target: "(There is|There's) a lamp on the desk."
           - audio: he-has-got-a-brown-jacket.mp3
             target: "(He has got|He's got|He has) a brown jacket."
   - type: section
@@ -194,8 +194,8 @@ blocks:
         items:
           - audio: i-like-my-english-teacher.mp3
             text: I like my English teacher.
-          - audio: there-are-three-books-on-the-sofa.mp3
-            text: There are three books on the sofa.
+          - audio: there-are-three-books-on-the-shelf.mp3
+            text: There are three books on the shelf.
           - audio: my-new-room-has-got-a-big-window.mp3
             text: My new room has got a big window.
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
