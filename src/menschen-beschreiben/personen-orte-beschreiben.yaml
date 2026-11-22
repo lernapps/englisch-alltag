@@ -130,7 +130,7 @@ blocks:
             target: "There [are] two pens on the desk."
             mistakes:
               - answer: is
-                message: Zwei Bücher sind mehrere Sachen, also there are.
+                message: Zwei Stifte sind mehrere Sachen, also there are.
         hint: and oder but? there is oder there are?
       - type: language-task
         id: personen-orte-beschreiben-uebersetzen

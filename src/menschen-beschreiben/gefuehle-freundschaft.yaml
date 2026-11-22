@@ -77,14 +77,14 @@ blocks:
           - { left: "Jemand nimmt dir ohne zu fragen dein Spiel weg.", right: angry }
           - { left: "Du bist lange wach gewesen und gähnst.", right: tired }
           - { left: "Du hast das Spiel gewonnen.", right: happy }
-          - { left: "Du weißt nicht, was du tun sollst.", right: bored }
+          - { left: "Nichts macht dir Spaß, und die Zeit vergeht nur langsam.", right: bored }
         explanation: "sad ist traurig, angry wütend, tired müde, happy fröhlich und bored gelangweilt."
         links:
           - title: Lernlandkarte Englisch · Gefühle und Freundschaft
             url: https://lernapps.net/apps/map/englisch/c/gefuehle-freundschaft/
       - type: single-choice
         id: gefuehle-freundschaft-helfen
-        text: Peter hat Amirs Stift kaputt gemacht. Was sagt er zu Amir?
+        text: Beim Ziehen geht die Schachtel kaputt. Was sagt Peter zu Amir?
         options:
           - text: "I'm sorry."
             correct: true

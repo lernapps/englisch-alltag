@@ -14,7 +14,6 @@
   "src/audio/i-also-have-a-packed-lunch-like-ellie.mp3": "I also have a packed lunch, like Ellie.",
   "src/audio/my-day-and-ellies-day-are-different.mp3": "My day and Ellie's day are different.",
   "src/audio/at-weekends-my-family-has-lunch-together.mp3": "At weekends, my family has lunch together.",
-  "src/audio/there-are-three-chairs-next-to-the-table.mp3": "There are three chairs next to the table.",
   "src/audio/peters-toys-are-in-his-bedroom.mp3": "Peter's toys are in his bedroom.",
   "src/audio/is-there-a-bath-in-the-bathroom.mp3": "Is there a bath in the bathroom?",
   "src/audio/sophies-bedroom-is-small-but-pretty.mp3": "Sophie's bedroom is small but pretty.",
@@ -64,5 +63,6 @@
   "src/audio/please-say-stop-and-talk-to-an-adult-peter.mp3": "Please say stop and talk to an adult, Peter.",
   "src/audio/amir-has-got-a-bad-cold-peter.mp3": "Amir has got a bad cold, Peter.",
   "src/audio/please-eat-some-soup-ellie.mp3": "Please eat some soup, Ellie.",
-  "src/audio/my-head-hurts-and-i-feel-tired-today.mp3": "My head hurts and I feel tired today."
+  "src/audio/my-head-hurts-and-i-feel-tired-today.mp3": "My head hurts and I feel tired today.",
+  "src/audio/there-are-two-chairs-next-to-the-table.mp3": "There are two chairs next to the table."
 }

@@ -107,7 +107,11 @@ blocks:
           - { marker: C, target: tooth }
           - { marker: D, target: back }
           - { marker: E, target: foot }
-          - { marker: F, target: neck }
+          - marker: F
+            target: neck
+            mistakes:
+              - answer: throat
+                message: throat ist der Hals innen, der Rachen. Hier zeigt die Markierung den Hals von außen.
         hint: Schau dir die Markierung genau an.
       - type: matching
         id: gesundheit-beschwerden
