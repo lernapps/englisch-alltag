@@ -2,3 +2,14 @@
 title: Freizeit und Nachrichten
 summary: Amir lädt zur Geburtstagsfeier ein und Sophie schreibt nach Hause. Du sprichst über deine Hobbys und schreibst eine Nachricht, eine Einladung, eine Postkarte und eine E-Mail.
 pages: [das-brauchst-du, freizeit-hobbys, kurznachricht, email-postkarte]
+selfAssessment:
+  pages:
+    - exercises:
+        - /freizeit-nachrichten/freizeit-hobbys/#freizeit-hobbys-schreiben
+        - /freizeit-nachrichten/freizeit-hobbys/#freizeit-hobbys-uebersetzen
+    - exercises:
+        - /freizeit-nachrichten/kurznachricht/#kurznachricht-zeit
+        - /freizeit-nachrichten/kurznachricht/#kurznachricht-korrektur
+    - exercises:
+        - /freizeit-nachrichten/email-postkarte/#email-postkarte-anrede
+        - /freizeit-nachrichten/email-postkarte/#email-postkarte-korrektur

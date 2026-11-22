@@ -2,3 +2,17 @@
 title: Zuhause bei den Parkers
 summary: Sophie zeigt ihrer Familie, wie sie bei den Parkers wohnt. Du beschreibst Räume und Möbel, deinen Tag und dein Essen und vergleichst Ellies Alltag mit deinem.
 pages: [das-brauchst-du, wohnen, tagesablauf, essen-trinken, alltag-uk]
+selfAssessment:
+  pages:
+    - exercises:
+        - /zuhause-parkers/wohnen/#wohnen-there
+        - /zuhause-parkers/wohnen/#wohnen-uebersetzen
+    - exercises:
+        - /zuhause-parkers/tagesablauf/#tagesablauf-zeit
+        - /zuhause-parkers/tagesablauf/#tagesablauf-sophie
+    - exercises:
+        - /zuhause-parkers/essen-trinken/#essen-trinken-gern
+        - /zuhause-parkers/essen-trinken/#essen-trinken-uebersetzen
+    - exercises:
+        - /zuhause-parkers/alltag-uk/#alltag-uk-verbinden
+        - /zuhause-parkers/alltag-uk/#alltag-uk-korrektur
