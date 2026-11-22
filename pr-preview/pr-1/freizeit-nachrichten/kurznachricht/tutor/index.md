@@ -180,9 +180,9 @@ Sophie sagt Amir zu und schreibt dann ihren Eltern: „Amir hat uns zu seiner Pa
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Thank you for the invitation, Amir.
-2. Audio → Please call me on Monday, Sophie.
-3. Audio → Can you help me with my homework, Peter?
+1. Audio → Thank you for the invitation.
+2. Audio → Please call me on Monday.
+3. Audio → Can you help me with my homework?
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#kurznachricht-hoeren](../?via=tutor#kurznachricht-hoeren)
@@ -193,8 +193,8 @@ Sophie sagt Amir zu und schreibt dann ihren Eltern: „Amir hat uns zu seiner Pa
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → I'm in the garden with Ellie.
-2. Audio → Please write back soon, Amir.
-3. Audio → That sounds great. See you on Saturday, Sophie.
+2. Audio → Please write back tomorrow.
+3. Audio → That sounds great. See you on Saturday.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach.
 - Link: [../?via=tutor#kurznachricht-nachsprechen](../?via=tutor#kurznachricht-nachsprechen)
 

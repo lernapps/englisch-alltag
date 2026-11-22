@@ -200,9 +200,9 @@ Sophie schickt den Text über Mr Hill und ihr Zimmer nach Hause. Ihre Mutter fra
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Mr Hill is tall and friendly, Sophie. (auch richtig: Mr Hill's tall and friendly, Sophie.)
-2. Audio → There is a lamp on the desk, Peter. (auch richtig: There's a lamp on the desk, Peter.)
-3. Audio → He has got a brown jacket, Ellie. (auch richtig: He's got a brown jacket, Ellie.; He has a brown jacket, Ellie.)
+1. Audio → Mr Hill is tall and friendly. (auch richtig: Mr Hill's tall and friendly.)
+2. Audio → There is a lamp on the table. (auch richtig: There's a lamp on the table.)
+3. Audio → He has got a brown jacket. (auch richtig: He's got a brown jacket.; He has a brown jacket.)
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#personen-orte-beschreiben-hoeren](../?via=tutor#personen-orte-beschreiben-hoeren)
@@ -212,9 +212,9 @@ Sophie schickt den Text über Mr Hill und ihr Zimmer nach Hause. Ihre Mutter fra
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → I like my English teacher, Amir.
-2. Audio → There are three books on the shelf, Ellie.
-3. Audio → My new room has got a big window, Sophie.
+1. Audio → I like my English teacher.
+2. Audio → There are three books on the sofa.
+3. Audio → My new room has got a big window.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach.
 - Link: [../?via=tutor#personen-orte-beschreiben-nachsprechen](../?via=tutor#personen-orte-beschreiben-nachsprechen)
 

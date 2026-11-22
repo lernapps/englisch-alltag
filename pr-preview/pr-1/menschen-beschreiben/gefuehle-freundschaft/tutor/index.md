@@ -186,8 +186,8 @@ Sophie schreibt nach Hause: Amir und Peter hatten Streit um ein Spiel, aber Elli
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → My best friend is very funny, Ellie.
-2. Audio → Why are you sad today, Peter?
+1. Audio → My best friend is very funny.
+2. Audio → Why are you sad today?
 3. Audio → Please say sorry to Amir.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -198,9 +198,9 @@ Sophie schreibt nach Hause: Amir und Peter hatten Streit um ein Spiel, aber Elli
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → My friends are kind and funny, Sophie.
-2. Audio → Please say stop and talk to an adult, Peter.
-3. Audio → Amir and Peter are friends again, Sophie.
+1. Audio → My friends are kind and funny.
+2. Audio → Please say stop and talk to an adult.
+3. Audio → Amir and Peter are friends again.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach.
 - Link: [../?via=tutor#gefuehle-freundschaft-nachsprechen](../?via=tutor#gefuehle-freundschaft-nachsprechen)
 
