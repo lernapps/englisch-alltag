@@ -1,0 +1,234 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Ein Text über eine Person und einen Ort"
+description: "Sophie schreibt ihren Eltern einen Text über Mr Hill und über ihr Zimmer. Du lernst, aus einzelnen Sätzen einen Text mit Bauplan zu machen."
+competencies: [personen-orte-beschreiben]
+scope: Die Seite zeigt, wie aus einzelnen Sätzen ein Text über eine Person oder einen Ort wird. Der Bauplan für eine Person heißt Wer, Aussehen, Charakter, der für einen Ort Wo und Was gibt es. Die Sätze stehen in dieser Reihenfolge, and verbindet Ähnliches, but zeigt einen Gegensatz, und Dinge an einem Ort nennt man mit there is oder there are. Familienwörter, has got und is wiederholt die Seite nur; Gefühle, Streit sowie Körperteile und Beschwerden behandeln spätere Seiten.
+blocks:
+  - type: section
+    id: einstieg
+    title: Sophie schreibt einen Text
+    blocks:
+      - type: figure
+        image: images/szene-personen-orte-beschreiben.svg
+        alt: Ein kleines Zimmer mit Fenster, Kleiderschrank, Bett und Schreibtisch. Ein Mädchen mit Zöpfen sitzt am Schreibtisch und hält ein Blatt.
+        caption: "Sophie (Zöpfe) in ihrem Zimmer bei den Parkers. Sie schreibt ihren Eltern."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Sophies Eltern wollen mehr wissen: Wie ist ihr Englischlehrer Mr Hill? Und wie ist ihr Zimmer? Einzelne Sätze reichen dafür nicht. Sophie schreibt einen **Text** (text), in dem ein Satz zum nächsten passt. Schau zuerst auf ihr Zimmer."
+      - type: single-choice
+        id: personen-orte-beschreiben-start
+        text: Sophie schreibt über ihr Zimmer. Welche zwei Sätze passen zum Bild?
+        options:
+          - text: "My room is small. There is a bed and a desk."
+            correct: true
+            info: Das Zimmer ist klein, und Bett und Schreibtisch stehen auf dem Bild.
+          - text: "My room is big. There is a bed and a desk."
+            correct: false
+            info: Das Zimmer ist klein, nicht big.
+          - text: "My room is small. There is a sofa and a desk."
+            correct: false
+            info: Ein Sofa gibt es auf dem Bild nicht.
+        explanation: "Klein, mit Bett und Schreibtisch: My room is small. There is a bed and a desk."
+        links:
+          - title: Lernlandkarte Englisch · Personen und Orte beschreiben
+            url: https://lernapps.net/apps/map/englisch/c/personen-orte-beschreiben/
+      - type: text
+        text: "**Das kannst du danach:** Du schreibst über eine Person oder einen Ort einen kurzen Text, in dem die Sätze in der richtigen Reihenfolge stehen."
+  - type: section
+    id: neu
+    title: Vom Satz zum Text
+    blocks:
+      - type: text
+        text: "Ein guter Text hat einen **Bauplan**. Zuerst sagst du, **wer** die Person ist, dann wie sie **aussieht**, zuletzt wie sie ist (**Charakter**). Bei einem Ort sagst du erst, **wo** er ist, und dann, **was es dort gibt**. Mit **and** verbindest du Ähnliches (kind **and** funny), mit **but** einen Gegensatz (quiet **but** funny)."
+      - type: table
+        caption: Klassenzimmer-Poster · Der Bauplan eines Textes
+        header: [Teil, Frage]
+        rows:
+          - ["Person · Wer?", "Wer ist das für mich?"]
+          - ["Person · Aussehen?", "Haare, Brille, Größe: has got oder is"]
+          - ["Person · Charakter?", "Wie ist die Person: is"]
+          - ["Ort · Wo?", "Wo ist das?"]
+          - ["Ort · Was gibt es?", "there is (eine Sache) oder there are (mehrere Sachen)"]
+      - type: example
+        title: Zwei kurze Texte
+        blocks:
+          - type: text
+            text: |
+              **Eine Person:** Amir is my friend. He has got black curly hair and glasses. He is quiet but funny.
+
+              **Ein Ort:** This is Peter’s room. There is a bed and there are toys. There is a shelf, but there is no desk.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [wardrobe, Kleiderschrank]
+          - [shelf, Regal]
+          - [curly, lockig]
+          - [quiet, ruhig]
+          - [there is / there are, es gibt]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Person:** Wer – Aussehen – Charakter. **Ort:** Wo – Was gibt es? **there is** steht vor einer Sache, **there are** vor mehreren (There are two books). Sagst du „es gibt“, nimmst du there is oder there are, nie it is.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: personen-orte-beschreiben-bauplan
+        text: Sophie schreibt über Mr Hill und ihr Zimmer. Zu welchem Teil des Bauplans passt der Satz?
+        pairs:
+          - { left: "Person · Wer?", right: "Mr Hill is my English teacher." }
+          - { left: "Person · Aussehen?", right: "He has got grey hair." }
+          - { left: "Person · Charakter?", right: "He is kind and funny." }
+          - { left: "Ort · Wo?", right: "This is my room at the Parkers’." }
+          - { left: "Ort · Was gibt es?", right: "There is a wardrobe in my room." }
+        explanation: Wer ist die Person, wie sieht sie aus, wie ist sie. Beim Ort kommt erst das Wo, dann das, was es dort gibt.
+        links:
+          - title: Lernlandkarte Englisch · Personen und Orte beschreiben
+            url: https://lernapps.net/apps/map/englisch/c/personen-orte-beschreiben/
+      - type: ordering
+        id: personen-orte-beschreiben-reihenfolge
+        text: Sophies Text über ihr Zimmer ist durcheinander. Bringe die Sätze in die richtige Reihenfolge.
+        items:
+          - This is my room.
+          - It is small.
+          - There is a bed and a desk.
+          - "There is a wardrobe, but there is no TV."
+        explanation: Erst das Wo (This is my room), dann wie der Ort ist, dann was es gibt.
+        links:
+          - title: Lernlandkarte Englisch · Personen und Orte beschreiben
+            url: https://lernapps.net/apps/map/englisch/c/personen-orte-beschreiben/
+      - type: language-task
+        id: personen-orte-beschreiben-luecken
+        languages: { source: de, target: en }
+        mode: gap
+        task: Schreibe das fehlende Wort in die Lücke.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Mr Hill ist nett und lustig.
+            target: "Mr Hill is kind [and] funny."
+            mistakes:
+              - answer: but
+                message: but zeigt einen Gegensatz. Nett und lustig passen zusammen, also and.
+          - source: Mein Zimmer ist klein, aber es ist nett.
+            target: "My room is small, [but] it is nice."
+            mistakes:
+              - answer: and
+                message: Klein und nett sind ein Gegensatz im Satz, also but.
+          - source: In meinem Zimmer gibt es einen Schrank.
+            target: "[There is] a wardrobe in my room."
+            mistakes:
+              - answer: There are
+                message: Ein Schrank ist eine Sache, also there is.
+              - answer: It is
+                message: Für „es gibt“ nimmst du there is, nicht it is.
+          - source: Auf dem Schreibtisch gibt es zwei Bücher.
+            target: "There [are] two books on the desk."
+            mistakes:
+              - answer: is
+                message: Zwei Bücher sind mehrere Sachen, also there are.
+        hint: and oder but? there is oder there are?
+      - type: language-task
+        id: personen-orte-beschreiben-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Mr Hill hat graue Haare.
+            target: "(Mr Hill has|Mr Hill's) got grey hair."
+            mistakes:
+              - answer: Mr Hill have got grey hair.
+                message: Zu he, she und Mr Hill gehört has got.
+          - source: Er ist nett und lustig.
+            target: "He is (kind|nice|friendly) and funny."
+            mistakes:
+              - answer: He has got kind and funny.
+                message: Beim Charakter steht is, nicht has got.
+          - source: In meinem Zimmer gibt es ein Fenster.
+            target: "There is a window in my room."
+            mistakes:
+              - answer: It is a window in my room.
+                message: Für „es gibt“ nimmst du there is, nicht it is.
+              - answer: There are a window in my room.
+                message: Ein Fenster ist eine Sache, also there is.
+        hint: Hat man es, ist man es, gibt es es?
+      - type: language-task
+        id: personen-orte-beschreiben-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: There are a desk in my room.
+            target: There is a desk in my room.
+            mistakes:
+              - answer: There are a desk in my room.
+                message: Ein Schreibtisch ist eine Sache, also there is.
+          - cue: There is two shelves in the room.
+            target: There are two shelves in the room.
+            mistakes:
+              - answer: There is two shelves in the room.
+                message: Zwei Regale sind mehrere Sachen, also there are.
+        hint: Eine Sache oder mehrere?
+      - type: language-task
+        id: personen-orte-beschreiben-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: mr-hill-is-tall-and-friendly-sophie.mp3
+            target: "(Mr Hill is|Mr Hill's) tall and friendly, Sophie."
+          - audio: there-is-a-lamp-on-the-desk-peter.mp3
+            target: "There is a lamp on the desk, Peter."
+          - audio: he-has-got-a-brown-jacket-ellie.mp3
+            target: "(He has|He's) got a brown jacket, Ellie."
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: personen-orte-beschreiben-nachsprechen
+        language: en
+        items:
+          - audio: i-like-my-english-teacher-amir.mp3
+            text: I like my English teacher, Amir.
+          - audio: there-are-three-books-on-the-shelf-ellie.mp3
+            text: There are three books on the shelf, Ellie.
+          - audio: my-new-room-has-got-a-big-window-sophie.mp3
+            text: My new room has got a big window, Sophie.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: text
+        text: "Dein Profil „All about me“ wächst weiter. Ellie hat über ihren Lieblingsplatz geschrieben. Schau, wie ihr Text aufgebaut ist."
+      - type: table
+        caption: All about me · Mein Lieblingsplatz oder mein Zimmer (Ellies Beispiel)
+        header: [Was, Englisch]
+        rows:
+          - ["Wo ist das?", "My favourite place is my room."]
+          - ["Wie ist es?", "It is quiet."]
+          - ["Was gibt es?", "There is a bed and a desk. There are posters on the wall."]
+          - ["Und ein Gegensatz?", "My room is not big, but I like it."]
+      - type: open-task
+        id: personen-orte-beschreiben-profil
+        task: "Schreibe in dein Heft einen kurzen Text über deinen Lieblingsplatz oder dein Zimmer, in drei bis fünf Sätzen: Wo ist das, wie ist es und was gibt es dort?"
+        points:
+          - text: Ein Satz sagt, wo der Ort ist oder was dein Lieblingsplatz ist.
+            source: /menschen-beschreiben/personen-orte-beschreiben/#neu
+          - text: Ein Satz sagt mit there is oder there are, was es dort gibt.
+            source: /menschen-beschreiben/personen-orte-beschreiben/#neu
+          - text: Ein Satz verbindet mit and oder but.
+            source: /menschen-beschreiben/personen-orte-beschreiben/#neu
+          - text: Die Sätze stehen in der Reihenfolge des Bauplans und enden mit einem Punkt.
+            kind: form
+        solution: |
+          My favourite place is my room. It is small and quiet. There is a bed and a desk, but there is no sofa.
+
+          Oder: My favourite place is the park near my home. It is big and green. There are trees and there is a bench.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Sophie schickt den Text über Mr Hill und ihr Zimmer nach Hause. Ihre Mutter antwortet sofort: „Und wie geht es dir?“ Auf der nächsten Seite sagt Sophie, wie sie sich fühlt."

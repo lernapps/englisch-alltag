@@ -1,0 +1,255 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Liebe Grüße aus Millbrook: E-Mail und Postkarte"
+description: "Sophie schreibt ihren Eltern eine Postkarte. Du lernst Anrede, Text und Gruß für Postkarte, Brief und E-Mail."
+competencies: [email-postkarte]
+scope: Die Seite zeigt den Bauplan eines persönlichen Briefs mit Anrede (Dear Mum and Dad,), Text und Gruß mit Namen (Love, Sophie). Du lernst Anreden und Grüße für Familie, Freunde und Erwachsene, das Komma nach der Anrede und nach dem Gruß, den Unterschied zwischen Postkarte und E-Mail (Subject) und einen Absatz Text über Wetter, Tun und Befinden. Hobbys, Nachrichten und Einladungen stehen auf den Seiten davor. Briefe an fremde Leser kommen in einer späteren Version.
+blocks:
+  - type: section
+    id: einstieg
+    title: Sophie schreibt nach Hause
+    blocks:
+      - type: figure
+        image: images/postkarte.svg
+        alt: Eine Postkarte mit drei farbigen Teilen. Rechts neben der Karte steht zu jedem Teil eine Nummer und ein deutsches Wort.
+        caption: Sophies Postkarte an ihre Eltern, geteilt in drei Teile.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Sophie schreibt ihren Eltern eine Postkarte (postcard). Ein persönlicher Brief hat immer einen **Bauplan** mit drei Teilen: Anrede, Text und Gruß."
+      - type: single-choice
+        id: email-postkarte-start
+        text: Schau auf die Postkarte. Mit welchem Gruß und Namen endet sie?
+        options:
+          - text: "Love, Sophie"
+            correct: true
+            info: Der dritte Teil ist der Gruß mit Namen.
+          - text: "Dear Mum and Dad,"
+            correct: false
+            info: Das ist die Anrede am Anfang.
+          - text: Mum and Dad
+            correct: false
+            info: So heißen die Menschen, an die die Karte geht. Ein Gruß ist das nicht.
+        explanation: Am Ende steht der Gruß mit dem Namen der Schreiberin.
+        links:
+          - title: Lernlandkarte Englisch · E-Mail, Brief und Postkarte
+            url: https://lernapps.net/apps/map/englisch/c/email-postkarte/
+      - type: text
+        text: "**Das kannst du danach:** Du schreibst eine Postkarte oder E-Mail mit passender Anrede und passendem Gruß."
+  - type: section
+    id: neu
+    title: Anrede, Text und Gruß
+    blocks:
+      - type: text
+        text: "Die **Anrede** beginnt mit **Dear** (liebe/lieber) oder bei Freunden mit **Hi**, danach der Name und ein **Komma**. Der **Text** ist ein Absatz in ganzen Sätzen: Wie ist das Wetter (It is rainy.)? Was machst du (I read a book.)? Wie geht es dir (I am tired but happy.)? Der **Gruß** steht zuletzt, mit Komma und deinem Namen. Der Name gehört immer dazu."
+      - type: table
+        caption: Klassenzimmer-Poster · Anrede und Gruß
+        header: ["An wen?", Anrede, Gruß]
+        rows:
+          - [Familie, "Dear Mum,", "Love, / Write soon,"]
+          - [Freunde, "Hi Ellie, / Dear Ellie,", "See you soon, / Love,"]
+          - [Erwachsene (nicht Familie), "Dear Mrs Parker,", "Best wishes,"]
+      - type: text
+        text: "**Love,** heißt liebe Grüße, **See you soon,** bis bald, **Write soon,** schreib bald. **Best wishes,** (herzliche Grüße) ist freundlich, aber ein Stück weiter weg: Das schreibst du an Erwachsene, die nicht zu deiner Familie gehören. **Yours** ist für offizielle Briefe, nicht für die Familie. Eine **E-Mail** hat zusätzlich eine Zeile **Subject** (Betreff) mit wenigen Wörtern. Eine Postkarte hat kein Subject und ist kürzer."
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [postcard, Postkarte]
+          - [best wishes, herzliche Grüße]
+          - [subject, Betreff]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Anrede:** Dear + Name + Komma. **Gruß:** Love, / See you soon, / Write soon, an Familie und Freunde, Best wishes, an andere Erwachsene, dann dein Name. **Für Familie:** nie Yours. **Für Erwachsene:** nicht Hi.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: email-postkarte-paare
+        text: Welche Anrede passt?
+        pairs:
+          - { left: Du schreibst deinem Freund Peter., right: "Hi Peter," }
+          - { left: Du schreibst deinem Papa., right: "Dear Dad," }
+          - { left: Du schreibst deinem Opa., right: "Dear Grandpa," }
+        explanation: Freunden schreibst du Hi oder Dear, der Familie Dear. Nach der Anrede steht ein Komma.
+        links:
+          - title: Lernlandkarte Englisch · E-Mail, Brief und Postkarte
+            url: https://lernapps.net/apps/map/englisch/c/email-postkarte/
+      - type: ordering
+        id: email-postkarte-reihenfolge
+        text: Ellie schreibt ihrer Grandma eine Karte. Bringe die Teile in die richtige Reihenfolge.
+        items:
+          - "Dear Grandma,"
+          - It is cold in Millbrook.
+          - I like school and I read a new book.
+          - "Love, Ellie"
+        explanation: Anrede, Text, Gruß mit Namen.
+        links:
+          - title: Lernlandkarte Englisch · E-Mail, Brief und Postkarte
+            url: https://lernapps.net/apps/map/englisch/c/email-postkarte/
+      - type: single-choice
+        id: email-postkarte-gruss
+        text: Peter schreibt seiner Mum eine Karte. Welcher Gruß am Ende passt?
+        options:
+          - text: "Love, Peter"
+            correct: true
+            info: Love, ist der Gruß für die Familie, mit dem Namen.
+          - text: "Yours, Peter"
+            correct: false
+            info: Yours ist für offizielle Briefe, nicht für die Familie.
+          - text: "Best wishes, Peter"
+            correct: false
+            info: Best wishes, schreibst du an Erwachsene, die nicht zu deiner Familie gehören. Für die Mum nimmst du Love.
+          - text: "Love,"
+            correct: false
+            info: Der Name fehlt.
+        explanation: "Familie: Love, und der Name."
+        links:
+          - title: Lernlandkarte Englisch · E-Mail, Brief und Postkarte
+            url: https://lernapps.net/apps/map/englisch/c/email-postkarte/
+      - type: language-task
+        id: email-postkarte-anrede
+        languages: { source: de, target: en }
+        task: Schreibe die Zeile mit Komma. Hinter dem Gruß steht kein Punkt.
+        form: { case: hint, punctuation: wrong }
+        items:
+          - source: Sophie schreibt ihrem Lehrer Mr Hill. Schreibe die Anrede.
+            target: Dear Mr Hill,
+            mistakes:
+              - answer: Hi Mr Hill,
+                message: Hi ist für Freunde. Einen Lehrer redest du mit Dear an.
+              - answer: Dear Mr Hill
+                message: Nach der Anrede steht ein Komma.
+          - cue: Best wishes · Sophie
+            target: Best wishes, Sophie
+            mistakes:
+              - answer: Best wishes Sophie
+                message: Nach Best wishes steht ein Komma.
+              - answer: Best wishes,
+                message: Der Name fehlt.
+              - answer: Love, Sophie
+                message: Love ist für Familie und Freunde. Mr Hill ist dein Lehrer.
+          - cue: See you soon · Amir
+            target: See you soon, Amir
+            mistakes:
+              - answer: See you soon Amir
+                message: Nach dem Gruß steht ein Komma.
+              - answer: See you soon,
+                message: Der Name fehlt.
+        hint: Anrede und Gruß haben ein Komma.
+      - type: language-task
+        id: email-postkarte-korrektur
+        languages: { source: de, target: en }
+        task: In jeder Zeile steckt ein Fehler. Schreibe die Zeile richtig.
+        form: { case: hint, punctuation: wrong }
+        items:
+          - cue: Yours, Ellie
+            target: "(Love|Write soon|See you soon), Ellie"
+            mistakes:
+              - answer: Yours, Ellie
+                message: Ellie schreibt an ihre Grandma. Für die Familie passt Yours nicht.
+          - cue: Hi Mr Parker,
+            target: Dear Mr Parker,
+            mistakes:
+              - answer: Hi Mr Parker,
+                message: Mr Parker ist ein Erwachsener und kein Freund. Nimm Dear.
+          - cue: Dear Mum
+            target: Dear Mum,
+            mistakes:
+              - answer: Dear Mum
+                message: Nach der Anrede steht ein Komma.
+        hint: Zu wem passt die Zeile?
+      - type: language-task
+        id: email-postkarte-text
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Heute ist es kalt.
+            target: It is cold today.
+            mistakes:
+              - answer: Is cold today.
+                message: Vor is fehlt es (it).
+          - source: Ich gehe mit Peter in den Park.
+            target: I go to the park with Peter.
+            mistakes:
+              - answer: I go to park with Peter.
+                message: Vor park fehlt the.
+              - answer: I go in the park with Peter.
+                message: Zu einem Ort hin sagst du to the.
+          - source: Mir geht es gut.
+            target: "(I'm|I am) (fine|well|good|happy)."
+            mistakes:
+              - answer: I have fine.
+                message: Wie es dir geht, sagst du mit I am.
+        hint: Beginne mit it oder I.
+      - type: language-task
+        id: email-postkarte-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: today-we-walk-to-the-park-with-peter.mp3
+            target: Today we walk to the park with Peter.
+          - audio: our-teacher-is-friendly-and-funny.mp3
+            target: Our teacher is friendly and funny.
+          - audio: it-is-rainy-so-we-read-books-with-amir.mp3
+            target: "It is rainy, so we read books with Amir."
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: email-postkarte-nachsprechen
+        language: en
+        items:
+          - audio: thank-you-for-your-lovely-postcard-sophie.mp3
+            text: "Thank you for your lovely postcard, Sophie."
+          - audio: we-play-football-in-the-park-with-amir.mp3
+            text: We play football in the park with Amir.
+          - audio: please-write-to-me-soon-ellie.mp3
+            text: "Please write to me soon, Ellie."
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: open-task
+        id: email-postkarte-profil
+        task: "Schreibe eine Postkarte in dein Heft, an eine Person deiner Wahl: an einen Menschen aus deiner Familie, an eine Freundin, einen Freund oder an einen Erwachsenen. Schreibe drei bis fünf Sätze Text."
+        points:
+          - text: Die Karte beginnt mit Dear oder Hi, dem Namen und einem Komma, passend zur Person.
+            source: /freizeit-nachrichten/email-postkarte/#neu
+          - text: Der Text sagt etwas über das Wetter, über das, was du machst, und darüber, wie es dir geht.
+            source: /freizeit-nachrichten/email-postkarte/#neu
+          - text: Der Gruß passt zur Person (Love, oder Best wishes,) und steht mit Komma vor deinem Namen.
+            source: /freizeit-nachrichten/email-postkarte/#neu
+          - text: Es sind ganze Sätze mit einem Punkt am Ende.
+            kind: form
+        solution: |
+          Dear Grandma,
+          It is sunny today. I play in the garden with my cousin. I am happy.
+          Love, Anna
+
+          Oder: Dear Mrs Green,
+          It is rainy, but I am fine. I read a book at home.
+          Best wishes, Tom
+  - type: section
+    id: weiter
+    title: Dein Profil und ein Rückblick
+    blocks:
+      - type: table
+        caption: All about me · Mein Profil (Ellies Beispiel)
+        header: [Zeile, Englisch]
+        rows:
+          - [Familie, "I live with my mum, my dad and my brother."]
+          - [Person oder Zimmer, "My room has got a bed, a desk and a poster."]
+          - [Gefühle, "I am happy at the weekend."]
+          - [Wenn mir etwas wehtut, "I have a headache. I need a rest."]
+          - [Zuhause, "Our house has two floors and a garden."]
+          - [Mein Tag, "I get up at seven o'clock."]
+          - [Essen, "I have cereal and orange juice for breakfast."]
+          - [Alltag, "At our house tea is at six o'clock."]
+          - [Hobbys, "I like swimming and I play the guitar."]
+          - [Einladung, "Come to the cinema with me on Friday at six."]
+      - type: text
+        text: "Übertrage deine Zeilen in dein Heft: Die App speichert nichts. Du hast dich, deine Familie, dein Zuhause, deinen Tag, dein Essen und deine Freizeit beschrieben und gelernt, Nachrichten, Einladungen und Postkarten zu schreiben. Sophie ist jetzt in Millbrook zu Hause, und du kannst von deinem Alltag auf Englisch erzählen."

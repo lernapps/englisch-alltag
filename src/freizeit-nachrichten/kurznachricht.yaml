@@ -1,0 +1,237 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Komm zu meiner Party! Nachricht und Einladung"
+description: "Amir lädt zu seinem Geburtstag ein, und Sophie antwortet. Du schreibst eine kurze Nachricht, eine Notiz und eine Einladung."
+competencies: [kurznachricht]
+scope: Die Seite zeigt den Bauplan einer Einladung (Anrede, Wer, Was, Wann, Wo, Antwort, Gruß), eine Zusage und eine Absage, eine kurze Nachricht und eine Notiz. Zeiten stehen mit on (on Saturday), at (at five) und from … to (from five to seven). Nach can steht das Verb ohne to. Eine persönliche E-Mail, ein Brief und eine Postkarte behandelt die nächste Seite.
+blocks:
+  - type: section
+    id: einstieg
+    title: Amir lädt ein
+    blocks:
+      - type: figure
+        image: images/einladung.svg
+        alt: Eine Einladungskarte mit der Überschrift Party invitation und fünf Feldern, jedes mit einer kurzen Angabe.
+        caption: "Die Einladung von Amir (Brille, schwarze Locken) an Sophie, Ellie und Peter."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Amir bringt eine Einladung (invitation) zu seinem Geburtstag mit. Sophie liest die Karte genau: In fünf Feldern steht, was sie wissen muss."
+      - type: single-choice
+        id: kurznachricht-start
+        text: Schau auf die Einladung. Wann ist die Feier zu Ende?
+        options:
+          - text: at six
+            correct: true
+            info: Auf der Karte steht from three to six. Um sechs ist die Feier zu Ende.
+          - text: at three
+            correct: false
+            info: Um drei fängt die Feier an.
+          - text: at five
+            correct: false
+            info: Um fünf steht nichts auf der Karte.
+        explanation: from three to six heißt von drei bis sechs.
+        links:
+          - title: Lernlandkarte Englisch · Kurznachricht und Einladung
+            url: https://lernapps.net/apps/map/englisch/c/kurznachricht/
+      - type: text
+        text: "**Das kannst du danach:** Du schreibst eine Einladung, sagst zu oder ab und schreibst eine kurze Nachricht."
+  - type: section
+    id: neu
+    title: Bauplan, Antwort und Zeit
+    blocks:
+      - type: text
+        text: "Eine Einladung hat einen **Bauplan**. Sie beginnt mit einer Anrede (Hi Peter,). Dann beantwortet sie vier Fragen: **Who** (wer lädt ein?), **What** (was ist es?), **When** (wann?) und **Where** (wo?). Dazu kommt die **Answer**: Bis wann sagt man Bescheid? Am Ende steht ein Gruß mit deinem Namen. Eine **Zusage** und eine **Absage** sind kurz. Eine Notiz lässt Wörter weg: Wer weg ist, schreibt nur das Wichtige."
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [invitation, Einladung]
+          - [I'd love to come., Ich komme sehr gern.]
+          - [I can't come., Ich kann nicht kommen.]
+          - [Back at five., Bin um fünf zurück.]
+          - ["Can you buy milk, please?", "Kannst du bitte Milch kaufen?"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Zeit:** on + Tag (on Tuesday, on 12th October), at + Uhrzeit (at seven o'clock), from … to (from five to seven). Tuesday allein (ohne on) ist falsch, und at Tuesday auch. **Nach can** steht das Verb ohne to: I can come. Nicht: I can't to come. **Anrede und Gruß** gehören zu jeder Nachricht: Hi Amir, … See you soon, Sophie.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: kurznachricht-paare
+        text: Zu welchem Teil des Bauplans gehört die Zeile?
+        pairs:
+          - { left: "Hi Peter,", right: Anrede }
+          - { left: in the park, right: "Wo?" }
+          - { left: from four to six, right: "Wann?" }
+          - { left: "Love, Ellie", right: Gruß }
+        explanation: Die Anrede steht am Anfang, der Gruß mit Namen am Ende. in the park sagt, wo es ist, from four to six, wann es ist.
+        links:
+          - title: Lernlandkarte Englisch · Kurznachricht und Einladung
+            url: https://lernapps.net/apps/map/englisch/c/kurznachricht/
+      - type: ordering
+        id: kurznachricht-reihenfolge
+        text: Peter lädt Amir ein. Bringe die Teile der Einladung in die richtige Reihenfolge.
+        items:
+          - "Hi Amir,"
+          - Come and play a game at my house.
+          - It is on Thursday from four to five.
+          - Can you come? Please tell me.
+          - "See you soon, Peter"
+        explanation: "Anrede, was und wo, wann, Antwort, Gruß mit Namen: So ist der Bauplan geordnet."
+        links:
+          - title: Lernlandkarte Englisch · Kurznachricht und Einladung
+            url: https://lernapps.net/apps/map/englisch/c/kurznachricht/
+      - type: single-choice
+        id: kurznachricht-vollstaendig
+        text: Welche Nachricht ist richtig und vollständig?
+        options:
+          - text: "Hi Ellie, can you come to my party on Friday? Love, Sophie"
+            correct: true
+            info: Anrede, Frage mit on Friday und Gruß mit Namen sind da.
+          - text: Can you come to my party on Friday?
+            correct: false
+            info: Anrede und Gruß fehlen.
+          - text: "Hi Ellie, can you come to my party at Friday? Love, Sophie"
+            correct: false
+            info: Vor einem Tag steht on, nicht at.
+        explanation: "Anrede, Inhalt mit on Friday, Gruß mit Namen."
+        links:
+          - title: Lernlandkarte Englisch · Kurznachricht und Einladung
+            url: https://lernapps.net/apps/map/englisch/c/kurznachricht/
+      - type: language-task
+        id: kurznachricht-absage
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Sorry · I · can't · come · on Friday
+            target: "Sorry, I (can't|cannot) come on Friday."
+            mistakes:
+              - answer: "Sorry, I can't to come on Friday."
+                message: Nach can steht das Verb ohne to.
+              - answer: "Sorry, I don't can come on Friday."
+                message: can braucht kein do. Sag I can't come.
+              - answer: "Sorry, I can't come at Friday."
+                message: Vor einem Tag steht on, nicht at.
+          - source: Ich kann am Montag nicht kommen.
+            target: I (can't|cannot) come on Monday.
+            mistakes:
+              - answer: I can't to come on Monday.
+                message: Nach can steht kein to.
+              - answer: I can't come Monday.
+                message: Vor Monday fehlt on.
+          - source: Kannst du am Freitag kommen?
+            target: Can you come on Friday?
+            mistakes:
+              - answer: Can you to come on Friday?
+                message: Nach can steht das Verb ohne to.
+        hint: Nach can steht kein to.
+      - type: language-task
+        id: kurznachricht-zeit
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Die Party ist am Sonntag.
+            target: The party is on Sunday.
+            mistakes:
+              - answer: The party is Sunday.
+                message: Vor Sunday fehlt on.
+              - answer: The party is at Sunday.
+                message: Vor einem Tag steht on, nicht at.
+          - source: Wir spielen von zwei bis vier.
+            target: We play from two (to|until) four.
+            mistakes:
+              - answer: We play at two to four.
+                message: Von … bis heißt from … to.
+          - source: Ich bin um sieben zurück.
+            target: "(I'm|I am) back at seven."
+            mistakes:
+              - answer: "I'm back on seven."
+                message: Vor einer Uhrzeit steht at.
+        hint: Tag oder Uhrzeit?
+      - type: language-task
+        id: kurznachricht-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: We meet at Monday.
+            target: We meet on Monday.
+            mistakes:
+              - answer: We meet at Monday.
+                message: Vor einem Tag steht on.
+          - cue: The party is Saturday afternoon.
+            target: The party is on Saturday afternoon.
+            mistakes:
+              - answer: The party is Saturday afternoon.
+                message: Vor Saturday afternoon fehlt on.
+          - cue: Can you to come?
+            target: Can you come?
+            mistakes:
+              - answer: Can you to come?
+                message: Nach can steht das Verb ohne to.
+        hint: Prüfe on und to.
+      - type: language-task
+        id: kurznachricht-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: thank-you-for-the-invitation-amir.mp3
+            target: "Thank you for the invitation, Amir."
+          - audio: please-call-me-before-six-sophie.mp3
+            target: "Please call me before six, Sophie."
+          - audio: can-you-help-me-with-my-homework-peter.mp3
+            target: "Can you help me with my homework, Peter?"
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: kurznachricht-nachsprechen
+        language: en
+        items:
+          - audio: im-in-the-garden-with-ellie.mp3
+            text: "I'm in the garden with Ellie."
+          - audio: please-write-back-soon-amir.mp3
+            text: "Please write back soon, Amir."
+          - audio: that-sounds-great-see-you-on-saturday-sophie.mp3
+            text: "That sounds great. See you on Saturday, Sophie."
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: text
+        text: "Ellie hat für ihr Profil eine eigene Einladung geschrieben. Schau, wie sie es macht."
+      - type: table
+        caption: All about me · Meine Einladung (Ellies Beispiel)
+        header: [Teil, Englisch]
+        rows:
+          - [Anrede, "Hi Sophie,"]
+          - [Was und wann, "Come to the cinema with me on Friday at six."]
+          - [Antwort, "Please tell me by Thursday."]
+          - [Gruß, "Love, Ellie"]
+      - type: open-task
+        id: kurznachricht-profil
+        task: "Schreibe eine Einladung für dein Profil „All about me“ in dein Heft. Du lädst eine Person zu etwas ein, das dir gefällt (zum Beispiel ein Spiel, ein Essen oder einen Besuch). Schreibe drei bis fünf kurze Sätze."
+        points:
+          - text: Die Einladung beginnt mit einer Anrede und endet mit einem Gruß und deinem Namen.
+            source: /freizeit-nachrichten/kurznachricht/#neu
+          - text: Sie sagt, was es ist und wo (zum Beispiel at my house).
+            source: /freizeit-nachrichten/kurznachricht/#neu
+          - text: Sie sagt, wann es ist, mit on, at oder from … to.
+            source: /freizeit-nachrichten/kurznachricht/#neu
+          - text: Sie fragt nach der Antwort (Can you come?).
+            source: /freizeit-nachrichten/kurznachricht/#neu
+        solution: |
+          Hi Anna, come to my house on Sunday from two to four. We can play a game. Can you come? Love, Ben
+
+          Oder: Hello Grandpa, lunch is at my house on Saturday at twelve. Please tell me yes or no. See you soon, Mia
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Sophie klebt Ellie einen Zettel an die Tür: Dort steht, dass sie gern zu Amirs Party kommt. Auf der nächsten Seite schreibt sie ihren Eltern eine Postkarte und lernt, wie man eine E-Mail oder einen Brief mit Anrede und Gruß aufbaut."

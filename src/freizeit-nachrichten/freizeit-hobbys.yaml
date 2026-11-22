@@ -1,0 +1,248 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Was machst du gern? Hobbys und Haustiere"
+description: "Sophie schreibt ihren Eltern, was die Kinder in der Woche machen. Du sprichst über deine Hobbys, deine Haustiere und deine Freizeit."
+competencies: [freizeit-hobbys]
+scope: Die Seite führt Hobbys und Haustiere ein. Nach like, love und enjoy steht das Verb mit -ing, nach play ein Spiel ohne the und ein Instrument mit the, viele Sportarten sagt man mit go und -ing (go running). Haustiere nennt man mit have got, die Freizeit mit on Saturday und at the weekend, und Do you like …? Yes, I do. gibt es als Ausdruck. Nachrichten, Einladungen, Postkarten und E-Mails behandeln die nächsten Seiten.
+blocks:
+  - type: section
+    id: einstieg
+    title: Wer macht was an welchem Tag?
+    blocks:
+      - type: figure
+        image: images/wochenplan.svg
+        alt: Ein Wochenplan mit vier Zeilen für vier Kinder und drei Spalten für drei Tage. In jedem Feld steht ein Hobby.
+        caption: "Der Wochenplan an Ellies Zimmertür. Von oben: Ellie (roter Pferdeschwanz), Peter (gelbe Jacke), Amir (Brille) und Sophie (Zöpfe)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Sophie hat in der Woche kaum Zeit zum Schreiben, denn alle Kinder haben Hobbys (hobbies): Das ist etwas, das man gern in der Freizeit (free time) macht. Darum hängt Ellie einen Wochenplan an ihre Tür."
+      - type: single-choice
+        id: freizeit-hobbys-start
+        text: Schau auf den Wochenplan. Wer spielt am Mittwoch Fußball?
+        options:
+          - text: Amir
+            correct: true
+            info: In der Zeile von Amir steht unter Wednesday play football.
+          - text: Peter
+            correct: false
+            info: Peter spielt am Montag Fußball. Am Mittwoch zeichnet er.
+          - text: Sophie
+            correct: false
+            info: Sophie liest am Mittwoch. Fußball steht nicht in ihrer Zeile.
+        explanation: Zeile von Amir, Spalte Wednesday.
+        links:
+          - title: Lernlandkarte Englisch · Hobbys, Haustiere und Freizeit
+            url: https://lernapps.net/apps/map/englisch/c/freizeit-hobbys/
+      - type: text
+        text: "**Das kannst du danach:** Du sagst, was du gern machst, welche Haustiere du hast und was du am Wochenende tust."
+  - type: section
+    id: neu
+    title: Hobbys, Haustiere und Freizeit
+    blocks:
+      - type: text
+        text: "Ein Hobby nennst du mit einem Verb: **swim**, **read**, **draw**, **dance**, **ride a bike**. Bei **play** kommt es darauf an: Ein Spiel steht ohne the (**play tennis**), ein Instrument mit **the** (**play the piano**). Haustiere (pets) sind zum Beispiel a dog, a cat, a rabbit, a hamster, a fish und a bird. Du sagst: **I have got a cat.**"
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [basketball, Basketball]
+          - [violin, Geige]
+          - [parrot, Papagei]
+          - [guinea pig, Meerschweinchen]
+          - [at the weekend, am Wochenende]
+      - type: text
+        text: "Was magst du? **I like**, **I love** (ich liebe) und **I enjoy** (es macht mir Spaß) sagen, wie sehr dir ein Hobby gefällt. Danach kommt das Verb mit **-ing**: I like cooking. Bei dance fällt das e weg (dancing), bei run und swim kommt ein Buchstabe dazu (running, swimming). Bei he, she, it hat like ein -s: she likes. Viele Sportarten sagst du mit **go** und -ing: go hiking."
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Gern machen:** like, love, enjoy + Verb mit -ing: *She enjoys singing.* **Spielen:** play + Spiel (play tennis), play the + Instrument (play the piano). **Gehen:** go + -ing (go hiking), nie go to + -ing. **Wann:** on Saturday, at the weekend. **Fragen:** Do you like cooking? Yes, I do. No, I don't. Nicht: I have a dog since. Mit „seit“ brauchst du später eine andere Zeitform: sag jetzt I have got a dog.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: freizeit-hobbys-paare
+        text: "Welches Haustier ist gemeint?"
+        pairs:
+          - { left: Es lebt im Wasser., right: a fish }
+          - { left: Es hat lange Ohren und hüpft., right: a rabbit }
+          - { left: Es kann fliegen und sprechen lernen., right: a parrot }
+          - { left: Es läuft nachts in seinem Rad., right: a hamster }
+        explanation: Jedes Tier passt zu seiner Eigenschaft.
+        links:
+          - title: Lernlandkarte Englisch · Hobbys, Haustiere und Freizeit
+            url: https://lernapps.net/apps/map/englisch/c/freizeit-hobbys/
+      - type: single-choice
+        id: freizeit-hobbys-ing
+        text: "Wähle die richtige Form: Ellie likes ___ pictures."
+        options:
+          - text: drawing
+            correct: true
+            info: Nach like steht das Verb mit -ing.
+          - text: draw
+            correct: false
+            info: Nach like fehlt hier die Endung -ing.
+          - text: draws
+            correct: false
+            info: Das -s gehört an like (she likes), nicht an das zweite Verb.
+        explanation: "like + Verb mit -ing: likes drawing."
+        links:
+          - title: Lernlandkarte Englisch · Hobbys, Haustiere und Freizeit
+            url: https://lernapps.net/apps/map/englisch/c/freizeit-hobbys/
+      - type: single-choice
+        id: freizeit-hobbys-satz
+        text: Welcher Satz ist richtig?
+        options:
+          - text: I play chess at the weekend.
+            correct: true
+            info: Ein Spiel steht mit play, und am Wochenende heißt at the weekend.
+          - text: I go chess at the weekend.
+            correct: false
+            info: go braucht ein Wort mit -ing (go running). Ein Spiel sagst du mit play.
+          - text: I play chess at weekend.
+            correct: false
+            info: Es heißt at the weekend, mit the.
+        explanation: "Spiel: play. Wochenende: at the weekend."
+        links:
+          - title: Lernlandkarte Englisch · Hobbys, Haustiere und Freizeit
+            url: https://lernapps.net/apps/map/englisch/c/freizeit-hobbys/
+      - type: language-task
+        id: freizeit-hobbys-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Amir · like · play · basketball
+            target: Amir likes playing basketball.
+            mistakes:
+              - answer: Amir like playing basketball.
+                message: Bei he, she, it hat like ein -s.
+              - answer: Amir likes play basketball.
+                message: Nach like steht das Verb mit -ing.
+          - cue: I · go · run · at the weekend
+            target: I go running at the weekend.
+            mistakes:
+              - answer: I go run at the weekend.
+                message: Nach go braucht das Verb die Endung -ing.
+              - answer: I go to running at the weekend.
+                message: Nach go steht kein to.
+              - answer: I go runing at the weekend.
+                message: Bei run kommt vor -ing noch ein n dazu (running).
+          - cue: we · play · the violin
+            target: We play the violin.
+            mistakes:
+              - answer: We play violin.
+                message: Ein Instrument braucht the.
+          - cue: I · have got · a hamster
+            target: I (have got|have|'ve got) a hamster.
+            mistakes:
+              - answer: I am a hamster.
+                message: Ein Haustier hat man (have got), man ist es nicht.
+        hint: Nach like und go steht das Verb mit -ing.
+      - type: language-task
+        id: freizeit-hobbys-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Ich spiele am Samstag Basketball.
+            target: I play basketball on Saturday.
+            mistakes:
+              - answer: I play basketball at Saturday.
+                message: Vor einem Tag steht on, nicht at.
+              - answer: I play basketball Saturday.
+                message: Vor Saturday fehlt on.
+          - source: Mein Bruder mag Kaninchen.
+            target: My brother likes rabbits.
+            mistakes:
+              - answer: My brother like rabbits.
+                message: Zu he gehört likes mit -s.
+          - source: Ich schwimme gern.
+            target: I (like|love|enjoy) swimming.
+            mistakes:
+              - answer: I like swim.
+                message: Nach like steht das Verb mit -ing, und bei swim kommt ein m dazu.
+              - answer: I like swiming.
+                message: Bei swim kommt vor -ing noch ein m dazu (swimming).
+      - type: language-task
+        id: freizeit-hobbys-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: He like football.
+            target: He likes football.
+            mistakes:
+              - answer: He like football.
+                message: Bei he, she, it hat das Verb ein -s.
+          - cue: I play swimming on Monday.
+            target: I go swimming on Monday.
+            mistakes:
+              - answer: I play swimming on Monday.
+                message: Schwimmen sagst du mit go und -ing, nicht mit play.
+          - cue: I go to swimming on Monday.
+            target: I go swimming on Monday.
+            mistakes:
+              - answer: I go to swimming on Monday.
+                message: Nach go steht kein to.
+        hint: Prüfe das Verb nach he und das Verb vor swimming.
+      - type: language-task
+        id: freizeit-hobbys-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: my-cousin-plays-tennis-with-sophie.mp3
+            target: My cousin plays tennis with Sophie.
+          - audio: my-friends-enjoy-dancing-with-amir.mp3
+            target: My friends enjoy dancing with Amir.
+          - audio: do-you-like-playing-games-with-peter.mp3
+            target: Do you like playing games with Peter?
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: freizeit-hobbys-nachsprechen
+        language: en
+        items:
+          - audio: i-love-reading-books-with-ellie.mp3
+            text: I love reading books with Ellie.
+          - audio: the-cat-is-sleeping-on-the-sofa.mp3
+            text: The cat is sleeping on the sofa.
+          - audio: what-do-you-do-at-the-weekend.mp3
+            text: What do you do at the weekend?
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: text
+        text: "Ellie hat ihre Zeile für „Hobbys“ geschrieben. Schau, wie sie es macht."
+      - type: table
+        caption: All about me · Meine Hobbys und meine Haustiere (Ellies Beispiel)
+        header: [Was, Englisch]
+        rows:
+          - ["Was mache ich gern?", "I like swimming and I play the guitar."]
+          - ["Wann?", "I swim on Monday. I ride my bike on Saturday."]
+          - ["Hast du ein Haustier?", "No, I haven't got a pet. I like rabbits."]
+      - type: open-task
+        id: freizeit-hobbys-profil
+        task: "Schreibe die nächste Zeile deines Profils „All about me“ in dein Heft: Was machst du gern? Hast du ein Haustier oder wünschst du dir eines? Schreibe zwei bis vier Sätze."
+        points:
+          - text: Ein Satz sagt mit like, love oder enjoy und einem Verb mit -ing, was du gern machst.
+            source: /freizeit-nachrichten/freizeit-hobbys/#neu
+          - text: Ein Satz sagt, was du wann machst (on Saturday, at the weekend).
+            source: /freizeit-nachrichten/freizeit-hobbys/#neu
+          - text: Ein Satz nennt ein Haustier mit have got, oder du schreibst, dass du keins hast.
+            source: /freizeit-nachrichten/freizeit-hobbys/#neu
+          - text: Es sind ganze Sätze mit einem Punkt am Ende.
+            kind: form
+        solution: |
+          I like drawing and I enjoy reading. I read on Wednesday. I have got a rabbit.
+
+          Oder: I love playing football. I play at the weekend. I haven't got a pet.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Sophie hat ihren Eltern geschrieben, was die Kinder in der Woche machen. Amir bringt bald eine Karte mit: eine Einladung zu seinem Geburtstag. Auf der nächsten Seite schreibt Sophie ihre Antwort und lernt, wie eine kurze Nachricht und eine Einladung aufgebaut sind."
