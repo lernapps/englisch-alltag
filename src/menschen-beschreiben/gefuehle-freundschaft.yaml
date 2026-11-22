@@ -163,10 +163,10 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: my-best-friend-is-very-funny-ellie.mp3
-            target: "My best friend is very funny, Ellie."
-          - audio: why-are-you-sad-today-peter.mp3
-            target: "Why are you sad today, Peter?"
+          - audio: my-best-friend-is-very-funny.mp3
+            target: "My best friend is very funny."
+          - audio: why-are-you-sad-today.mp3
+            target: "Why are you sad today?"
           - audio: please-say-sorry-to-amir.mp3
             target: "Please say sorry to Amir."
   - type: section
@@ -177,12 +177,12 @@ blocks:
         id: gefuehle-freundschaft-nachsprechen
         language: en
         items:
-          - audio: my-friends-are-kind-and-funny-sophie.mp3
-            text: My friends are kind and funny, Sophie.
-          - audio: please-say-stop-and-talk-to-an-adult-peter.mp3
-            text: Please say stop and talk to an adult, Peter.
-          - audio: amir-and-peter-are-friends-again-sophie.mp3
-            text: Amir and Peter are friends again, Sophie.
+          - audio: my-friends-are-kind-and-funny.mp3
+            text: My friends are kind and funny.
+          - audio: please-say-stop-and-talk-to-an-adult.mp3
+            text: Please say stop and talk to an adult.
+          - audio: amir-and-peter-are-friends-again.mp3
+            text: Amir and Peter are friends again.
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
       - type: text
         text: "Dein Profil „All about me“ bekommt eine neue Zeile. Ellie hat aufgeschrieben, wie sie sich heute fühlt."
