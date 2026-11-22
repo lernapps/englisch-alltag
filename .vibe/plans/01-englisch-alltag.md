@@ -8,7 +8,7 @@ phase: commit
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 2
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: { checks-pass: 7 }
+failedChecks: { checks-pass: 8 }
 ---
 
 # Plan: englisch-alltag, first version

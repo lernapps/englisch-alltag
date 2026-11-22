@@ -194,12 +194,12 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: amir-has-got-a-bad-cold-peter.mp3
-            target: "(Amir has got|Amir's got|Amir has) a bad cold, Peter."
-          - audio: my-arm-and-my-hand-hurt-sophie.mp3
-            target: "My arm and my hand hurt, Sophie."
-          - audio: please-do-not-run-today-ellie.mp3
-            target: "Please (do not|don't) run today, Ellie."
+          - audio: amir-has-got-a-bad-cold-today.mp3
+            target: "(Amir has got|Amir's got|Amir has) a bad cold today."
+          - audio: my-arm-and-my-hand-hurt-today.mp3
+            target: "My arm and my hand hurt today."
+          - audio: please-do-not-run-today.mp3
+            target: "Please (do not|don't) run today."
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -210,10 +210,10 @@ blocks:
         items:
           - audio: my-head-hurts-and-i-feel-tired-today.mp3
             text: My head hurts and I feel tired today.
-          - audio: is-your-stomach-better-now-peter.mp3
-            text: Is your stomach better now, Peter?
-          - audio: please-stay-at-home-sophie.mp3
-            text: Please stay at home, Sophie.
+          - audio: is-your-stomach-better-today.mp3
+            text: Is your stomach better today?
+          - audio: please-stay-at-home-today.mp3
+            text: Please stay at home today.
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
       - type: text
         text: "Die letzte Zeile deines Profils in diesem Kapitel: Ellie hat aufgeschrieben, was sie sagt, wenn ihr etwas wehtut."

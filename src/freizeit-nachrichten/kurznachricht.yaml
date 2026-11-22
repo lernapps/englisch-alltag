@@ -158,12 +158,12 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: thank-you-for-the-invitation-amir.mp3
-            target: "Thank you for the invitation, Amir."
-          - audio: please-call-me-on-monday-sophie.mp3
-            target: "Please call me on Monday, Sophie."
-          - audio: can-you-help-me-with-my-homework-peter.mp3
-            target: "Can you help me with my homework, Peter?"
+          - audio: thank-you-for-the-invitation.mp3
+            target: "Thank you for the invitation."
+          - audio: please-call-me-on-monday.mp3
+            target: "Please call me on Monday."
+          - audio: can-you-help-me-with-my-homework.mp3
+            target: "Can you help me with my homework?"
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -174,10 +174,10 @@ blocks:
         items:
           - audio: im-in-the-garden-with-ellie.mp3
             text: "I'm in the garden with Ellie."
-          - audio: please-write-back-soon-amir.mp3
-            text: "Please write back soon, Amir."
-          - audio: that-sounds-great-see-you-on-saturday-sophie.mp3
-            text: "That sounds great. See you on Saturday, Sophie."
+          - audio: please-write-back-tomorrow.mp3
+            text: "Please write back tomorrow."
+          - audio: that-sounds-great-see-you-on-saturday.mp3
+            text: "That sounds great. See you on Saturday."
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
       - type: text
         text: "Ellie hat für ihr Profil eine eigene Einladung geschrieben. Schau, wie sie es macht."

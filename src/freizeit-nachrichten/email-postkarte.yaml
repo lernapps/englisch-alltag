@@ -187,12 +187,12 @@ blocks:
         id: email-postkarte-nachsprechen
         language: en
         items:
-          - audio: thank-you-for-your-lovely-postcard-sophie.mp3
-            text: "Thank you for your lovely postcard, Sophie."
+          - audio: thank-you-for-your-lovely-postcard.mp3
+            text: "Thank you for your lovely postcard."
           - audio: we-play-football-in-the-park-with-amir.mp3
             text: We play football in the park with Amir.
-          - audio: please-write-to-me-soon-ellie.mp3
-            text: "Please write to me soon, Ellie."
+          - audio: please-write-to-me-again.mp3
+            text: "Please write to me again."
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
       - type: open-task
         id: email-postkarte-profil
