@@ -228,14 +228,14 @@ blocks:
         header: [Zeile, Englisch]
         rows:
           - [Familie, "I live with my mum, my dad and my brother."]
-          - [Person oder Zimmer, "My room has got a bed, a desk and a poster."]
-          - [Gefühle, "I am happy at the weekend."]
-          - [Wenn mir etwas wehtut, "I have a headache. I need a rest."]
-          - [Zuhause, "Our house has two floors and a garden."]
+          - [Mein Lieblingsplatz, "My favourite place is my room. It is quiet."]
+          - [Gefühle, "I feel happy."]
+          - [Wenn mir etwas wehtut, "I've got a headache. My ear hurts."]
+          - [Zuhause, "I live in a house with a garden."]
           - [Mein Tag, "I get up at seven o'clock."]
-          - [Essen, "I have cereal and orange juice for breakfast."]
-          - [Alltag, "At our house tea is at six o'clock."]
+          - [Essen, "I usually have cereal with milk and orange juice."]
+          - [Alltag, "We have tea at six o'clock."]
           - [Hobbys, "I like swimming and I play the guitar."]
-          - [Einladung, "Come to the cinema with me on Friday at six."]
+          - [Einladung, "Come to the cinema with me on Friday at seven."]
       - type: text
         text: "Sophie wirft ihre Karte in den Briefkasten und schreibt ihren Eltern noch: „Hier ist es schön, und am Samstag feiern wir bei Amir!“ Übertrage deine Zeilen in dein Heft: Die App speichert nichts. Du kannst jetzt von deinem Alltag auf Englisch erzählen. Prüfe dich in der Selbsteinschätzung dieses Kapitels."

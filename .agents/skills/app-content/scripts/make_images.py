@@ -104,15 +104,16 @@ def stammbaum():
     b += line(355, 104, 355, 122, 3)
     b += kid("mrs-parker", 190, 112, .55) + text(217, 232, "Mrs Parker", 17)
     b += kid("mr-parker", 330, 120, .55) + text(357, 240, "Mr Parker", 17)
-    b += line(217, 246, 217, 262, 3) + line(357, 246, 357, 262, 3) + line(217, 262, 357, 262, 3) + line(287, 262, 287, 282, 3)
-    b += line(165, 282, 422, 282, 3) + line(165, 282, 165, 300, 3) + line(422, 282, 422, 300, 3)
-    b += line(295, 282, 295, 300, 4, True)
+    b += line(217, 246, 217, 262, 3) + line(357, 246, 357, 262, 3) + line(217, 262, 357, 262, 3) + line(287, 262, 287, 272, 3)
+    b += line(165, 272, 422, 272, 3) + line(165, 272, 165, 300, 3) + line(422, 272, 422, 300, 3)
+    # Sophie is a guest: a thick dashed line, easy to see
+    b += '  <line x1="295" y1="272" x2="295" y2="302" stroke="#d35400" stroke-width="6" stroke-dasharray="7 5"/>\n'
     b += kid("ellie", 140, 302, .5) + text(165, 412, "Ellie", 17)
     b += kid("sophie", 270, 302, .5) + text(295, 412, "Sophie", 17)
     b += kid("peter", 400, 312, .45) + text(422, 412, "Peter", 17)
     b += '  <rect x="30" y="130" width="70" height="80" rx="4" fill="#fff" stroke="#7a5a35" stroke-width="4"/>\n'
     b += '  <ellipse cx="65" cy="165" rx="16" ry="18" fill="#f1cdb0" stroke="#333" stroke-width="1.5"/><path d="M49 162 Q48 144 65 143 Q82 144 81 162 Q76 152 65 152 Q54 154 49 162 Z" fill="#d9b45a"/>\n'
-    b += text(65, 230, "Sophie's", 15) + text(65, 248, "Mum and Dad", 15)
+    b += text(65, 230, "Sophie's", 16) + text(65, 249, "Mum and Dad", 16)
     return svg(640, 430, "Stammbaum: oben Grandma Parker, darunter Mrs Parker und Mr Parker, darunter Ellie, Sophie als Gast und Peter, links ein Foto von Sophies Eltern", b)
 
 

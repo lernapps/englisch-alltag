@@ -45,11 +45,11 @@
   <line x1="217" y1="246" x2="217" y2="262" stroke="#333" stroke-width="3"/>
   <line x1="357" y1="246" x2="357" y2="262" stroke="#333" stroke-width="3"/>
   <line x1="217" y1="262" x2="357" y2="262" stroke="#333" stroke-width="3"/>
-  <line x1="287" y1="262" x2="287" y2="282" stroke="#333" stroke-width="3"/>
-  <line x1="165" y1="282" x2="422" y2="282" stroke="#333" stroke-width="3"/>
-  <line x1="165" y1="282" x2="165" y2="300" stroke="#333" stroke-width="3"/>
-  <line x1="422" y1="282" x2="422" y2="300" stroke="#333" stroke-width="3"/>
-  <line x1="295" y1="282" x2="295" y2="300" stroke="#333" stroke-width="4" stroke-dasharray="6 5"/>
+  <line x1="287" y1="262" x2="287" y2="272" stroke="#333" stroke-width="3"/>
+  <line x1="165" y1="272" x2="422" y2="272" stroke="#333" stroke-width="3"/>
+  <line x1="165" y1="272" x2="165" y2="300" stroke="#333" stroke-width="3"/>
+  <line x1="422" y1="272" x2="422" y2="300" stroke="#333" stroke-width="3"/>
+  <line x1="295" y1="272" x2="295" y2="302" stroke="#d35400" stroke-width="6" stroke-dasharray="7 5"/>
   <use href="#ellie" transform="translate(140,302) scale(0.5)"/>
   <text x="165" y="412" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="normal" fill="#333">Ellie</text>
   <use href="#sophie" transform="translate(270,302) scale(0.5)"/>
@@ -58,7 +58,7 @@
   <text x="422" y="412" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="normal" fill="#333">Peter</text>
   <rect x="30" y="130" width="70" height="80" rx="4" fill="#fff" stroke="#7a5a35" stroke-width="4"/>
   <ellipse cx="65" cy="165" rx="16" ry="18" fill="#f1cdb0" stroke="#333" stroke-width="1.5"/><path d="M49 162 Q48 144 65 143 Q82 144 81 162 Q76 152 65 152 Q54 154 49 162 Z" fill="#d9b45a"/>
-  <text x="65" y="230" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="normal" fill="#333">Sophie's</text>
-  <text x="65" y="248" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="normal" fill="#333">Mum and Dad</text>
+  <text x="65" y="230" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="normal" fill="#333">Sophie's</text>
+  <text x="65" y="249" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="normal" fill="#333">Mum and Dad</text>
 
 </svg>

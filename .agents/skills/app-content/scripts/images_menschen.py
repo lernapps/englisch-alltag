@@ -50,7 +50,7 @@ def szene_personen_orte_beschreiben():
     b += '  <rect x="20" y="70" width="110" height="200" rx="6" fill="#b88a55" stroke="#7a5a35" stroke-width="5"/>\n'
     b += line(75, 70, 75, 270, 3) + '  <circle cx="66" cy="170" r="5" fill="#7a5a35"/><circle cx="84" cy="170" r="5" fill="#7a5a35"/>\n'
     # Bett unter dem Fenster links
-    b += '  <rect x="150" y="205" width="160" height="60" rx="8" fill="#f4a6a0" stroke="#7a5a35" stroke-width="4"/>\n'
+    b += '  <rect x="150" y="205" width="160" height="60" rx="8" fill="#8fb8e8" stroke="#7a5a35" stroke-width="4"/>\n'
     b += '  <rect x="150" y="190" width="45" height="30" rx="8" fill="#fff" stroke="#7a5a35" stroke-width="3"/>\n'
     b += '  <rect x="155" y="265" width="10" height="25" fill="#7a5a35"/><rect x="295" y="265" width="10" height="25" fill="#7a5a35"/>\n'
     # Schreibtisch rechts, Sophie schreibt
@@ -58,7 +58,7 @@ def szene_personen_orte_beschreiben():
     b += table(400, 215, 220, 20)
     b += '  <rect x="470" y="196" width="46" height="20" fill="#fff" stroke="#333" stroke-width="2" transform="rotate(-4 493 206)"/>\n'
     b += line(478, 203, 506, 201, 2) + line(478, 209, 502, 207, 2)
-    return svg(640, 340, "Ein kleines Zimmer mit Fenster, Kleiderschrank, Bett und Schreibtisch; ein Mädchen sitzt am Schreibtisch und schreibt", b)
+    return svg(640, 340, "Ein Zimmer mit Fenster; ein Mädchen mit Zöpfen hält ein Blatt", b)
 
 
 # @image
@@ -102,6 +102,7 @@ def szene_gesundheit():
 def koerper():
     b = ""
     SK = "#f1cdb0"
+    b += '  <g transform="translate(-28,10) scale(.7)">\n'
     # Vorderansicht (Mitte x=190)
     b += f'  <rect x="168" y="118" width="44" height="30" fill="{SK}" stroke="#333" stroke-width="3"/>\n'
     b += '  <path d="M120 150 Q190 130 260 150 L268 300 L112 300 Z" fill="#7fb8e8" stroke="#333" stroke-width="3"/>\n'
@@ -118,8 +119,9 @@ def koerper():
     b += '  <circle cx="174" cy="68" r="5" fill="#222"/><circle cx="206" cy="68" r="5" fill="#222"/>\n'
     b += '  <path d="M190 74 l-5 14 h10" fill="none" stroke="#333" stroke-width="3"/>\n'
     b += '  <path d="M170 98 Q190 118 210 98 Z" fill="#fff" stroke="#333" stroke-width="3"/><rect x="186" y="99" width="9" height="8" fill="#fff" stroke="#333" stroke-width="1.5"/>\n'
+    b += '  </g>\n'
     # Rueckansicht (Mitte x=500)
-    b += '  <g transform="translate(-20,0)">\n'
+    b += '  <g transform="translate(-60,10) scale(.7)"><g transform="translate(-20,0)">\n'
     b += f'  <rect x="500" y="118" width="40" height="30" fill="{SK}" stroke="#333" stroke-width="3"/>\n'
     b += '  <path d="M455 150 Q520 130 585 150 L592 300 L448 300 Z" fill="#7fb8e8" stroke="#333" stroke-width="3"/>\n'
     b += '  <path d="M520 150 L520 290" stroke="#333" stroke-width="3" stroke-dasharray="8 6"/>\n'
@@ -131,5 +133,12 @@ def koerper():
         lx = 520 + sx * 26
         b += f'  <rect x="{lx-21}" y="298" width="42" height="115" rx="12" fill="#3f5f8a" stroke="#333" stroke-width="3"/>\n'
         b += f'  <ellipse cx="{lx+sx*8}" cy="424" rx="32" ry="12" fill="{SK}" stroke="#333" stroke-width="3"/>\n'
-    b += '  </g>\n'
-    return svg(640, 450, "Eine Figur von vorn und von hinten mit Kopf, Armen, Händen, Beinen und Füßen", b)
+    b += '  </g></g>\n'
+    # grosses Gesicht rechts: Augen, Ohren, Nase und Mund mit Zaehnen, weit auseinander
+    b += f'  <circle cx="392" cy="172" r="19" fill="{SK}" stroke="#333" stroke-width="3"/><circle cx="608" cy="172" r="19" fill="{SK}" stroke="#333" stroke-width="3"/>\n'
+    b += f'  <ellipse cx="500" cy="165" rx="108" ry="118" fill="{SK}" stroke="#333" stroke-width="3"/>\n'
+    b += '  <path d="M394 140 Q392 50 500 46 Q608 50 606 140 Q580 84 500 88 Q420 84 394 140 Z" fill="#8a5a2b"/>\n'
+    b += '  <circle cx="460" cy="135" r="9" fill="#222"/><circle cx="540" cy="135" r="9" fill="#222"/>\n'
+    b += '  <path d="M500 142 l-12 38 h24" fill="none" stroke="#333" stroke-width="4"/>\n'
+    b += '  <path d="M458 225 Q500 262 542 225 Z" fill="#fff" stroke="#333" stroke-width="4"/><path d="M473 227 v10 M487 229 v12 M500 230 v13 M513 229 v12 M527 227 v10" stroke="#aaa" stroke-width="2"/>\n'
+    return svg(640, 330, "Eine Figur von vorn und von hinten und daneben ein großes Gesicht", b)
