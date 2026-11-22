@@ -88,6 +88,18 @@ Karte `https://lernapps.net/apps/map/englisch.json` (geöffnet 2026-11-21); Grun
 - `please-write-to-me-soon.mp3`: Please write to me soon. (`email-postkarte`, Nachsprechen)
 - `sophies-mum-has-got-long-hair.mp3`: Sophie's mum has got long hair. (`familie-personen`, Diktat)
 
+### Fehllaut-Schnitt (`regen_audio.py` mit `valley_cut`, Regel in `orchestrierung/audio/README-schnitt.md` von lernapps/start)
+
+Alle 66 Dateien sind mit dem neuen Skript erzeugt; 7 wurden zusätzlich am Satzende geschnitten (hören, vor allem bei zwei Silben am Satzende, ob eine Silbe angeschnitten ist):
+- `what-do-you-do-at-the-weekend.mp3`: What do you do at the weekend? (45 ms, 3,2 %; zweisilbig: weekend)
+- `im-in-the-garden-with-ellie.mp3`: I'm in the garden with Ellie. (25 ms, 1,8 %; zweisilbig: Ellie)
+- `he-has-got-a-brown-jacket.mp3`: He has got a brown jacket. (65 ms, 4,3 %; zweisilbig: jacket)
+- `thank-you-for-your-lovely-postcard.mp3`: Thank you for your lovely postcard. (25 ms, 1,3 %; zweisilbig: postcard)
+- `please-say-stop-and-talk-to-an-adult.mp3`: Please say stop and talk to an adult. (65 ms, 3,2 %; zweisilbig: adult)
+- `there-are-three-books-on-the-shelf.mp3`: There are three books on the shelf. (95 ms, 5,3 %; einsilbig: shelf)
+- `amir-has-got-a-bad-cold.mp3`: Amir has got a bad cold. (35 ms, 2,1 %; einsilbig: cold)
+Die übrigen 59 Dateien blieben unverändert (nur der Schnitt des Ausklingens).
+
 ## Adding a chapter or round
 
 1. Baustein auf der Karte wählen; die Voraussetzungen müssen auf früheren Seiten stehen oder eine Wiederholungsseite bekommen (`recap` mit Karten-Ids).
