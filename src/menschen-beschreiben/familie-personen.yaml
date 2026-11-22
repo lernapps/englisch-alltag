@@ -115,7 +115,7 @@ blocks:
           - title: Lernlandkarte Englisch · Have got und has got
             url: https://lernapps.net/apps/map/englisch/c/have-got/
       - type: language-task
-        id: familie-personen-besitz
+        id: familie-personen-zugehoerig
         languages: { source: de, target: en }
         task: Wer spricht über wen? Schreibe den Satz mit my, your, his oder her.
         form: { case: hint, punctuation: ok }
