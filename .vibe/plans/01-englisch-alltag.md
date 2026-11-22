@@ -280,11 +280,11 @@ page, which a link. -->
 
 ### Tasks
 
-- [ ] Load skill `lernapps-explainer-self-assessment`. Add the self-assessment as it says, or write under "Key
+- [x] Load skill `lernapps-explainer-self-assessment`. Add the self-assessment as it says, or write under "Key
       decisions" why the app has none. Commit.
-- [ ] Load skill `lernapps-github`. Set up the repository and Pages as it says. Ask for the repository's name and
+- [x] Load skill `lernapps-github`. Set up the repository and Pages as it says. Ask for the repository's name and
       every click only the creator can make, in one message.
-- [ ] Push `work`, open the preview pull request and see its checks to green, as skill `lernapps-github` says.
+- [x] Push `work`, open the preview pull request and see its checks to green, as skill `lernapps-github` says.
 - [ ] **Checkpoint:** publish. Show what the app does and the preview link from the comment "Vorschau der App". Ask
       whether it may go online. Stop and wait for the yes.
 - [ ] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: `work` into `main` as one squash commit,
@@ -313,10 +313,16 @@ page, which a link. -->
 
 <!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
 
+commit; bestätigt: Recherche, Plan und Inhaltsmethode, Musterseite (mit Auflagen), Auflagen. Vorschau-Pull-Request #1 offen, `app` und `preview` grün. Stand: Checkpoint „Veröffentlichen“ (die Orchestrator-Session lässt vor dem Veröffentlichen stoppen); nicht veröffentlicht, nicht gelistet, `gh-pages` und die Pages-Einstellung (Zugriff auf die Pages-API wird abgelehnt) liegen bei der Ersteller:in.
+
 ### Creator turns after the plan
 
 <!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
 
+Mensch: 0 inhaltliche Nachrichten (nur Freigaben des Berechtigungsmodus für `npx` und andere Befehle von der Orchestrator-Session). Die Orchestrator-Session (in der Rolle der Ersteller:in) antwortete nach dem Plan 4-mal: Musterseite mit Auflagen (A bis G), Freigabe der Musterseite, Rückmeldung zu #471 (Menschen sind keine „Dinge“, Hörsätze enden zweisilbig), Zusammenfassung am Ende.
+
 ### Where I had to guess
 
 <!-- Each gap in plan, skills, messages or answers, and your choice. "None" if none. -->
+
+Keine Komponente und keine Datendatei (guess); Selbsteinschätzung je Kapitel mit zwei Übungen je Seite (guess); Profil „All about me“ in `anwenden` statt in `weiter` (mit Zustimmung der Orchestrator-Session); Amir statt „Josh“ (Auftrag, Konventionen); Mr Parker, Grandma Parker und Sophies Eltern „Mum and Dad“ (nach Rückfrage); Seitenlänge etwa zehn Bildschirmhöhen bei 360 px statt weniger (Entscheidung: eine neue Idee je Seite, Diktat, Nachsprechen und Profil nötig); Fakten über Großbritannien nur tea und packed lunch (weitere Wikipedia-Seiten wegen HTTP 429 nicht gelesen); die E-Mail wird in `email-postkarte` nur kurz geübt (eine Auswahl-Aufgabe zur Betreff-Zeile und im `open-task` als Wahl), Audio nicht angehört.
