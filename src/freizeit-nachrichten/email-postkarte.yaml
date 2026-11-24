@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/postkarte.svg
         alt: Eine Postkarte mit drei farbigen Teilen. Rechts neben der Karte steht zu jedem Teil eine Nummer und ein deutsches Wort.
-        caption: Sophies Postkarte an ihre Eltern, geteilt in drei Teile.
+        caption: Die Postkarte, geteilt in drei Teile.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Amir hat Sophies Zusage bekommen. Jetzt schreibt Sophie ihren Eltern eine Postkarte (postcard) und erzählt von Millbrook. Auch eine Karte hat einen Bauplan."
+        text: "Sophie schreibt ihren Eltern eine Postkarte (postcard). Auch eine Karte hat einen Bauplan."
       - type: single-choice
         id: email-postkarte-start
         text: Schau auf die Postkarte. Mit welchem Gruß und Namen endet sie?
@@ -56,14 +56,19 @@ blocks:
           - type: text
             text: |
               **Anrede:** Dear oder Hi + Name + Komma. **Gruß:** Love, / See you soon, / Write soon, an Familie und Freunde, Best wishes, an andere Erwachsene, dann dein Name. **Für Familie:** nie Yours. **Für Erwachsene:** nicht Hi.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [postcard, Postkarte]
-          - [best wishes, herzliche Grüße]
-          - [subject, Betreff]
-          - ["cold (hier: kalt)", "kalt. Nicht: a cold, die Erkältung."]
+        languages: { source: de, target: en }
+        entries:
+          - target: "postcard"
+            source: "Postkarte"
+          - target: "best wishes"
+            source: "herzliche Grüße"
+          - target: "subject"
+            source: "Betreff"
+          - target: "cold"
+            source: "kalt"
+            note: "Nicht: a cold, die Erkältung."
   - type: section
     id: uebung
     title: Übung
@@ -191,8 +196,8 @@ blocks:
             text: "Thank you for your lovely postcard."
           - audio: we-play-football-in-the-park-with-amir.mp3
             text: We play football in the park with Amir.
-          - audio: please-write-to-me-again.mp3
-            text: "Please write to me again."
+          - audio: please-write-to-me-soon.mp3
+            text: "Please write to me soon."
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
       - type: open-task
         id: email-postkarte-profil

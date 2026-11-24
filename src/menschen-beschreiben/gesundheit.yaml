@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-gesundheit.svg
         alt: Ein Wartezimmer. Eine Frau mit Dutt und ein Junge sitzen auf einer Bank. Rechts ist eine Tür mit einem grünen Kreuz.
-        caption: "Mrs Parker (roter Dutt) und Peter (gelbe Jacke) warten beim Arzt."
+        caption: "Mrs Parker und Peter warten beim Arzt."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -53,15 +53,20 @@ blocks:
         licence: CC-BY-4.0
       - type: text
         text: "Weitere Körperteile: **hand** (Hand), **leg** (Bein), **foot** (Fuß), **stomach** (Bauch, Magen), **back** (Rücken), **tooth** (Zahn), **neck** (Hals, außen) und **throat** (Hals innen, Rachen). Wenn etwas wehtut, sagst du: **My head hurts.** Bei mehreren Teilen fällt das -s weg: My legs hurt. Oder du sagst, was du hast: **I’ve got a stomachache** (Bauchschmerzen). So geht es auch mit **a headache** (Kopfschmerzen), **toothache** oder **a toothache** (Zahnschmerzen), **a cold** (Erkältung), **a cough** (Husten) und **a sore throat** (Halsschmerzen). I’ve got heißt I have got, du kennst es schon."
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [stomach, Bauch / Magen]
-          - [throat, Hals innen / Rachen]
-          - [sore throat, Halsschmerzen]
-          - [tooth, Zahn]
-          - [cough, Husten]
+        languages: { source: de, target: en }
+        entries:
+          - target: "stomach"
+            source: "Bauch / Magen"
+          - target: "throat"
+            source: "Hals innen / Rachen"
+          - target: "sore throat"
+            source: "Halsschmerzen"
+          - target: "tooth"
+            source: "Zahn"
+          - target: "cough"
+            source: "Husten"
       - type: example
         title: Beim Arzt und in der Apotheke
         blocks:
@@ -194,10 +199,10 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: amir-has-got-a-bad-cold-today.mp3
-            target: "(Amir has got|Amir's got|Amir has) a bad cold today."
-          - audio: my-arm-and-my-hand-hurt-today.mp3
-            target: "My arm and my hand hurt today."
+          - audio: amir-has-got-a-bad-cold.mp3
+            target: "(Amir has got|Amir's got|Amir has) a bad cold."
+          - audio: my-arm-and-my-hand-hurt.mp3
+            target: "My arm and my hand hurt."
           - audio: please-do-not-run-today.mp3
             target: "Please (do not|don't) run today."
   - type: section
@@ -210,10 +215,10 @@ blocks:
         items:
           - audio: my-head-hurts-and-i-feel-tired-today.mp3
             text: My head hurts and I feel tired today.
-          - audio: is-your-stomach-better-today.mp3
-            text: Is your stomach better today?
-          - audio: please-stay-at-home-today.mp3
-            text: Please stay at home today.
+          - audio: is-your-stomach-better-now.mp3
+            text: Is your stomach better now?
+          - audio: please-stay-at-home.mp3
+            text: Please stay at home.
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
       - type: text
         text: "Die letzte Zeile deines Profils in diesem Kapitel: Ellie hat aufgeschrieben, was sie sagt, wenn ihr etwas wehtut."
@@ -242,7 +247,7 @@ blocks:
         solution: |
           My stomach hurts. I've got a stomachache. Stay in bed. Drink water. Tell an adult.
 
-          Oder: I've got a cold. My nose and my throat hurt. Stay at home. Drink tea. Tell an adult.
+          Oder: I've got a cold. My nose and my throat hurt. Rest in bed. Drink tea. Tell an adult.
   - type: section
     id: weiter
     title: Kapitel geschafft

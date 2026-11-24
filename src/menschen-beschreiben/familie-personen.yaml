@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-familie-personen.svg
         alt: Fünf Menschen sitzen an einem langen Tisch in einer Küche. Ein Kind hält ein Handy.
-        caption: "Von links: Mrs Parker, Ellie (Pferdeschwanz), Sophie (Zöpfe), Peter (gelbe Jacke), Mr Parker."
+        caption: "Von links: Mrs Parker, Ellie, Sophie, Peter, Mr Parker."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Sophie wohnt jetzt bei den Parkers. Am Abend sitzt die Familie (family) in der Küche, Ellies und Sophies Freund Amir kommt oft zu Besuch. Mr heißt Herr und Mrs heißt Frau. Für ihre Eltern in Deutschland zeichnet Sophie einen Stammbaum: Linien führen von den Eltern zu den Kindern, die Linie nach oben zur Mutter von Mr Parker, die gestrichelte zu Sophie, die zu Gast ist."
+        text: "Am Abend sitzt die Familie (family) in der Küche. Mr heißt Herr und Mrs heißt Frau. Sophie zeichnet einen Stammbaum: Linien führen von den Eltern zu den Kindern, die Linie nach oben zur Mutter von Mr Parker, die gestrichelte zu Sophie, die zu Gast ist."
       - type: figure
         image: images/stammbaum.svg
         alt: Ein Stammbaum in drei Reihen. Oben eine ältere Frau mit grauem Dutt, in der Mitte zwei Erwachsene, unten drei Kinder. Links hängt ein kleines Foto, darunter steht ein Name.
@@ -47,17 +47,24 @@ blocks:
     blocks:
       - type: text
         text: "**Mum** und **dad** sind deine Mama und dein Papa, sie heißen auch **mother** und **father**. Zusammen sind sie deine **parents**. Dein Bruder ist dein **brother**, deine Schwester deine **sister**. Deine Oma ist deine **grandma**, dein Opa dein **grandpa**. Deine Tante ist deine **aunt**, dein Onkel dein **uncle**, ein Cousin oder eine Cousine dein **cousin**. Sophies Mama ist Sophie’s mum. Das ’s sagt, zu wem jemand gehört. Über dich sagst du **my** (mein), zu jemandem **your** (dein), über einen Jungen oder Mann **his** (sein), über ein Mädchen oder eine Frau **her** (ihr)."
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [glasses, Brille]
-          - [ponytail, Pferdeschwanz]
-          - [kind, nett / freundlich]
-          - [helpful, hilfsbereit]
-          - [curly, lockig]
-          - [short / long, kurz / lang]
-          - [clever, klug]
+        languages: { source: de, target: en }
+        entries:
+          - target: "glasses"
+            source: "Brille"
+          - target: "ponytail"
+            source: "Pferdeschwanz"
+          - target: "kind"
+            source: "nett / freundlich"
+          - target: "helpful"
+            source: "hilfsbereit"
+          - target: "curly"
+            source: "lockig"
+          - target: "short / long"
+            source: "kurz / lang"
+          - target: "clever"
+            source: "klug"
       - type: text
         text: "Wie sieht jemand aus? Haare, eine Brille oder einen Bart **hat** man: Mrs Parker **has got** red hair. Größe und Alter **ist** man: Mrs Parker **is** tall. Der Charakter, also wie jemand ist, wird auch mit **is** gesagt: Mrs Parker **is** nice."
       - type: example
@@ -200,8 +207,8 @@ blocks:
             target: "(Peter's grandma is|Peter's grandma's) old and funny."
           - audio: my-mum-is-kind-and-clever.mp3
             target: "(My mum is|My mum's) kind and clever."
-          - audio: sophies-mum-is-tall-and-happy.mp3
-            target: "(Sophie's mum is|Sophie's mum's) tall and happy."
+          - audio: sophies-mum-has-got-long-hair.mp3
+            target: "(Sophie's mum has|Sophie's mum's) got long hair."
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -248,4 +255,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Sophie schickt den Stammbaum nach Hause. Ihre Eltern wollen mehr wissen: Wie ist ihr Englischlehrer Mr Hill? Und wie ist ihr Zimmer? Auf der nächsten Seite schreibt Sophie darüber einen Text, in dem ein Satz zum nächsten passt."
+        text: "Sophie schickt den Stammbaum nach Hause. Auf der nächsten Seite schreibt sie einen Text über Mr Hill und ihr Zimmer, in dem ein Satz zum nächsten passt."

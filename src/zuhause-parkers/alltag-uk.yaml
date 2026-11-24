@@ -48,14 +48,18 @@ blocks:
             text: |
               - **Ellie walks to school, but I take the bus.**
               - In my family, we have a garden. Ellie has a garden too.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [cereal, Müsli]
-          - [packed lunch, Mittagessen von zu Hause zum Mitnehmen]
-          - ["at the Parkers'", bei den Parkers]
-          - [everybody, alle]
+        languages: { source: de, target: en }
+        entries:
+          - target: "cereal"
+            source: "Müsli"
+          - target: "packed lunch"
+            source: "Mittagessen von zu Hause zum Mitnehmen"
+          - target: "at the Parkers'"
+            source: "bei den Parkers"
+          - target: "everybody"
+            source: "alle"
       - type: text
         text: "**tea** und **packed lunch** kennst du von den Seiten davor: Bei den Parkers hat Ellie in der Schule ein packed lunch und um sechs Uhr tea. Das sagst du als „At the Parkers', …“ (mit Komma). Schreibe nicht „Everybody in England …“ (alle): Du kennst nicht alle Familien. Besser sind **many** (viele) oder **often** (oft). Über dich sagst du: In my family, we …"
       - type: note

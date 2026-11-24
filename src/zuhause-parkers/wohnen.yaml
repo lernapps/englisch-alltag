@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-wohnen.svg
         alt: Zwei Mädchen in einem kleinen Zimmer. Eines hält ein Handy hoch.
-        caption: "Sophie (Zöpfe) macht ein Foto von ihrem Zimmer. Ellie (Pferdeschwanz) schaut zu."
+        caption: "Sophie macht ein Foto von ihrem Zimmer. Ellie schaut zu."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Sophie schickt Mum and Dad ein Foto von ihrem Zimmer. Es ist klein, aber schön. Dann zeichnet sie das ganze Haus der Parkers: oben die Zimmer (rooms) zum Schlafen und das Bad, unten die Küche und das Wohnzimmer, draußen den Garten. Die kleinen Zeichen sind Möbel (furniture)."
+        text: "Das Haus der Parkers hat oben die Zimmer (rooms) zum Schlafen und das Bad, unten die Küche und das Wohnzimmer, draußen den Garten. Die kleinen Zeichen sind Möbel (furniture)."
       - type: figure
         image: images/haus-querschnitt.svg
         alt: Querschnitt eines Hauses mit zwei Stockwerken und einem Garten. Die Zimmer haben Namen, die Möbel sind kleine Zeichen.
@@ -47,17 +47,24 @@ blocks:
     blocks:
       - type: text
         text: "Die Räume: **kitchen** (Küche), **living room** (Wohnzimmer), **bathroom** (Bad), **bedroom** (Schlafzimmer), **garden** (Garten). Ein Zimmer heißt **room**: Ellie’s room ist Ellies Zimmer. Die Möbel: **sofa**, **bed** (Bett), **table** (Tisch), **chair** (Stuhl), **desk** (Schreibtisch), **lamp** (Lampe). Was es gibt, sagst du mit **there is** und **there are**, wo es ist, mit **in** (in), **on** (auf), **under** (unter) und **next to** (neben, auch: **beside**): There is a cat in the box. There are shoes next to the door."
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [wardrobe, Kleiderschrank]
-          - [armchair, Sessel]
-          - [cooker, Herd]
-          - [sink, Waschbecken / Spüle]
-          - [bookshelf, Bücherregal]
-          - [bench, Gartenbank]
-          - [toys, Spielsachen]
+        languages: { source: de, target: en }
+        entries:
+          - target: "wardrobe"
+            source: "Kleiderschrank"
+          - target: "armchair"
+            source: "Sessel"
+          - target: "cooker"
+            source: "Herd"
+          - target: "sink"
+            source: "Waschbecken / Spüle"
+          - target: "bookshelf"
+            source: "Bücherregal"
+          - target: "bench"
+            source: "Gartenbank"
+          - target: "toys"
+            source: "Spielsachen"
       - type: note
         title: Merke
         blocks:

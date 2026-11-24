@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-gefuehle-freundschaft.svg
         alt: Zwei Jungen ziehen an einer Spielschachtel. Zwischen ihnen steht ein Mädchen mit Pferdeschwanz, rechts schaut ein Mädchen mit Zöpfen zu. Über den Jungen sind rote Blitze.
-        caption: "Von links: Amir (Brille, blaue Jacke), Ellie (roter Pferdeschwanz), Peter (gelbe Jacke), Sophie (Zöpfe)."
+        caption: "Von links: Amir, Ellie, Peter, Sophie."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -47,16 +47,22 @@ blocks:
         licence: CC-BY-4.0
       - type: text
         text: "Auf die Frage **How are you?** (Wie geht es dir?) antwortest du: **I’m fine, thanks.** **OK** heißt „es geht so“. Genauer sagst du es mit **I feel** und einem Gefühlswort: I feel happy. Das Wort steht direkt nach feel, ohne me. Mit **I am** geht es auch: I am tired. Ein **friend** ist ein Freund oder eine Freundin, dein **best friend** ist dein bester Freund oder deine beste Freundin."
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [sad / tired / angry, traurig / müde / wütend]
-          - [excited, aufgeregt / voller Vorfreude]
-          - [bored, gelangweilt]
-          - [worried, besorgt]
-          - [afraid, ängstlich]
-          - [best friend, bester Freund / beste Freundin]
+        languages: { source: de, target: en }
+        entries:
+          - target: "sad / tired / angry"
+            source: "traurig / müde / wütend"
+          - target: "excited"
+            source: "aufgeregt / voller Vorfreude"
+          - target: "bored"
+            source: "gelangweilt"
+          - target: "worried"
+            source: "besorgt"
+          - target: "afraid"
+            source: "ängstlich"
+          - target: "best friend"
+            source: "bester Freund / beste Freundin"
       - type: text
         text: "Bei Streit helfen kurze Sätze. Wenn jemand etwas tut, das du nicht magst: **Don’t do that.** (Lass das.) und **That’s not nice.** (Das ist nicht nett.). Wenn dir etwas leidtut: **I’m sorry.** Wenn der Streit vorbei ist: **Let’s be friends.** (Seien wir Freunde.)"
       - type: note

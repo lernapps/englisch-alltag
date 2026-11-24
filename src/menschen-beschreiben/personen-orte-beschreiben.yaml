@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-personen-orte-beschreiben.svg
         alt: Ein Zimmer mit Fenster. Ein Mädchen mit Zöpfen hält ein Blatt.
-        caption: "Sophie (Zöpfe) in ihrem Zimmer bei den Parkers. Sie schreibt ihren Eltern."
+        caption: "Sophie in ihrem Zimmer."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Sophies Eltern wollen mehr wissen: Wie ist ihr Englischlehrer Mr Hill? Und wie ist ihr Zimmer? Einzelne Sätze reichen dafür nicht. Sophie schreibt einen **Text**, in dem ein Satz zum nächsten passt. Schau zuerst auf ihr Zimmer."
+        text: "Wie ist Mr Hill? Und wie ist Sophies Zimmer? Einzelne Sätze reichen dafür nicht. Sophie schreibt einen **Text**, in dem ein Satz zum nächsten passt. Schau zuerst auf ihr Zimmer."
       - type: single-choice
         id: personen-orte-beschreiben-start
         text: Sophie schreibt über ihr Zimmer. Welche zwei Sätze passen zum Bild?
@@ -59,15 +59,20 @@ blocks:
               **Eine Person:** Amir is my friend. He has got black curly hair and glasses. He is quiet but funny.
 
               **Ein Ort:** This is Peter’s room. It is small. There is a bed and there are toys. There is a shelf, but there is no desk.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [wardrobe, Kleiderschrank]
-          - [shelf, Regal]
-          - [curly, lockig]
-          - [quiet, ruhig]
-          - [there is / there are, es gibt]
+        languages: { source: de, target: en }
+        entries:
+          - target: "wardrobe"
+            source: "Kleiderschrank"
+          - target: "shelf"
+            source: "Regal"
+          - target: "curly"
+            source: "lockig"
+          - target: "quiet"
+            source: "ruhig"
+          - target: "there is / there are"
+            source: "es gibt"
       - type: note
         title: Merke
         blocks:
@@ -180,8 +185,8 @@ blocks:
         items:
           - audio: mr-hill-is-tall-and-friendly.mp3
             target: "(Mr Hill is|Mr Hill's) tall and friendly."
-          - audio: there-is-a-lamp-on-the-table.mp3
-            target: "(There is|There's) a lamp on the table."
+          - audio: there-is-a-lamp-on-the-desk.mp3
+            target: "(There is|There's) a lamp on the desk."
           - audio: he-has-got-a-brown-jacket.mp3
             target: "(He has got|He's got|He has) a brown jacket."
   - type: section
@@ -194,8 +199,8 @@ blocks:
         items:
           - audio: i-like-my-english-teacher.mp3
             text: I like my English teacher.
-          - audio: there-are-three-books-on-the-sofa.mp3
-            text: There are three books on the sofa.
+          - audio: there-are-three-books-on-the-shelf.mp3
+            text: There are three books on the shelf.
           - audio: my-new-room-has-got-a-big-window.mp3
             text: My new room has got a big window.
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
