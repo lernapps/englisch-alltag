@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-gefuehle-freundschaft.svg
         alt: Zwei Jungen ziehen an einer Spielschachtel. Zwischen ihnen steht ein Mädchen mit Pferdeschwanz, rechts schaut ein Mädchen mit Zöpfen zu. Über den Jungen sind rote Blitze.
-        caption: "Von links: Amir (Brille, blaue Jacke), Ellie (roter Pferdeschwanz), Peter (gelbe Jacke), Sophie (Zöpfe)."
+        caption: "Von links: Amir, Ellie, Peter, Sophie."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text

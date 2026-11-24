@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/wochenplan.svg
         alt: Ein Wochenplan mit vier Zeilen für vier Kinder und drei Spalten für drei Tage. In jedem Feld steht ein Hobby.
-        caption: "Der Wochenplan an Ellies Zimmertür. Von oben: Ellie (roter Pferdeschwanz), Peter (gelbe Jacke), Amir (Brille) und Sophie (Zöpfe)."
+        caption: "Der Wochenplan. Von oben: Ellie, Peter, Amir und Sophie."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Ellie hat einen Wochenplan an ihre Tür gehängt: Jeder hat Hobbys (hobbies), das sind Dinge, die man gern in der Freizeit (free time) macht. Sophie will ihren Eltern schreiben, was die Kinder machen."
+        text: "Am Wochenplan siehst du Hobbys (hobbies): Das sind Dinge, die man gern in der Freizeit (free time) macht."
       - type: single-choice
         id: freizeit-hobbys-start
         text: Schau auf den Wochenplan. Wer spielt am Mittwoch Fußball?

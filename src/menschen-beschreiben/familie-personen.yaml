@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-familie-personen.svg
         alt: Fünf Menschen sitzen an einem langen Tisch in einer Küche. Ein Kind hält ein Handy.
-        caption: "Von links: Mrs Parker, Ellie (Pferdeschwanz), Sophie (Zöpfe), Peter (gelbe Jacke), Mr Parker."
+        caption: "Von links: Mrs Parker, Ellie, Sophie, Peter, Mr Parker."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Sophie wohnt jetzt bei den Parkers. Am Abend sitzt die Familie (family) in der Küche, Ellies und Sophies Freund Amir kommt oft zu Besuch. Mr heißt Herr und Mrs heißt Frau. Für ihre Eltern in Deutschland zeichnet Sophie einen Stammbaum: Linien führen von den Eltern zu den Kindern, die Linie nach oben zur Mutter von Mr Parker, die gestrichelte zu Sophie, die zu Gast ist."
+        text: "Am Abend sitzt die Familie (family) in der Küche. Mr heißt Herr und Mrs heißt Frau. Sophie zeichnet einen Stammbaum: Linien führen von den Eltern zu den Kindern, die Linie nach oben zur Mutter von Mr Parker, die gestrichelte zu Sophie, die zu Gast ist."
       - type: figure
         image: images/stammbaum.svg
         alt: Ein Stammbaum in drei Reihen. Oben eine ältere Frau mit grauem Dutt, in der Mitte zwei Erwachsene, unten drei Kinder. Links hängt ein kleines Foto, darunter steht ein Name.
@@ -255,4 +255,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Sophie schickt den Stammbaum nach Hause. Ihre Eltern wollen mehr wissen: Wie ist ihr Englischlehrer Mr Hill? Und wie ist ihr Zimmer? Auf der nächsten Seite schreibt Sophie darüber einen Text, in dem ein Satz zum nächsten passt."
+        text: "Sophie schickt den Stammbaum nach Hause. Auf der nächsten Seite schreibt sie einen Text über Mr Hill und ihr Zimmer, in dem ein Satz zum nächsten passt."

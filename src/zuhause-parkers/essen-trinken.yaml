@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/fruehstueck.svg
         alt: Drei Kinder sitzen hinter einem Tisch. Auf dem Tisch stehen eine Schale, eine Flasche, ein Teller, ein Glas mit rotem Deckel und ein Glas mit Saft.
-        caption: "Von links: Ellie (Pferdeschwanz), Sophie (Zöpfe) und Peter (gelbe Jacke) am Tisch der Parkers."
+        caption: "Von links: Ellie, Sophie und Peter am Tisch."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Sophie schickt ihrer Familie ein Foto vom Tisch bei den Parkers. Dazu schreibt sie: „Hier gibt es viel zu probieren!“ Die Mahlzeiten (meals) heißen auf Englisch etwas anders als bei dir. Heute lernst du, wie sie heißen und wie du sagst, was du isst und was du magst."
+        text: "Auf dem Foto vom Tisch siehst du Essen und Trinken. Die Mahlzeiten (meals) heißen auf Englisch etwas anders als bei dir. Heute lernst du, wie sie heißen und wie du sagst, was du isst und was du magst."
       - type: single-choice
         id: essen-trinken-start
         text: Schau auf das Foto. Welche Mahlzeit ist das?

@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/postkarte.svg
         alt: Eine Postkarte mit drei farbigen Teilen. Rechts neben der Karte steht zu jedem Teil eine Nummer und ein deutsches Wort.
-        caption: Sophies Postkarte an ihre Eltern, geteilt in drei Teile.
+        caption: Die Postkarte, geteilt in drei Teile.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Amir hat Sophies Zusage bekommen. Jetzt schreibt Sophie ihren Eltern eine Postkarte (postcard) und erzählt von Millbrook. Auch eine Karte hat einen Bauplan."
+        text: "Sophie schreibt ihren Eltern eine Postkarte (postcard). Auch eine Karte hat einen Bauplan."
       - type: single-choice
         id: email-postkarte-start
         text: Schau auf die Postkarte. Mit welchem Gruß und Namen endet sie?

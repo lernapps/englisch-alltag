@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/tagesablauf-leiste.svg
         alt: Sechs Bilder in zwei Reihen. Ein Mädchen mit rotem Pferdeschwanz macht in jedem Bild etwas anderes. Unter jedem Bild steht eine Uhrzeit.
-        caption: "Ellies Tag als Bildleiste: Ellie hat den roten Pferdeschwanz. Unter jedem Bild steht die Uhrzeit."
+        caption: "Ellies Tag als Bildleiste. Unter jedem Bild steht die Uhrzeit."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Sophie schreibt Mum and Dad, wie ein Tag bei den Parkers aussieht. Dafür zeichnet sie Ellies Tag als Bildleiste mit sechs Bildern. Unter jedem Bild steht die Uhrzeit. Die Bilder zeigen: **have tea**, **get up** (aufstehen), **do homework** (Hausaufgaben machen), **have lunch** (zu Mittag essen), **go to school** (zur Schule gehen) und **have breakfast** (frühstücken). Bei den Parkers ist tea das Abendessen."
+        text: "Die Bildleiste zeigt Ellies Tag in sechs Bildern. Unter jedem Bild steht die Uhrzeit. Die Bilder zeigen: **have tea**, **get up** (aufstehen), **do homework** (Hausaufgaben machen), **have lunch** (zu Mittag essen), **go to school** (zur Schule gehen) und **have breakfast** (frühstücken). Bei den Parkers ist tea das Abendessen."
       - type: single-choice
         id: tagesablauf-start
         text: Schau auf die Uhrzeiten unter den Bildern. Was macht Ellie um 8:15?
