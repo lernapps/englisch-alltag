@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-gesundheit.svg
         alt: Ein Wartezimmer. Eine Frau mit Dutt und ein Junge sitzen auf einer Bank. Rechts ist eine Tür mit einem grünen Kreuz.
-        caption: "Mrs Parker (roter Dutt) und Peter (gelbe Jacke) warten beim Arzt."
+        caption: "Mrs Parker und Peter warten beim Arzt."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text

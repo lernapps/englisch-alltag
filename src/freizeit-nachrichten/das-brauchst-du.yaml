@@ -9,7 +9,7 @@ blocks:
     title: Das solltest du schon können
     blocks:
       - type: text
-        text: "Sophie schreibt bald, was die Kinder in der Freizeit machen. Danach folgen eine Einladung, eine Postkarte und eine kurze E-Mail. Dafür braucht sie den Baustein „Begrüßung und Höflichkeit“. Kannst du ihn schon? **Ich kann Menschen auf Englisch angemessen begrüßen, anreden und mich höflich bedanken und entschuldigen.** Lies die Ausdrücke und prüfe in Gedanken, ob du alles kennst."
+        text: "Für Hobbys, Einladung und Postkarte brauchst du den Baustein „Begrüßung und Höflichkeit“. Kannst du ihn schon? **Ich kann Menschen auf Englisch angemessen begrüßen, anreden und mich höflich bedanken und entschuldigen.** Lies die Ausdrücke und prüfe in Gedanken, ob du alles kennst."
       - type: vocabulary
         caption: Klassenzimmer-Poster · Höflich sein
         languages: { source: de, target: en }
@@ -27,4 +27,4 @@ blocks:
           - target: "Love, Best wishes,"
             source: "einen Brief beenden"
       - type: text
-        text: "Nicht sicher? Wiederhole es auf der Seite [Begrüßung und Höflichkeit](https://lernapps.net/apps/map/englisch/c/gruss-hoeflichkeit/) der Lernlandkarte. Weiter geht es mit Sophies Freizeit: Sie schreibt ihren Eltern, welche Hobbys Ellie, Peter und Amir haben."
+        text: "Nicht sicher? Wiederhole es auf der Seite [Begrüßung und Höflichkeit](https://lernapps.net/apps/map/englisch/c/gruss-hoeflichkeit/) der Lernlandkarte. Weiter geht es mit den Hobbys."

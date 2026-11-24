@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-personen-orte-beschreiben.svg
         alt: Ein Zimmer mit Fenster. Ein Mädchen mit Zöpfen hält ein Blatt.
-        caption: "Sophie (Zöpfe) in ihrem Zimmer bei den Parkers. Sie schreibt ihren Eltern."
+        caption: "Sophie in ihrem Zimmer."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Sophies Eltern wollen mehr wissen: Wie ist ihr Englischlehrer Mr Hill? Und wie ist ihr Zimmer? Einzelne Sätze reichen dafür nicht. Sophie schreibt einen **Text**, in dem ein Satz zum nächsten passt. Schau zuerst auf ihr Zimmer."
+        text: "Wie ist Mr Hill? Und wie ist Sophies Zimmer? Einzelne Sätze reichen dafür nicht. Sophie schreibt einen **Text**, in dem ein Satz zum nächsten passt. Schau zuerst auf ihr Zimmer."
       - type: single-choice
         id: personen-orte-beschreiben-start
         text: Sophie schreibt über ihr Zimmer. Welche zwei Sätze passen zum Bild?
